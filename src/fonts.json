@@ -1,0 +1,72 @@
+[
+  {
+    "version": "4.0-beta9h",
+    "infile": "src/fonts/Inter/Inter-Variable.ttf",
+    "outfile": [
+      "build/fonts/subset/Inter-roman.{subset}.var.woff2",
+      "build/fonts/subset/Inter-roman.{subset}.var.woff",
+      "build/fonts/subset/Inter-roman.{subset}.var.otf"
+    ],
+    "css_family": "Inter var",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "4.0-beta9h",
+    "infile": "src/fonts/Inter/Inter-Variable-Italic.ttf",
+    "outfile": [
+      "build/fonts/subset/Inter-italic.{subset}.var.woff2",
+      "build/fonts/subset/Inter-italic.{subset}.var.woff",
+      "build/fonts/subset/Inter-italic.{subset}.var.otf"
+    ],
+    "css_family": "Inter var",
+    "css_weight": "100 900",
+    "css_style": "italic",
+    "css_extra": "font-named-instance: \"Italic\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "2.1",
+    "infile": "src/fonts/Playfair/PlayfairRomanVF.ttf",
+    "outfile": [
+      "build/fonts/subset/PlayfairRoman.{subset}.var.woff2",
+      "build/fonts/subset/PlayfairRoman.{subset}.var.woff",
+      "build/fonts/subset/PlayfairRoman.{subset}.var.otf"
+    ],
+    "css_family": "PlayfairRoman var",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "2.1",
+    "infile": "src/fonts/Playfair/PlayfairItalicVF.ttf",
+    "outfile": [
+      "build/fonts/subset/PlayfairItalic.{subset}.var.woff2",
+      "build/fonts/subset/PlayfairItalic.{subset}.var.woff",
+      "build/fonts/subset/PlayfairItalic.{subset}.var.otf"
+    ],
+    "css_family": "PlayfairItalic var",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Italic\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "1.0.0",
+    "infile": "src/fonts/DarkerGrotesque/DarkerGrotesqueVF.ttf",
+    "outfile": [
+      "build/fonts/subset/DarkerGrotesque.{subset}.var.woff2",
+      "build/fonts/subset/DarkerGrotesque.{subset}.var.woff",
+      "build/fonts/subset/DarkerGrotesque.{subset}.var.otf"
+    ],
+    "css_family": "DarkerGrotesque var",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "symbols"]
+  }
+]

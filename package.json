@@ -1,0 +1,27 @@
+{
+  "name": "@ap.cx/assets",
+  "version": "1.0.0-alpha.1",
+  "description": "anotherplanet.io public assets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build:fonts": "python3 scripts/subset.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anotherplanet-io/assets.git"
+  },
+  "keywords": [
+    "assets",
+    "font",
+    "typography",
+    "tooling"
+  ],
+  "author": "thierryc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anotherplanet-io/assets/issues"
+  },
+  "homepage": "https://github.com/anotherplanet-io/assets#readme"
+}
