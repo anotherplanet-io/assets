@@ -24,16 +24,15 @@ While `**ap.cx/assets**` is made available for general use, it has a special foc
 
 For the moment, `**ap.cx/assets**` includes the following fonts:
 
+ - Inter var (normal) Version:4.0-beta9h    
 
- - Inter var Version:4.0-beta9h    
+ - Inter var (italic) Version:4.0-beta9h    
 
- - Inter var Version:4.0-beta9h    
+ - PlayfairRoman var (normal) Version:2.1    
 
- - PlayfairRoman var Version:2.1    
+ - PlayfairItalic var (normal) Version:2.1    
 
- - PlayfairItalic var Version:2.1    
-
- - DarkerGrotesque var Version:1.0.0    
+ - DarkerGrotesque var (normal) Version:1.0.0    
 
 
 We will continue to update and expand our font library to offer more fantastic font options in the future.
@@ -54,7 +53,4 @@ Activate your virtual environement venv
 `source ./build/venv/bin/activate`   
 
 3. Run `pip install -r requirements.txt`.
-
-
-
 

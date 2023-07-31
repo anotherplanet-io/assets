@@ -23,9 +23,8 @@ While `**ap.cx/assets**` is made available for general use, it has a special foc
 ## **Included Fonts**
 
 For the moment, `**ap.cx/assets**` includes the following fonts:
-
 {% for font in fonts %}
- - {{ font.css_family }} Version:{{ font.version }}    
+ - {{ font.css_family }} ({{ font.css_style }}) Version:{{ font.version }}    
 {% endfor %}
 
 We will continue to update and expand our font library to offer more fantastic font options in the future.
@@ -46,8 +45,5 @@ Activate your virtual environement venv
 `source ./build/venv/bin/activate`   
 
 3. Run `pip install -r requirements.txt`.
-
-
-
 
 
