@@ -1,3 +1,6 @@
 [submodule "src/fonts/FiraSans"]
 	path = src/fonts/FiraSans
 	url = https://github.com/bBoxType/FiraSans.git
+[submodule "src/fonts/FiraGO"]
+	path = src/fonts/FiraGO
+	url = https://github.com/bBoxType/FiraGO.git
