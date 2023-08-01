@@ -7,3 +7,6 @@
 [submodule "src/fonts/DarkerGrotesque"]
 	path = src/fonts/DarkerGrotesque
 	url = https://github.com/bettergui/DarkerGrotesque.git
+[submodule "src/fonts/Playfair"]
+	path = src/fonts/Playfair
+	url = https://github.com/clauseggers/Playfair.git
