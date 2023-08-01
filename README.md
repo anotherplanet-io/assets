@@ -15,7 +15,10 @@ This project is in work in progess
 
 ## **Introduction**
 
-“ap.cx/assets” offers a curated collection of high-quality, free, and open-source fonts that I love. 
+“ap.cx/assets” offers a curated collection of high-quality, and SIL Open Font License (OFL) fonts that I love. 
+
+The SIL Open Font License (OFL) is a free, libre and open source license specifically designed for fonts and related software based on our experience in font design and linguistic software engineering.
+
 My main focus is to ensure a smooth integration of these fonts into web projects, optimizing them for fast and efficient delivery.
 
 While **ap.cx/assets** is made available for general use, it has a special focus on serving fonts on my domain, AnotherPlanet.io.
