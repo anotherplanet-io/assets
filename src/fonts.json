@@ -57,7 +57,7 @@
   },
   {
     "version": "1.0.0",
-    "infile": "src/fonts/DarkerGrotesque/DarkerGrotesqueVF.ttf",
+    "infile": "src/fonts/DarkerGrotesque/fonts/variable/DarkerGrotesque[wght].ttf",
     "outfile": [
       "build/fonts/subset/DarkerGrotesque.{subset}.var.woff2",
       "build/fonts/subset/DarkerGrotesque.{subset}.var.woff",
@@ -71,7 +71,7 @@
   },
   {
     "version": "1.0.0",
-    "infile": "src/fonts/FiraGO/FiraGO_TTF/Roman/FiraGO-Thin.ttf",
+    "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Thin.ttf",
     "outfile": [
       "build/fonts/subset/FiraGO.{subset}.woff2",
       "build/fonts/subset/FiraGO.{subset}.woff",
@@ -85,7 +85,7 @@
   },
   {
     "version": "1.0.0",
-    "infile": "src/fonts/FiraGO/FiraGO_TTF/Roman/FiraGO-Regular.ttf",
+    "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Regular.ttf",
     "outfile": [
       "build/fonts/subset/FiraGO.{subset}.woff2",
       "build/fonts/subset/FiraGO.{subset}.woff",
@@ -99,7 +99,7 @@
   },
   {
     "version": "1.0.0",
-    "infile": "src/fonts/FiraGO/FiraGO_TTF/Roman/FiraGO-Bold.ttf",
+    "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Bold.ttf",
     "outfile": [
       "build/fonts/subset/FiraGO-Bold.{subset}.woff2",
       "build/fonts/subset/FiraGO-Bold.{subset}.woff",
