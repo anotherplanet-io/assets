@@ -293,6 +293,9 @@ def subset_range(infile :str, outfile :str, unicodeRange :str):
   if outfile.endswith('.woff2'):
     args.append('--flavor=woff2')
 
+  if outfile.endswith('.woff'):
+    args.append('--flavor=woff')
+
   print("pyftsubset %s -> %s" % (relpath(infile), relpath(outfile)))
   # print('\n  '.join([repr(a) for a in args]))  # debug
   p = subprocess.run(
