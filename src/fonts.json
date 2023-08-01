@@ -68,5 +68,33 @@
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
     "subset": ["latin", "latin-ext", "vietnamese", "symbols"]
+  },
+  {
+    "version": "1.0.0",
+    "infile": "src/fonts/FiraGO/FiraGO_TTF/Roman/FiraGO-Regular.ttf",
+    "outfile": [
+      "build/fonts/subset/FiraGO.{subset}.woff2",
+      "build/fonts/subset/FiraGO.{subset}.woff",
+      "build/fonts/subset/FiraGO.{subset}.otf"
+    ],
+    "css_family": "FiraGO",
+    "css_weight": "400",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "1.0.0",
+    "infile": "src/fonts/FiraGO/FiraGO_TTF/Roman/FiraGO-Bold.ttf",
+    "outfile": [
+      "build/fonts/subset/FiraGO-Bold.{subset}.woff2",
+      "build/fonts/subset/FiraGO-Bold.{subset}.woff",
+      "build/fonts/subset/FiraGO-Bold.{subset}.otf"
+    ],
+    "css_family": "FiraGO",
+    "css_weight": "900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Bold\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   }
 ]
