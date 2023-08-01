@@ -1,0 +1,3 @@
+[submodule "src/fonts/FiraSans"]
+	path = src/fonts/FiraSans
+	url = https://github.com/bBoxType/FiraSans.git
