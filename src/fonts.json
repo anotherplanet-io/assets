@@ -1,7 +1,7 @@
 [
   {
     "version": "4.0-beta9h",
-    "infile": "src/fonts/InterVariable/Inter-Variable.ttf",
+    "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable.ttf",
     "outfile": [
       "build/fonts/subset/Inter-roman.{subset}.var.woff2",
       "build/fonts/subset/Inter-roman.{subset}.var.woff",
@@ -15,7 +15,7 @@
   },
   {
     "version": "4.0-beta9h",
-    "infile": "src/fonts/InterVariable/Inter-Variable-Italic.ttf",
+    "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable-Italic.ttf",
     "outfile": [
       "build/fonts/subset/Inter-italic.{subset}.var.woff2",
       "build/fonts/subset/Inter-italic.{subset}.var.woff",

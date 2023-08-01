@@ -10,3 +10,6 @@
 [submodule "src/fonts/Playfair"]
 	path = src/fonts/Playfair
 	url = https://github.com/clauseggers/Playfair.git
+[submodule "src/fonts/Inter"]
+	path = src/fonts/Inter
+	url = https://github.com/rsms/inter.git
