@@ -110,5 +110,50 @@
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Bold\";",
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "1.0.0",
+    "infile": "src/fonts/FiraSans/Fira_Code_3_2/Fonts/FiraCode_OTF_32/FiraCode-Regular.otf",
+    "outfile": [
+      "build/fonts/subset/FiraCode-Regular.{subset}.woff2",
+      "build/fonts/subset/FiraCode-Regular.{subset}.woff",
+      "build/fonts/subset/FiraCode-Regular.{subset}.otf"
+    ],
+    "css_family": "FiraCode",
+    "css_weight": "400",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "1.0.0",
+    "infile": "src/fonts/LibreCaslonCondensed/fonts/variable/LibreCaslonCondensed-Italic[wght].ttf",
+    "outfile": [
+      "build/fonts/subset/LibreCaslonCondensed-Italic.{subset}.var.woff2",
+      "build/fonts/subset/LibreCaslonCondensed-Italic.{subset}.var.woff",
+      "build/fonts/subset/LibreCaslonCondensed-Italic.{subset}.var.otf"
+    ],
+    "css_family": "LibreCaslonCondensed",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "version": "1.0.0",
+    "infile": "src/fonts/LibreCaslonCondensed/fonts/variable/LibreCaslonCondensed[wght].ttf",
+    "outfile": [
+      "build/fonts/subset/LibreCaslonCondensed.{subset}.var.woff2",
+      "build/fonts/subset/LibreCaslonCondensed.{subset}.var.woff",
+      "build/fonts/subset/LibreCaslonCondensed.{subset}.var.otf"
+    ],
+    "css_family": "LibreCaslonCondensed",
+    "css_weight": "100 900",
+    "css_style": "italic",
+    "css_extra": "font-named-instance: \"Italic\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   }
+
+  
+  
 ]

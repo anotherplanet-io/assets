@@ -44,6 +44,12 @@ For the moment, **ap.cx/assets** includes the following fonts:
 
  - FiraGO (normal) Version:1.0.0    
 
+ - FiraCode (normal) Version:1.0.0    
+
+ - LibreCaslonCondensed (normal) Version:1.0.0    
+
+ - LibreCaslonCondensed (italic) Version:1.0.0    
+
 
 I will continue to update and expand my font library to offer more fantastic font options in the future.
 Feel free to explore and utilize these fonts in your web projects, and if you have any suggestions or feedback, I'd love to hear from you.
