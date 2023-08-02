@@ -257,7 +257,7 @@ def subset_font(fontinfo, subsets, procpool):
 
 
 
-def subset_range_async(procpool :ProcPool, infile :str, outfile :str, unicodeRange :str):
+def subset_range_async(procpool :ProcPool, infile :str, outfile :str, unicodeRange :str): # type: ignore
   if not FORCE:
     try:
       outmtime = os.path.getmtime(outfile)
@@ -346,7 +346,7 @@ def getUnicodeMap(font :ttLib.TTFont) -> {int:str} :  # codepoint=>glyphname
   # https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html
   bestCodeSubTable = None
   bestCodeSubTableFormat = 0
-  for st in font['cmap'].tables:
+  for st in font['cmap'].tables: # type: ignore
     if st.platformID == 0: # 0=unicode, 1=mac, 2=(reserved), 3=microsoft
       if st.format > bestCodeSubTableFormat:
         bestCodeSubTable = st
@@ -358,7 +358,7 @@ def getUnicodeMap(font :ttLib.TTFont) -> {int:str} :  # codepoint=>glyphname
     return None
 
 
-def genCompactCodepointRanges(codepoints :[int], groupAllThreshold :int) -> str:
+def genCompactCodepointRanges(codepoints :[int], groupAllThreshold :int) -> str: # type: ignore
   unicodeRange = []
   codepoints = sorted(codepoints)
   for k, g in groupby(enumerate(codepoints), lambda t: t[0]-t[1]):
@@ -376,7 +376,7 @@ def genCompactCodepointRanges(codepoints :[int], groupAllThreshold :int) -> str:
   return ','.join(unicodeRange)
 
 
-def genCompactIntRanges(codepoints :[int]) -> [[int]]:
+def genCompactIntRanges(codepoints :[int]) -> [[int]]: # type: ignore
   compact = []
   codepoints = sorted(codepoints)
   for k, g in groupby(enumerate(codepoints), lambda t: t[0]-t[1]):
@@ -409,6 +409,7 @@ def genCSS(fontinfo, subsets):
       # in case of OT features. For example, the Latin subset includes some common arrow
       # glyphs since "->" is a ligature for "→".
       font = ttLib.TTFont(outfile)
+      # TODO get a better option to get the verison of the font.
       font_v = font['name'].getDebugName(3).split(";")[0]
       cmap = getUnicodeMap(font)
 
@@ -425,12 +426,12 @@ def genCSS(fontinfo, subsets):
 
           extention = fontinfoOutfile.split('.')[-1]
 
+          type = 'truetype'
+
           if extention == 'woff':
             type = 'woff'
           elif extention == 'woff2':
             type = 'woff2'
-          elif extention == 'ttf':
-            type = 'truetype'
           elif extention == 'otf':
             type = 'opentype'
 
@@ -439,7 +440,8 @@ def genCSS(fontinfo, subsets):
             type=type,
             font_v=font_v,
           ))
-          filesnamesStrings = ", ".join(outfilesList)
+
+        filesnamesStrings = ", ".join(outfilesList)
 
         css.append(CSS_TEMPLATE.format(
           comment=subset['name'],
@@ -482,6 +484,7 @@ def genDoc(FONTS, subsets):
       readme_file.write(readme_content)
 
   print("README.md generated successfully.")
+
 
 
 if __name__ == '__main__':
