@@ -13,3 +13,12 @@
 [submodule "src/fonts/Inter"]
 	path = src/fonts/Inter
 	url = https://github.com/rsms/inter.git
+[submodule "src/fonts/Hubot"]
+	path = src/fonts/Hubot
+	url = https://github.com/github/hubot-sans.git
+[submodule "src/fonts/Mona"]
+	path = src/fonts/Mona
+	url = https://github.com/github/mona-sans.git
+[submodule "src/fonts/LibreCaslonCondensed"]
+	path = src/fonts/LibreCaslonCondensed
+	url = https://github.com/ertekinno/libre-caslon-condensed.git
