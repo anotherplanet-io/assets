@@ -3,3 +3,5 @@ _assets
 #python
 scripts/__pycache__
 build/venv/
+
+node_modules/

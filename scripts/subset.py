@@ -225,8 +225,6 @@ def main(argv):
     with open(cssfile, 'w') as f:
       f.write(css)
 
-  genDoc(FONTS, subsets)
-
 
 def subset_font(fontinfo, subsets, procpool):
   infile          = pjoin(BASEDIR, fontinfo['infile'])
@@ -466,25 +464,6 @@ def genCSS(fontinfo, subsets):
 
 def relpath(path):
   return os.path.relpath(path, os.getcwd())
-
-
-def genDoc(FONTS, subsets):
-  # Load the README.md template
-  env = Environment(loader=FileSystemLoader("."))
-  template = env.get_template("scripts/README_template.md")
-
-  # Render the template with the dynamic content
-  readme_content = template.render(
-      fonts=FONTS,
-      subsets=subsets
-  )
-
-  # Save the rendered content to README.md
-  with open("README.md", "w") as readme_file:
-      readme_file.write(readme_content)
-
-  print("README.md generated successfully.")
-
 
 
 if __name__ == '__main__':

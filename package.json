@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "venv:activate": "source ./build/venv/bin/activate",
     "build:fonts": "python3 scripts/subset.py",
+    "build:readme": "node scripts/build-readme.js",
+    "build": "npm run build:fonts && npm run build:readme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/anotherplanet-io/assets/issues"
   },
-  "homepage": "https://github.com/anotherplanet-io/assets#readme"
+  "homepage": "https://github.com/anotherplanet-io/assets#readme",
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "markdown-table": "^3.0.3"
+  }
 }
