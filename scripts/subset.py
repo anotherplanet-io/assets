@@ -17,56 +17,9 @@ import json
 from jinja2 import Environment, FileSystemLoader
 from tabulate import tabulate
 
-
 # FORCE can be set to True to subset all fonts regardless if the input source
 # font has changed or not
 FORCE = False
-
-
-# fonts to subset
-_FONTS = [
-
-  # INTER Text family
-  { 'infile':  'src/fonts/Inter/Inter-Variable.ttf',
-    'outfile': 'build/fonts/subset/Inter.{subset}.var.woff2',
-    'css_family': 'Inter var experimental',
-    'css_weight': '100 900',
-    'css_style':  'oblique 0deg 10deg',
-  },
-
-  { 'infile':  'src/fonts/Inter/Inter-Variable.ttf',
-    'outfile': 'build/fonts/subset/Inter-roman.{subset}.var.woff2',
-    'css_family': 'Inter var',
-    'css_weight': '100 900',
-    'css_style':  'normal',
-    'css_extra':  "font-named-instance: 'Regular';",
-  },
-
-  { 'infile':  'src/fonts/Inter/Inter-Variable-Italic.ttf',
-    'outfile': 'build/fonts/subset/Inter-italic.{subset}.var.woff2',
-    'css_family': 'Inter var',
-    'css_weight': '100 900',
-    'css_style':  'italic',
-    'css_extra':  "font-named-instance: 'Italic';",
-  },
-
-  # PLAYFAIR Font family
-  { 'infile':  'src/fonts/Playfair/PlayfairRomanVF.ttf',
-    'outfile': 'build/fonts/subset/PlayfairRoman.{subset}.var.woff2',
-    'css_family': 'PlayfairRoman var',
-    'css_weight': '100 900',
-    'css_style':  'normal',
-    'css_extra':  "font-named-instance: 'Regular';",
-  },
-
-  { 'infile':  'src/fonts/Playfair/PlayfairItalicVF.ttf',
-    'outfile': 'build/fonts/subset/PlayfairItalic.{subset}.var.woff2',
-    'css_family': 'PlayfairItalic var',
-    'css_weight': '100 900',
-    'css_style':  'normal',
-    'css_extra':  "font-named-instance: 'Italic';",
-  },
-]
 
 file_path = pjoin(BASEDIR, 'src/fonts.json')
 file = open(file_path, "r")
@@ -219,8 +172,17 @@ def main(argv):
   for fontinfo in FONTS:
     css = genCSS(fontinfo, subsets)
     infile, _ = os.path.splitext(basename(fontinfo['infile']))
-    cssfile = pjoin(BASEDIR, 'build/docs/_includes', infile + '.css')
+    cssfile = pjoin(BASEDIR, fontinfo['outpath'], 'css', infile + '.css')
+    folder_path = os.path.dirname(cssfile)
+
+    if not os.path.exists(folder_path):
+      os.makedirs(folder_path)
+      print(f"Directory '{folder_path}' created.")
+    else:
+      print(f"Directory '{folder_path}' already exists.")
+
     # print('css:\n' + css) # DEBUG
+
     print('write', cssfile)
     with open(cssfile, 'w') as f:
       f.write(css)
@@ -249,7 +211,7 @@ def subset_font(fontinfo, subsets, procpool):
 
     # generate "extra" subset of remaining codepoints
     extraUnicodes = ucall - covered
-    _, extraUnicodeRange = genUnicodeRange(extraUnicodes)
+    _, extraUnicodeRange = genUnicodeRange(extraUnicodes) # type: ignore
     outfile = outfileTemplate.format(subset='extra')
     subset_range_async(procpool, infile, outfile, unicodeRange)
 
@@ -267,7 +229,6 @@ def subset_range_async(procpool :ProcPool, infile :str, outfile :str, unicodeRan
   procpool.apply_async( subset_range,(infile, outfile, unicodeRange),
                         error_callback=lambda err: onProcErr(procpool, err) )
 
-
 def onProcErr(procpool, err):
   procpool.terminate()
   raise err
@@ -276,6 +237,14 @@ def onProcErr(procpool, err):
 
 def subset_range(infile :str, outfile :str, unicodeRange :str):
   pyftsubset = pjoin(VENVDIR, 'bin/pyftsubset')
+
+  folder_path = os.path.dirname(outfile)
+
+  if not os.path.exists(folder_path):
+    os.makedirs(folder_path)
+    print(f"Directory '{folder_path}' created.")
+  else:
+    print(f"Directory '{folder_path}' already exists.")
 
   args = [
     pyftsubset,
@@ -318,7 +287,7 @@ def defsubset(name, *codepoints):
   return { 'name':name, 'codepoints':codepoints }
 
 
-def genUnicodeRange(codepoints :list) -> (set, str):
+def genUnicodeRange(codepoints :list) -> (set, str): # type: ignore
   unicodes = set()
   unicodeRange = []
   for v in codepoints:
@@ -340,7 +309,7 @@ def genUnicodeRange(codepoints :list) -> (set, str):
   return unicodes, ','.join(unicodeRange)
 
 
-def getUnicodeMap(font :ttLib.TTFont) -> {int:str} :  # codepoint=>glyphname
+def getUnicodeMap(font :ttLib.TTFont) -> {int:str} :  # type: ignore # codepoint=>glyphname
   # https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html
   bestCodeSubTable = None
   bestCodeSubTableFormat = 0
@@ -387,7 +356,7 @@ def genCompactIntRanges(codepoints :[int]) -> [[int]]: # type: ignore
 
 
 def genCSS(fontinfo, subsets):
-  
+  # TODO: replace it by a javascript script.
   css_family = fontinfo.get('css_family', 'Inter')
   css_style  = fontinfo.get('css_style', 'normal')
   css_weight = fontinfo.get('css_weight', '400')
@@ -408,12 +377,12 @@ def genCSS(fontinfo, subsets):
       # glyphs since "->" is a ligature for "→".
       font = ttLib.TTFont(outfile)
       # TODO get a better option to get the verison of the font.
-      font_v = font['name'].getDebugName(3).split(";")[0]
+      font_v = font['name'].getDebugName(3).split(";")[0] # type: ignore
       cmap = getUnicodeMap(font)
 
       if cmap is not None:
         unicodes = set(cmap)
-        if min(unicodes) < 0x30:
+        if min(unicodes) < 0x30: # type: ignore
           # the "base" (latin) subset. extend it to include control codepoints
           controlCodepoints, _ = genUnicodeRange([range(0x0000, 0x001F)])
           unicodes = unicodes.union(controlCodepoints)

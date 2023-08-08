@@ -36,6 +36,15 @@ Feel free to explore and utilize these fonts in your web projects, and if you ha
 ## Subsets
 
 
+## line-height
+
+The line-height is set for font the Latin subset.
+
+### Diacritic and accent marks in non-Latin alphabets.
+
+Diacritics and accent marks can affect the perceived cap height and baseline of a text. Since these marks are positioned at the extremities of the font's line box, it becomes necessary to adjust the white space. One way to do this is by increasing the line-height and adding padding to the container to accommodate the additional space required. This adjustment is often necessary.
+
+
 # Help Wanted!
 
 🌍 Help Needed: Subsetting Fonts for Cyrillic, Chinese, Japanese, Korean, and More!
@@ -61,10 +70,6 @@ To get involved, please reach out to me on this GitHub repository or a DM on Twi
 
 From terminal:
 
-```
-cd your/local/project/directory/build
-```
-
 In the project folder create a virtual environment. 
 This step has to be done just once, the first time:
 
@@ -75,7 +80,7 @@ python3 -m venv venv
 activate the virtual environment
 
 ```
-source ./build/venv/bin/activate
+source ./venv/bin/activate
 ```
 
 install the required dependencies
@@ -84,4 +89,32 @@ install the required dependencies
 pip install -r requirements.txt
 ```
 
+## Ressources 
 
+### Opentype Naming Table
+
+https://learn.microsoft.com/en-us/typography/opentype/spec/name
+
+### OpenType Font Variations Overview
+
+https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview
+
+### Capsize ❤️
+
+Flipping how we define typography in CSS
+
+https://seek-oss.github.io/capsize/
+
+
+### Variable fonts guide
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+
+
+| Axis tag        | Name         |
+| --------------- | ------------ |
+| 'ital'          | Italic       |
+| 'opsz'          | Optical size |
+| 'slnt'          | Slant        |
+| 'wdth'          | Width        |
+| 'wght'          | Weight       |

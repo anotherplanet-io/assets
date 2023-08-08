@@ -1,0 +1,28 @@
+{
+  "FiraGO-Regular": {
+    "postscriptName": "FiraGO-Regular",
+    "familyName": "FiraGO",
+    "subfamilyName": "Regular",
+    "copyright": "Digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name \"Fira\" / Digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name \"Fira\"",
+    "version": "Version 1.001",
+    "versionDisplay": "Version 1.001"
+  },
+  "unitsPerEm": 1000,
+  "versionNumber": "1.001",
+  "FiraGO-Bold": {
+    "postscriptName": "FiraGO-Bold",
+    "familyName": "FiraGO",
+    "subfamilyName": "Bold",
+    "copyright": "Digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name \"Fira\" / Digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name \"Fira\"",
+    "version": "Version 1.001",
+    "versionDisplay": "Version 1.001"
+  },
+  "FiraGO-Thin": {
+    "postscriptName": "FiraGO-Thin",
+    "familyName": "FiraGO Thin",
+    "subfamilyName": "Regular",
+    "copyright": "Digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name \"Fira\" / Digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name \"Fira\"",
+    "version": "Version 1.001",
+    "versionDisplay": "Version 1.001"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Inter-italic": {
+    "postscriptName": "InterVariableItalic",
+    "familyName": "Inter Variable",
+    "subfamilyName": "Italic",
+    "copyright": "Copyright 2016 The Inter Project Authors",
+    "version": "Version 4.000;git-fe75d3a2c",
+    "versionDisplay": "Version 4.000"
+  },
+  "variationAxes": {
+    "opsz": {
+      "name": "Optical size",
+      "min": 14,
+      "default": 28,
+      "max": 28,
+      "valid": true
+    },
+    "wght": {
+      "name": "Weight",
+      "min": 100,
+      "default": 400,
+      "max": 900,
+      "valid": true
+    }
+  },
+  "unitsPerEm": 2048,
+  "versionNumber": "4.000",
+  "Inter-roman": {
+    "postscriptName": "InterVariable",
+    "familyName": "Inter Variable",
+    "subfamilyName": "Regular",
+    "copyright": "Copyright 2016 The Inter Project Authors",
+    "version": "Version 4.000;git-fe75d3a2c",
+    "versionDisplay": "Version 4.000"
+  }
+}

@@ -7,7 +7,7 @@ import time
 
 # patch PYTHONPATH to include $BASEDIR/build/venv/python/site-packages
 BASEDIR = abspath(pjoin(dirname(__file__), os.pardir))
-VENVDIR = pjoin(BASEDIR, 'build', 'venv')
+VENVDIR = pjoin(BASEDIR, 'venv')
 sys.path.append(pjoin(VENVDIR, 'lib', 'python', 'site-packages'))
 
 PYVER = sys.version_info[0]
@@ -25,13 +25,13 @@ def execproc(*args):
     shell=False,
     stdout=subprocess.PIPE,
     stderr=subprocess.STDOUT,
-    **_enc_kwargs
+    **_enc_kwargs # type: ignore
   )
   return (p.stdout.strip(), p.returncode == 0)
 
 
 def readTextFile(filename):
-  with open(filename, 'r', **_enc_kwargs) as f:
+  with open(filename, 'r', **_enc_kwargs) as f: # type: ignore
     return f.read()
 
 
@@ -43,7 +43,7 @@ def getGitHash():  # returns tuple (hash :string, errors :string[])
     _gitHash = ''
     args = ['git', '-C', BASEDIR, 'rev-parse', '--short', 'HEAD']
     try:
-      _gitHash = subprocess.check_output(args, stderr=subprocess.STDOUT, **_enc_kwargs).strip()
+      _gitHash = subprocess.check_output(args, stderr=subprocess.STDOUT, **_enc_kwargs).strip() # type: ignore
     except:
       _gitHashErrs.append(sys.exc_info()[0])
       try:

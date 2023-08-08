@@ -1,0 +1,36 @@
+{
+  "HubotSans": {
+    "postscriptName": "HubotSans-ExtraLight",
+    "familyName": "Hubot Sans ExtraLight",
+    "subfamilyName": "Regular",
+    "copyright": "Copyright 2022 The Hubot Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Hubot\"",
+    "version": "Version 1.001;gftools[0.9.31]",
+    "versionDisplay": "Version 1.001"
+  },
+  "variationAxes": {
+    "wdth": {
+      "name": "Width",
+      "min": 75,
+      "default": 100,
+      "max": 125,
+      "valid": true
+    },
+    "wght": {
+      "name": "Weight",
+      "min": 200,
+      "default": 200,
+      "max": 900,
+      "valid": true
+    },
+    "slnt": {
+      "name": "Slant",
+      "min": -10,
+      "default": 0,
+      "max": 0,
+      "valid": true
+    }
+  },
+  "unitsPerEm": 1000,
+  "versionNumber": "1.001",
+  "copyrightUrl": "https://github.com/github/mona-sans"
+}

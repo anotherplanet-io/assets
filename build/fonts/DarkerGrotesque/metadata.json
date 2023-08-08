@@ -1,0 +1,22 @@
+{
+  "DarkerGrotesque": {
+    "postscriptName": "DarkerGrotesque-Light",
+    "familyName": "Darker Grotesque Light",
+    "subfamilyName": "Regular",
+    "copyright": "Copyright 2019 The Darker Grotesque Project Authors (https://github.com/bettergui/DarkerGrotesque)",
+    "version": "Version 1.000;gftools[0.9.28]",
+    "versionDisplay": "Version 1.000"
+  },
+  "variationAxes": {
+    "wght": {
+      "name": "Weight",
+      "min": 300,
+      "default": 300,
+      "max": 900,
+      "valid": true
+    }
+  },
+  "unitsPerEm": 1000,
+  "versionNumber": "1.000",
+  "copyrightUrl": "https://github.com/bettergui/DarkerGrotesque"
+}

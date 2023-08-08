@@ -1,7 +1,7 @@
 # @ap.cx/assets
 
 <!-- 
-This page is automatically generated (2023-08-04 11:17:42) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
+This page is automatically generated (2023-08-04 12:42:14) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
 
 This project is currently in an early stage of development and is a work in progress. It may contain incomplete features, bugs, and changes that are subject to frequent updates. We encourage contributors and users to be aware of these potential issues and to use the project with caution.
 
@@ -46,6 +46,15 @@ I will continue to update and expand my font library to offer more fantastic fon
 Feel free to explore and utilize these fonts in your web projects, and if you have any suggestions or feedback, I'd love to hear from you.
 
 ## Subsets
+
+
+## line-height
+
+The line-height is set for font the Latin subset.
+
+### Diacritic and accent marks in non-Latin alphabets.
+
+Diacritics and accent marks can affect the perceived cap height and baseline of a text. Since these marks are positioned at the extremities of the font's line box, it becomes necessary to adjust the white space. One way to do this is by increasing the line-height and adding padding to the container to accommodate the additional space required. This adjustment is often necessary.
 
 
 # Help Wanted!
@@ -96,4 +105,18 @@ install the required dependencies
 pip install -r requirements.txt
 ```
 
+## Ressources 
 
+### Opentype Naming Table
+
+https://learn.microsoft.com/en-us/typography/opentype/spec/name
+
+### OpenType Font Variations Overview
+
+https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview
+
+### Capsize ❤️
+
+Flipping how we define typography in CSS
+
+https://seek-oss.github.io/capsize/

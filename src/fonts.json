@@ -1,11 +1,13 @@
 [
   {
+    "name": "Inter-roman",
     "version": "4.0-beta9h",
     "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable.ttf",
+    "outpath": "build/fonts/Inter",
     "outfile": [
-      "build/fonts/subset/Inter-roman.{subset}.var.woff2",
-      "build/fonts/subset/Inter-roman.{subset}.var.woff",
-      "build/fonts/subset/Inter-roman.{subset}.var.otf"
+      "build/fonts/Inter/subset/Inter-roman.{subset}.var.woff2",
+      "build/fonts/Inter/subset/Inter-roman.{subset}.var.woff",
+      "build/fonts/Inter/subset/Inter-roman.{subset}.var.ttf"
     ],
     "css_family": "Inter var",
     "css_weight": "100 900",
@@ -14,12 +16,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "Inter-italic",
     "version": "4.0-beta9h",
     "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable-Italic.ttf",
+    "outpath": "build/fonts/Inter",
     "outfile": [
-      "build/fonts/subset/Inter-italic.{subset}.var.woff2",
-      "build/fonts/subset/Inter-italic.{subset}.var.woff",
-      "build/fonts/subset/Inter-italic.{subset}.var.otf"
+      "build/fonts/Inter/subset/Inter-italic.{subset}.var.woff2",
+      "build/fonts/Inter/subset/Inter-italic.{subset}.var.woff",
+      "build/fonts/Inter/subset/Inter-italic.{subset}.var.ttf"
     ],
     "css_family": "Inter var",
     "css_weight": "100 900",
@@ -28,12 +32,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "PlayfairRoman",
     "version": "2.1",
     "infile": "src/fonts/Playfair/fonts/VF-TTF/PlayfairRomanVF.ttf",
+    "outpath": "build/fonts/Playfair",
     "outfile": [
-      "build/fonts/subset/PlayfairRoman.{subset}.var.woff2",
-      "build/fonts/subset/PlayfairRoman.{subset}.var.woff",
-      "build/fonts/subset/PlayfairRoman.{subset}.var.otf"
+      "build/fonts/Playfair/subset/PlayfairRoman.{subset}.var.woff2",
+      "build/fonts/Playfair/subset/PlayfairRoman.{subset}.var.woff",
+      "build/fonts/Playfair/subset/PlayfairRoman.{subset}.var.ttf"
     ],
     "css_family": "PlayfairRoman var",
     "css_weight": "100 900",
@@ -42,12 +48,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "PlayfairItalic",
     "version": "2.1",
     "infile": "src/fonts/Playfair/fonts/VF-TTF/PlayfairItalicVF.ttf",
+    "outpath": "build/fonts/Playfair",
     "outfile": [
-      "build/fonts/subset/PlayfairItalic.{subset}.var.woff2",
-      "build/fonts/subset/PlayfairItalic.{subset}.var.woff",
-      "build/fonts/subset/PlayfairItalic.{subset}.var.otf"
+      "build/fonts/Playfair/subset/PlayfairItalic.{subset}.var.woff2",
+      "build/fonts/Playfair/subset/PlayfairItalic.{subset}.var.woff",
+      "build/fonts/Playfair/subset/PlayfairItalic.{subset}.var.ttf"
     ],
     "css_family": "PlayfairItalic var",
     "css_weight": "100 900",
@@ -56,12 +64,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "DarkerGrotesque",
     "version": "1.0.0",
     "infile": "src/fonts/DarkerGrotesque/fonts/variable/DarkerGrotesque[wght].ttf",
+    "outpath": "build/fonts/DarkerGrotesque",
     "outfile": [
-      "build/fonts/subset/DarkerGrotesque.{subset}.var.woff2",
-      "build/fonts/subset/DarkerGrotesque.{subset}.var.woff",
-      "build/fonts/subset/DarkerGrotesque.{subset}.var.otf"
+      "build/fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.woff2",
+      "build/fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.woff",
+      "build/fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.ttf"
     ],
     "css_family": "DarkerGrotesque var",
     "css_weight": "100 900",
@@ -70,12 +80,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "symbols"]
   },
   {
+    "name": "FiraGO-Thin",
     "version": "1.0.0",
     "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Thin.ttf",
+    "outpath": "build/fonts/FiraGO",
     "outfile": [
-      "build/fonts/subset/FiraGO.{subset}.woff2",
-      "build/fonts/subset/FiraGO.{subset}.woff",
-      "build/fonts/subset/FiraGO.{subset}.otf"
+      "build/fonts/FiraGO/subset/FiraGO-Thin.{subset}.woff2",
+      "build/fonts/FiraGO/subset/FiraGO-Thin.{subset}.woff",
+      "build/fonts/FiraGO/subset/FiraGO-Thin.{subset}.ttf"
     ],
     "css_family": "FiraGO",
     "css_weight": "100",
@@ -84,12 +96,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "FiraGO-Regular",
     "version": "1.0.0",
     "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Regular.ttf",
+    "outpath": "build/fonts/FiraGO",
     "outfile": [
-      "build/fonts/subset/FiraGO.{subset}.woff2",
-      "build/fonts/subset/FiraGO.{subset}.woff",
-      "build/fonts/subset/FiraGO.{subset}.otf"
+      "build/fonts/FiraGO/subset/FiraGO-Regular.{subset}.woff2",
+      "build/fonts/FiraGO/subset/FiraGO-Regular.{subset}.woff",
+      "build/fonts/FiraGO/subset/FiraGO-Regular.{subset}.ttf"
     ],
     "css_family": "FiraGO",
     "css_weight": "400",
@@ -98,12 +112,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "FiraGO-Bold",
     "version": "1.0.0",
     "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Bold.ttf",
+    "outpath": "build/fonts/FiraGO",
     "outfile": [
-      "build/fonts/subset/FiraGO-Bold.{subset}.woff2",
-      "build/fonts/subset/FiraGO-Bold.{subset}.woff",
-      "build/fonts/subset/FiraGO-Bold.{subset}.otf"
+      "build/fonts/FiraGO/subset/FiraGO-Bold.{subset}.woff2",
+      "build/fonts/FiraGO/subset/FiraGO-Bold.{subset}.woff",
+      "build/fonts/FiraGO/subset/FiraGO-Bold.{subset}.ttf"
     ],
     "css_family": "FiraGO",
     "css_weight": "700",
@@ -112,12 +128,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "FiraCode-Regular",
     "version": "1.0.0",
     "infile": "src/fonts/FiraSans/Fira_Code_3_2/Fonts/FiraCode_OTF_32/FiraCode-Regular.otf",
+    "outpath": "build/fonts/FiraSans",
     "outfile": [
-      "build/fonts/subset/FiraCode-Regular.{subset}.woff2",
-      "build/fonts/subset/FiraCode-Regular.{subset}.woff",
-      "build/fonts/subset/FiraCode-Regular.{subset}.otf"
+      "build/fonts/FiraSans/subset/FiraCode-Regular.{subset}.woff2",
+      "build/fonts/FiraSans/subset/FiraCode-Regular.{subset}.woff",
+      "build/fonts/FiraSans/subset/FiraCode-Regular.{subset}.ttf"
     ],
     "css_family": "FiraCode",
     "css_weight": "400",
@@ -126,12 +144,30 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "HubotSans",
+    "version": "1.0.0",
+    "infile": "src/fonts/Hubot/fonts/variable/HubotSans[slnt,wdth,wght].ttf",
+    "outpath": "build/fonts/Hubot",
+    "outfile": [
+      "build/fonts/Hubot/subset/HubotSans.{subset}.var.woff2",
+      "build/fonts/Hubot/subset/HubotSans.{subset}.var.woff",
+      "build/fonts/Hubot/subset/HubotSans.{subset}.var.ttf"
+    ],
+    "css_family": "HubotSans",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+  },
+  {
+    "name": "LibreCaslonCondensed-Italic",
     "version": "1.0.0",
     "infile": "src/fonts/LibreCaslonCondensed/fonts/variable/LibreCaslonCondensed-Italic[wght].ttf",
+    "outpath": "build/fonts/LibreCaslon",
     "outfile": [
-      "build/fonts/subset/LibreCaslonCondensed-Italic.{subset}.var.woff2",
-      "build/fonts/subset/LibreCaslonCondensed-Italic.{subset}.var.woff",
-      "build/fonts/subset/LibreCaslonCondensed-Italic.{subset}.var.otf"
+      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.woff2",
+      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.woff",
+      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.ttf"
     ],
     "css_family": "LibreCaslonCondensed",
     "css_weight": "100 900",
@@ -140,12 +176,14 @@
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   },
   {
+    "name": "LibreCaslonCondensed",
     "version": "1.0.0",
     "infile": "src/fonts/LibreCaslonCondensed/fonts/variable/LibreCaslonCondensed[wght].ttf",
+    "outpath": "build/fonts/LibreCaslon",
     "outfile": [
-      "build/fonts/subset/LibreCaslonCondensed.{subset}.var.woff2",
-      "build/fonts/subset/LibreCaslonCondensed.{subset}.var.woff",
-      "build/fonts/subset/LibreCaslonCondensed.{subset}.var.otf"
+      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.woff2",
+      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.woff",
+      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.ttf"
     ],
     "css_family": "LibreCaslonCondensed",
     "css_weight": "100 900",
@@ -153,7 +191,4 @@
     "css_extra": "font-named-instance: \"Italic\";",
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
   }
-
-  
-  
 ]

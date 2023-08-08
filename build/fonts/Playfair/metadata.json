@@ -1,0 +1,44 @@
+{
+  "PlayfairItalic": {
+    "postscriptName": "PlayfairItalic-NeedlepointSemiCondensedSemiLightItalic",
+    "familyName": "Playfair Needlepoint SmCond SmLight",
+    "subfamilyName": "Italic",
+    "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
+    "version": "Version 2.100;Glyphs 3.2 (3197)",
+    "versionDisplay": "Version 2.100"
+  },
+  "variationAxes": {
+    "opsz": {
+      "name": "Optical size",
+      "min": 5,
+      "default": 1200,
+      "max": 1200,
+      "valid": true
+    },
+    "wdth": {
+      "name": "Width",
+      "min": 88,
+      "default": 88,
+      "max": 113,
+      "valid": true
+    },
+    "wght": {
+      "name": "Weight",
+      "min": 300,
+      "default": 300,
+      "max": 900,
+      "valid": true
+    }
+  },
+  "unitsPerEm": 1240,
+  "versionNumber": "2.100",
+  "copyrightUrl": "https://github.com/clauseggers/Playfair",
+  "PlayfairRoman": {
+    "postscriptName": "Playfair-NeedlepointSemiCondensedSemiLight",
+    "familyName": "Playfair Needlepoint SmCond SmLight",
+    "subfamilyName": "Regular",
+    "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
+    "version": "Version 2.100;Glyphs 3.2 (3197)",
+    "versionDisplay": "Version 2.100"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "LibreCaslonCondensed-Italic": {
+    "postscriptName": "LibreCaslonCondensed-Italic",
+    "familyName": "Libre Caslon Condensed",
+    "subfamilyName": "Italic",
+    "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
+    "version": "Version 2.000;gftools[0.9.33]",
+    "versionDisplay": "Version 2.000"
+  },
+  "variationAxes": {
+    "wght": {
+      "name": "Weight",
+      "min": 400,
+      "default": 400,
+      "max": 700,
+      "valid": true
+    }
+  },
+  "unitsPerEm": 2000,
+  "versionNumber": "2.000",
+  "copyrightUrl": "https://github.com/thundernixon/Libre-Caslon",
+  "LibreCaslonCondensed": {
+    "postscriptName": "LibreCaslonCondensed-Regular",
+    "familyName": "Libre Caslon Condensed",
+    "subfamilyName": "Regular",
+    "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
+    "version": "Version 2.000;gftools[0.9.33]",
+    "versionDisplay": "Version 2.000"
+  }
+}
