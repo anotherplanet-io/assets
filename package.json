@@ -7,6 +7,7 @@
   "scripts": {
     "venv:activate": "source ./build/venv/bin/activate",
     "build:fonts": "python3 scripts/subset.py",
+    "test:fonts": "node scripts/test-font-files.js",
     "build:readme": "node scripts/build-readme.js",
     "build:metadata": "node scripts/build-metadata.js",
     "build": "npm run build:fonts && npm run build:readme",
@@ -34,7 +35,9 @@
   },
   "dependencies": {
     "@capsizecss/core": "^3.1.1",
+    "@capsizecss/metrics": "^1.2.0",
     "@capsizecss/unpack": "^1.0.0",
+    "change-case": "^4.1.2",
     "fontkit": "^2.0.2",
     "glob": "^10.3.3",
     "opentype.js": "^1.3.4"

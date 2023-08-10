@@ -178,8 +178,6 @@ def main(argv):
     if not os.path.exists(folder_path):
       os.makedirs(folder_path)
       print(f"Directory '{folder_path}' created.")
-    else:
-      print(f"Directory '{folder_path}' already exists.")
 
     # print('css:\n' + css) # DEBUG
 
@@ -243,9 +241,7 @@ def subset_range(infile :str, outfile :str, unicodeRange :str):
   if not os.path.exists(folder_path):
     os.makedirs(folder_path)
     print(f"Directory '{folder_path}' created.")
-  else:
-    print(f"Directory '{folder_path}' already exists.")
-
+  
   args = [
     pyftsubset,
     '--unicodes=' + unicodeRange,

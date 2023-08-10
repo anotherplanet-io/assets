@@ -2,10 +2,12 @@
   "HubotSans": {
     "postscriptName": "HubotSans-ExtraLight",
     "familyName": "Hubot Sans ExtraLight",
+    "category": "sans-serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2022 The Hubot Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Hubot\"",
     "version": "Version 1.001;gftools[0.9.31]",
-    "versionDisplay": "Version 1.001"
+    "versionDisplay": "Version 1.001",
+    "outpath": "build/fonts/Hubot"
   },
   "variationAxes": {
     "wdth": {
@@ -32,5 +34,1526 @@
   },
   "unitsPerEm": 1000,
   "versionNumber": "1.001",
-  "copyrightUrl": "https://github.com/github/mona-sans"
+  "copyrightUrl": "https://github.com/github/mona-sans",
+  "characterSet": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    168,
+    169,
+    170,
+    171,
+    172,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    294,
+    295,
+    298,
+    299,
+    302,
+    303,
+    304,
+    305,
+    310,
+    311,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    330,
+    331,
+    332,
+    333,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    362,
+    363,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    402,
+    536,
+    537,
+    538,
+    539,
+    567,
+    710,
+    711,
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    768,
+    769,
+    770,
+    771,
+    772,
+    774,
+    775,
+    776,
+    778,
+    779,
+    780,
+    786,
+    806,
+    807,
+    808,
+    821,
+    822,
+    823,
+    824,
+    956,
+    960,
+    7808,
+    7809,
+    7810,
+    7811,
+    7812,
+    7813,
+    7838,
+    7922,
+    7923,
+    8211,
+    8212,
+    8216,
+    8217,
+    8218,
+    8220,
+    8221,
+    8222,
+    8226,
+    8230,
+    8240,
+    8249,
+    8250,
+    8260,
+    8304,
+    8308,
+    8309,
+    8310,
+    8311,
+    8312,
+    8313,
+    8320,
+    8321,
+    8322,
+    8323,
+    8324,
+    8325,
+    8326,
+    8327,
+    8328,
+    8329,
+    8361,
+    8362,
+    8364,
+    8377,
+    8378,
+    8383,
+    8471,
+    8482,
+    8592,
+    8593,
+    8594,
+    8595,
+    8596,
+    8709,
+    8719,
+    8721,
+    8722,
+    8730,
+    8734,
+    8747,
+    8776,
+    8800,
+    8804,
+    8805,
+    9785,
+    9786,
+    10003,
+    10112,
+    10113,
+    10114,
+    10115,
+    10116,
+    10117,
+    10118,
+    10119,
+    10120,
+    64257,
+    65535
+  ],
+  "numGlyphs": 456,
+  "availableFeatures": [
+    "aalt",
+    "case",
+    "ccmp",
+    "dnom",
+    "frac",
+    "liga",
+    "numr",
+    "ordn",
+    "pnum",
+    "sinf",
+    "ss01",
+    "ss04",
+    "subs",
+    "sups",
+    "tnum",
+    "rvrn",
+    "kern",
+    "mark"
+  ],
+  "ascent": 965,
+  "descent": -235,
+  "underlinePosition": -155,
+  "underlineThickness": 40,
+  "capHeight": 729,
+  "xHeight": 515,
+  "namedVariations": {
+    "ExtraLight": {
+      "wdth": 100,
+      "wght": 200,
+      "slnt": 0
+    },
+    "Light": {
+      "wdth": 100,
+      "wght": 300,
+      "slnt": 0
+    },
+    "Regular": {
+      "wdth": 100,
+      "wght": 400,
+      "slnt": 0
+    },
+    "Medium": {
+      "wdth": 100,
+      "wght": 500,
+      "slnt": 0
+    },
+    "SemiBold": {
+      "wdth": 100,
+      "wght": 600,
+      "slnt": 0
+    },
+    "Bold": {
+      "wdth": 100,
+      "wght": 700,
+      "slnt": 0
+    },
+    "ExtraBold": {
+      "wdth": 100,
+      "wght": 800,
+      "slnt": 0
+    },
+    "Black": {
+      "wdth": 100,
+      "wght": 900,
+      "slnt": 0
+    },
+    "ExtraLight Italic": {
+      "wdth": 100,
+      "wght": 200,
+      "slnt": -10
+    },
+    "Light Italic": {
+      "wdth": 100,
+      "wght": 300,
+      "slnt": -10
+    },
+    "Italic": {
+      "wdth": 100,
+      "wght": 400,
+      "slnt": -10
+    },
+    "Medium Italic": {
+      "wdth": 100,
+      "wght": 500,
+      "slnt": -10
+    },
+    "SemiBold Italic": {
+      "wdth": 100,
+      "wght": 600,
+      "slnt": -10
+    },
+    "Bold Italic": {
+      "wdth": 100,
+      "wght": 700,
+      "slnt": -10
+    },
+    "ExtraBold Italic": {
+      "wdth": 100,
+      "wght": 800,
+      "slnt": -10
+    },
+    "Black Italic": {
+      "wdth": 100,
+      "wght": 900,
+      "slnt": -10
+    }
+  },
+  "bbox": {
+    "minX": -151,
+    "minY": -232,
+    "maxX": 1074,
+    "maxY": 994
+  },
+  "xWidthAvg": 483,
+  "styles": {
+    "Editorial Mega Display": {
+      "fontSize": "112px",
+      "lineHeight": "128px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2074em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2064em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2074em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2064em;\n  display: table;\n}",
+      "lineHeightRem": 8,
+      "fontSizeRem": 7,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "112px",
+        "lineHeight": "128px",
+        "capHeightTrim": "-0.2074em",
+        "baselineTrim": "-0.2064em"
+      }
+    },
+    "Editorial Dominant Display": {
+      "fontSize": "96px",
+      "lineHeight": "112px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2193em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2183em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+      "lineHeightRem": 7,
+      "fontSizeRem": 6,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "96px",
+        "lineHeight": "112px",
+        "capHeightTrim": "-0.2193em",
+        "baselineTrim": "-0.2183em"
+      }
+    },
+    "Display large": {
+      "fontSize": "80px",
+      "lineHeight": "96px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.236em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.235em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.236em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.235em;\n  display: table;\n}",
+      "lineHeightRem": 6,
+      "fontSizeRem": 5,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "80px",
+        "lineHeight": "96px",
+        "capHeightTrim": "-0.236em",
+        "baselineTrim": "-0.235em"
+      }
+    },
+    "Display": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1985em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1975em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+      "lineHeightRem": 4.5,
+      "fontSizeRem": 4,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "capHeightTrim": "-0.1985em",
+        "baselineTrim": "-0.1975em"
+      }
+    },
+    "Display small": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2193em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2183em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+      "lineHeightRem": 3.5,
+      "fontSizeRem": 3,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "capHeightTrim": "-0.2193em",
+        "baselineTrim": "-0.2183em"
+      }
+    },
+    "Headline large": {
+      "fontSize": "37px",
+      "lineHeight": "44px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2306em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2296em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2306em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2296em;\n  display: table;\n}",
+      "lineHeightRem": 2.75,
+      "fontSizeRem": 2.3125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "37px",
+        "lineHeight": "44px",
+        "capHeightTrim": "-0.2306em",
+        "baselineTrim": "-0.2296em"
+      }
+    },
+    "Headline": {
+      "fontSize": "32px",
+      "lineHeight": "36px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1985em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1975em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+      "lineHeightRem": 2.25,
+      "fontSizeRem": 2,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "32px",
+        "lineHeight": "36px",
+        "capHeightTrim": "-0.1985em",
+        "baselineTrim": "-0.1975em"
+      }
+    },
+    "Headline small": {
+      "fontSize": "29px",
+      "lineHeight": "32px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1877em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1867em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1877em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1867em;\n  display: table;\n}",
+      "lineHeightRem": 2,
+      "fontSizeRem": 1.8125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "29px",
+        "lineHeight": "32px",
+        "capHeightTrim": "-0.1877em",
+        "baselineTrim": "-0.1867em"
+      }
+    },
+    "Title large": {
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2193em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2183em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+      "lineHeightRem": 1.75,
+      "fontSizeRem": 1.5,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "24px",
+        "lineHeight": "28px",
+        "capHeightTrim": "-0.2193em",
+        "baselineTrim": "-0.2183em"
+      }
+    },
+    "Title": {
+      "fontSize": "21px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2074em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2064em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2074em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2064em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.3125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "21px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.2074em",
+        "baselineTrim": "-0.2064em"
+      }
+    },
+    "Title small": {
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2676em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2666em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2676em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2666em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.1875,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.2676em",
+        "baselineTrim": "-0.2666em"
+      }
+    },
+    "Body": {
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.261em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.26em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.261em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.26em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 1,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.261em",
+        "baselineTrim": "-0.26em"
+      }
+    },
+    "Body small": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.9375,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    },
+    "Footnote": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4052em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4042em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.4052em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4042em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.8125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.4052em",
+        "baselineTrim": "-0.4042em"
+      }
+    },
+    "Caption large": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.75,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    },
+    "Caption": {
+      "fontSize": "11px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3633em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3623em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3633em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3623em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.6875,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.3633em",
+        "baselineTrim": "-0.3623em"
+      }
+    },
+    "Caption small": {
+      "fontSize": "9px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5625,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "9px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    },
+    "Legal large": {
+      "fontSize": "8px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.386em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.385em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.385em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "8px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.386em",
+        "baselineTrim": "-0.385em"
+      }
+    },
+    "Legal": {
+      "fontSize": "7px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4931em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4921em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4931em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.4921em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.4375,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "7px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4931em",
+        "baselineTrim": "-0.4921em"
+      }
+    },
+    "Legal small": {
+      "fontSize": "6px",
+      "lineHeight": "8px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 0.5,
+      "fontSizeRem": 0.375,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "6px",
+        "lineHeight": "8px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    }
+  },
+  "pgts": {
+    "Editorial Mega Display": {
+      "fontSize": "112px",
+      "lineHeight": "128px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2074em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2064em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2074em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2064em;\n  display: table;\n}",
+      "lineHeightRem": 8,
+      "fontSizeRem": 7,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "112px",
+        "lineHeight": "128px",
+        "capHeightTrim": "-0.2074em",
+        "baselineTrim": "-0.2064em"
+      }
+    },
+    "Editorial Dominant Display": {
+      "fontSize": "96px",
+      "lineHeight": "112px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2193em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2183em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+      "lineHeightRem": 7,
+      "fontSizeRem": 6,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "96px",
+        "lineHeight": "112px",
+        "capHeightTrim": "-0.2193em",
+        "baselineTrim": "-0.2183em"
+      }
+    },
+    "Display large": {
+      "fontSize": "80px",
+      "lineHeight": "96px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.236em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.235em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.236em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.235em;\n  display: table;\n}",
+      "lineHeightRem": 6,
+      "fontSizeRem": 5,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "80px",
+        "lineHeight": "96px",
+        "capHeightTrim": "-0.236em",
+        "baselineTrim": "-0.235em"
+      }
+    },
+    "Display": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1985em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1975em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+      "lineHeightRem": 4.5,
+      "fontSizeRem": 4,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "capHeightTrim": "-0.1985em",
+        "baselineTrim": "-0.1975em"
+      }
+    },
+    "Display small": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2193em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2183em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+      "lineHeightRem": 3.5,
+      "fontSizeRem": 3,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "capHeightTrim": "-0.2193em",
+        "baselineTrim": "-0.2183em"
+      }
+    },
+    "Headline large": {
+      "fontSize": "37px",
+      "lineHeight": "44px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2306em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2296em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2306em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2296em;\n  display: table;\n}",
+      "lineHeightRem": 2.75,
+      "fontSizeRem": 2.3125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "37px",
+        "lineHeight": "44px",
+        "capHeightTrim": "-0.2306em",
+        "baselineTrim": "-0.2296em"
+      }
+    },
+    "Headline": {
+      "fontSize": "32px",
+      "lineHeight": "36px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1985em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1975em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+      "lineHeightRem": 2.25,
+      "fontSizeRem": 2,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "32px",
+        "lineHeight": "36px",
+        "capHeightTrim": "-0.1985em",
+        "baselineTrim": "-0.1975em"
+      }
+    },
+    "Headline small": {
+      "fontSize": "29px",
+      "lineHeight": "32px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1877em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1867em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1877em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1867em;\n  display: table;\n}",
+      "lineHeightRem": 2,
+      "fontSizeRem": 1.8125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "29px",
+        "lineHeight": "32px",
+        "capHeightTrim": "-0.1877em",
+        "baselineTrim": "-0.1867em"
+      }
+    },
+    "Title large": {
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2193em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2183em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+      "lineHeightRem": 1.75,
+      "fontSizeRem": 1.5,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "24px",
+        "lineHeight": "28px",
+        "capHeightTrim": "-0.2193em",
+        "baselineTrim": "-0.2183em"
+      }
+    },
+    "Title": {
+      "fontSize": "21px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2074em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2064em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2074em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2064em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.3125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "21px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.2074em",
+        "baselineTrim": "-0.2064em"
+      }
+    },
+    "Title small": {
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2676em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2666em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2676em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2666em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.1875,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.2676em",
+        "baselineTrim": "-0.2666em"
+      }
+    },
+    "Body": {
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.261em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.26em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.261em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.26em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 1,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.261em",
+        "baselineTrim": "-0.26em"
+      }
+    },
+    "Body small": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.9375,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    },
+    "Footnote": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4052em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4042em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.4052em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4042em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.8125,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.4052em",
+        "baselineTrim": "-0.4042em"
+      }
+    },
+    "Caption large": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.75,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    },
+    "Caption": {
+      "fontSize": "11px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3633em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3623em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3633em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3623em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.6875,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.3633em",
+        "baselineTrim": "-0.3623em"
+      }
+    },
+    "Caption small": {
+      "fontSize": "9px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5625,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "9px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    },
+    "Legal large": {
+      "fontSize": "8px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.386em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.385em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.385em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "8px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.386em",
+        "baselineTrim": "-0.385em"
+      }
+    },
+    "Legal": {
+      "fontSize": "7px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4931em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4921em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4931em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.4921em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.4375,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "7px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4931em",
+        "baselineTrim": "-0.4921em"
+      }
+    },
+    "Legal small": {
+      "fontSize": "6px",
+      "lineHeight": "8px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3027em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3017em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+      "lineHeightRem": 0.5,
+      "fontSizeRem": 0.375,
+      "fontFamily": "\"Hubot Sans ExtraLight\", \"Hubot Sans ExtraLight Fallback: Helvetica Neue\", \"Hubot Sans ExtraLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}\n@font-face {\n  font-family: \"Hubot Sans ExtraLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.5%;\n  descent-override: 23.5%;\n}",
+      "capsizeValues": {
+        "fontSize": "6px",
+        "lineHeight": "8px",
+        "capHeightTrim": "-0.3027em",
+        "baselineTrim": "-0.3017em"
+      }
+    }
+  }
 }

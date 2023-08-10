@@ -2,10 +2,12 @@
   "PlayfairItalic": {
     "postscriptName": "PlayfairItalic-NeedlepointSemiCondensedSemiLightItalic",
     "familyName": "Playfair Needlepoint SmCond SmLight",
+    "category": "serif",
     "subfamilyName": "Italic",
     "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
     "version": "Version 2.100;Glyphs 3.2 (3197)",
-    "versionDisplay": "Version 2.100"
+    "versionDisplay": "Version 2.100",
+    "outpath": "build/fonts/Playfair"
   },
   "variationAxes": {
     "opsz": {
@@ -28,6 +30,13 @@
       "default": 300,
       "max": 900,
       "valid": true
+    },
+    "ital": {
+      "name": "ital",
+      "min": 1,
+      "default": 1,
+      "max": 1,
+      "valid": true
     }
   },
   "unitsPerEm": 1240,
@@ -36,9 +45,3302 @@
   "PlayfairRoman": {
     "postscriptName": "Playfair-NeedlepointSemiCondensedSemiLight",
     "familyName": "Playfair Needlepoint SmCond SmLight",
+    "category": "serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
     "version": "Version 2.100;Glyphs 3.2 (3197)",
-    "versionDisplay": "Version 2.100"
+    "versionDisplay": "Version 2.100",
+    "outpath": "build/fonts/Playfair"
+  },
+  "characterSet": [
+    13,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    383,
+    399,
+    402,
+    416,
+    417,
+    431,
+    432,
+    439,
+    461,
+    462,
+    467,
+    468,
+    484,
+    485,
+    486,
+    487,
+    488,
+    489,
+    494,
+    495,
+    500,
+    501,
+    510,
+    511,
+    536,
+    537,
+    538,
+    539,
+    542,
+    543,
+    567,
+    601,
+    658,
+    697,
+    699,
+    700,
+    710,
+    711,
+    712,
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    768,
+    769,
+    770,
+    771,
+    772,
+    774,
+    775,
+    776,
+    777,
+    778,
+    779,
+    780,
+    786,
+    803,
+    806,
+    807,
+    808,
+    817,
+    821,
+    823,
+    824,
+    916,
+    937,
+    956,
+    960,
+    1024,
+    1025,
+    1026,
+    1027,
+    1028,
+    1029,
+    1030,
+    1031,
+    1032,
+    1033,
+    1034,
+    1035,
+    1036,
+    1037,
+    1038,
+    1039,
+    1040,
+    1041,
+    1042,
+    1043,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1052,
+    1053,
+    1054,
+    1055,
+    1056,
+    1057,
+    1058,
+    1059,
+    1060,
+    1061,
+    1062,
+    1063,
+    1064,
+    1065,
+    1066,
+    1067,
+    1068,
+    1069,
+    1070,
+    1071,
+    1072,
+    1073,
+    1074,
+    1075,
+    1076,
+    1077,
+    1078,
+    1079,
+    1080,
+    1081,
+    1082,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1088,
+    1089,
+    1090,
+    1091,
+    1092,
+    1093,
+    1094,
+    1095,
+    1096,
+    1097,
+    1098,
+    1099,
+    1100,
+    1101,
+    1102,
+    1103,
+    1104,
+    1105,
+    1106,
+    1107,
+    1108,
+    1109,
+    1110,
+    1111,
+    1112,
+    1113,
+    1114,
+    1115,
+    1116,
+    1117,
+    1118,
+    1119,
+    1122,
+    1123,
+    1130,
+    1131,
+    1168,
+    1169,
+    1170,
+    1171,
+    1174,
+    1175,
+    1178,
+    1179,
+    1186,
+    1187,
+    1198,
+    1199,
+    1200,
+    1201,
+    1202,
+    1203,
+    1210,
+    1211,
+    1225,
+    1226,
+    1240,
+    1241,
+    1256,
+    1257,
+    3647,
+    7808,
+    7809,
+    7810,
+    7811,
+    7812,
+    7813,
+    7838,
+    7840,
+    7841,
+    7842,
+    7843,
+    7844,
+    7845,
+    7846,
+    7847,
+    7848,
+    7849,
+    7850,
+    7851,
+    7852,
+    7853,
+    7854,
+    7855,
+    7856,
+    7857,
+    7858,
+    7859,
+    7860,
+    7861,
+    7862,
+    7863,
+    7864,
+    7865,
+    7866,
+    7867,
+    7868,
+    7869,
+    7870,
+    7871,
+    7872,
+    7873,
+    7874,
+    7875,
+    7876,
+    7877,
+    7878,
+    7879,
+    7880,
+    7881,
+    7882,
+    7883,
+    7884,
+    7885,
+    7886,
+    7887,
+    7888,
+    7889,
+    7890,
+    7891,
+    7892,
+    7893,
+    7894,
+    7895,
+    7896,
+    7897,
+    7898,
+    7899,
+    7900,
+    7901,
+    7902,
+    7903,
+    7904,
+    7905,
+    7906,
+    7907,
+    7908,
+    7909,
+    7910,
+    7911,
+    7912,
+    7913,
+    7914,
+    7915,
+    7916,
+    7917,
+    7918,
+    7919,
+    7920,
+    7921,
+    7922,
+    7923,
+    7924,
+    7925,
+    7926,
+    7927,
+    7928,
+    7929,
+    8194,
+    8195,
+    8196,
+    8197,
+    8198,
+    8199,
+    8201,
+    8202,
+    8203,
+    8208,
+    8211,
+    8212,
+    8213,
+    8216,
+    8217,
+    8218,
+    8220,
+    8221,
+    8222,
+    8224,
+    8225,
+    8226,
+    8230,
+    8239,
+    8240,
+    8242,
+    8243,
+    8244,
+    8249,
+    8250,
+    8260,
+    8274,
+    8304,
+    8308,
+    8309,
+    8310,
+    8311,
+    8312,
+    8313,
+    8320,
+    8321,
+    8322,
+    8323,
+    8324,
+    8325,
+    8326,
+    8327,
+    8328,
+    8329,
+    8354,
+    8355,
+    8358,
+    8359,
+    8361,
+    8362,
+    8363,
+    8364,
+    8365,
+    8369,
+    8370,
+    8372,
+    8373,
+    8376,
+    8377,
+    8378,
+    8381,
+    8382,
+    8453,
+    8470,
+    8482,
+    8490,
+    8491,
+    8531,
+    8532,
+    8539,
+    8540,
+    8541,
+    8542,
+    8592,
+    8593,
+    8594,
+    8595,
+    8596,
+    8597,
+    8598,
+    8599,
+    8600,
+    8601,
+    8706,
+    8719,
+    8721,
+    8722,
+    8730,
+    8734,
+    8747,
+    8776,
+    8800,
+    8804,
+    8805,
+    8901,
+    9632,
+    9633,
+    9674,
+    64257,
+    64258,
+    65279,
+    65535
+  ],
+  "numGlyphs": 1636,
+  "availableFeatures": [
+    "aalt",
+    "afrc",
+    "c2sc",
+    "calt",
+    "case",
+    "ccmp",
+    "dlig",
+    "dnom",
+    "frac",
+    "liga",
+    "lnum",
+    "numr",
+    "onum",
+    "ordn",
+    "pnum",
+    "rlig",
+    "sinf",
+    "smcp",
+    "ss01",
+    "ss02",
+    "ss03",
+    "ss04",
+    "ss05",
+    "ss06",
+    "ss07",
+    "ss08",
+    "ss09",
+    "ss11",
+    "ss12",
+    "ss13",
+    "ss14",
+    "subs",
+    "sups",
+    "tnum",
+    "zero",
+    "cpsp",
+    "kern",
+    "mark",
+    "mkmk"
+  ],
+  "ascent": 999,
+  "descent": -241,
+  "underlinePosition": -100,
+  "underlineThickness": 1,
+  "capHeight": 708,
+  "xHeight": 514,
+  "namedVariations": {
+    "Micro SemiCondensed SemiLight Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Micro SemiCondensed Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Micro SemiCondensed Medium Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Micro SemiCondensed SemiBold Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Micro SemiCondensed Bold Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Micro SemiCondensed ExtraBold Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Micro SemiCondensed Black Italic": {
+      "opsz": 5,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Micro SemiLight Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Micro Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Micro Medium Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Micro SemiBold Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Micro Bold Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Micro ExtraBold Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Micro Black Italic": {
+      "opsz": 5,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Micro SemiExpanded SemiLight Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Micro SemiExpanded Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Micro SemiExpanded Medium Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Micro SemiExpanded SemiBold Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Micro SemiExpanded Bold Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Micro SemiExpanded ExtraBold Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Micro SemiExpanded Black Italic": {
+      "opsz": 5,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed SemiLight Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed Medium Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed SemiBold Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed Bold Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed ExtraBold Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Minuscule SemiCondensed Black Italic": {
+      "opsz": 6,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Minuscule SemiLight Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Minuscule Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Minuscule Medium Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Minuscule SemiBold Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Minuscule Bold Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Minuscule ExtraBold Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Minuscule Black Italic": {
+      "opsz": 6,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded SemiLight Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded Medium Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded SemiBold Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded Bold Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded ExtraBold Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Minuscule SemiExpanded Black Italic": {
+      "opsz": 6,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Miniature SemiCondensed SemiLight Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Miniature SemiCondensed Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Miniature SemiCondensed Medium Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Miniature SemiCondensed SemiBold Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Miniature SemiCondensed Bold Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Miniature SemiCondensed ExtraBold Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Miniature SemiCondensed Black Italic": {
+      "opsz": 7,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Miniature SemiLight Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Miniature Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Miniature Medium Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Miniature SemiBold Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Miniature Bold Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Miniature ExtraBold Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Miniature Black Italic": {
+      "opsz": 7,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Miniature SemiExpanded SemiLight Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Miniature SemiExpanded Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Miniature SemiExpanded Medium Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Miniature SemiExpanded SemiBold Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Miniature SemiExpanded Bold Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Miniature SemiExpanded ExtraBold Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Miniature SemiExpanded Black Italic": {
+      "opsz": 7,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Caption SemiCondensed SemiLight Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Caption SemiCondensed Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Caption SemiCondensed Medium Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Caption SemiCondensed SemiBold Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Caption SemiCondensed Bold Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Caption SemiCondensed ExtraBold Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Caption SemiCondensed Black Italic": {
+      "opsz": 8,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Caption SemiLight Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Caption Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Caption Medium Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Caption SemiBold Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Caption Bold Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Caption ExtraBold Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Caption Black Italic": {
+      "opsz": 8,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Caption SemiExpanded SemiLight Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Caption SemiExpanded Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Caption SemiExpanded Medium Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Caption SemiExpanded SemiBold Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Caption SemiExpanded Bold Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Caption SemiExpanded ExtraBold Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Caption SemiExpanded Black Italic": {
+      "opsz": 8,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "SemiCondensed SemiLight Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "SemiCondensed Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "SemiCondensed Medium Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "SemiCondensed SemiBold Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "SemiCondensed Bold Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "SemiCondensed ExtraBold Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "SemiCondensed Black Italic": {
+      "opsz": 12,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "SemiLight Italic": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "PS443": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Medium Italic": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "SemiBold Italic": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Bold Italic": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "ExtraBold Italic": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Black Italic": {
+      "opsz": 12,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "SemiExpanded SemiLight Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "SemiExpanded Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "SemiExpanded Medium Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "SemiExpanded SemiBold Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "SemiExpanded Bold Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "SemiExpanded ExtraBold Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "SemiExpanded Black Italic": {
+      "opsz": 12,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed SemiLight Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed Medium Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed SemiBold Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed Bold Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed ExtraBold Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "SubHeading SemiCondensed Black Italic": {
+      "opsz": 16,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "SubHeading SemiLight Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "SubHeading Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "SubHeading Medium Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "SubHeading SemiBold Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "SubHeading Bold Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "SubHeading ExtraBold Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "SubHeading Black Italic": {
+      "opsz": 16,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded SemiLight Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded Medium Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded SemiBold Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded Bold Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded ExtraBold Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "SubHeading SemiExpanded Black Italic": {
+      "opsz": 16,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed SemiLight Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed Medium Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed SemiBold Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed Bold Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed ExtraBold Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Trumpet SemiCondensed Black Italic": {
+      "opsz": 21,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Trumpet SemiLight Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Trumpet Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Trumpet Medium Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Trumpet SemiBold Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Trumpet Bold Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Trumpet ExtraBold Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Trumpet Black Italic": {
+      "opsz": 21,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded SemiLight Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded Medium Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded SemiBold Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded Bold Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded ExtraBold Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Trumpet SemiExpanded Black Italic": {
+      "opsz": 21,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Headline SemiCondensed SemiLight Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Headline SemiCondensed Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Headline SemiCondensed Medium Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Headline SemiCondensed SemiBold Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Headline SemiCondensed Bold Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Headline SemiCondensed ExtraBold Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Headline SemiCondensed Black Italic": {
+      "opsz": 32,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Headline SemiLight Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Headline Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Headline Medium Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Headline SemiBold Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Headline Bold Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Headline ExtraBold Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Headline Black Italic": {
+      "opsz": 32,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Headline SemiExpanded SemiLight Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Headline SemiExpanded Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Headline SemiExpanded Medium Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Headline SemiExpanded SemiBold Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Headline SemiExpanded Bold Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Headline SemiExpanded ExtraBold Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Headline SemiExpanded Black Italic": {
+      "opsz": 32,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Display SemiCondensed SemiLight Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Display SemiCondensed Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Display SemiCondensed Medium Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Display SemiCondensed SemiBold Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Display SemiCondensed Bold Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Display SemiCondensed ExtraBold Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Display SemiCondensed Black Italic": {
+      "opsz": 48,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Display SemiLight Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Display Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Display Medium Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Display SemiBold Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Display Bold Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Display ExtraBold Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Display Black Italic": {
+      "opsz": 48,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Display SemiExpanded SemiLight Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Display SemiExpanded Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Display SemiExpanded Medium Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Display SemiExpanded SemiBold Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Display SemiExpanded Bold Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Display SemiExpanded ExtraBold Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Display SemiExpanded Black Italic": {
+      "opsz": 48,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Titling SemiCondensed SemiLight Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Titling SemiCondensed Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Titling SemiCondensed Medium Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Titling SemiCondensed SemiBold Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Titling SemiCondensed Bold Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Titling SemiCondensed ExtraBold Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Titling SemiCondensed Black Italic": {
+      "opsz": 72,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Titling SemiLight Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Titling Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Titling Medium Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Titling SemiBold Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Titling Bold Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Titling ExtraBold Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Titling Black Italic": {
+      "opsz": 72,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Titling SemiExpanded SemiLight Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Titling SemiExpanded Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Titling SemiExpanded Medium Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Titling SemiExpanded SemiBold Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Titling SemiExpanded Bold Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Titling SemiExpanded ExtraBold Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Titling SemiExpanded Black Italic": {
+      "opsz": 72,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "Hairline SemiCondensed SemiLight Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Hairline SemiCondensed Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Hairline SemiCondensed Medium Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Hairline SemiCondensed SemiBold Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Hairline SemiCondensed Bold Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Hairline SemiCondensed ExtraBold Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Hairline SemiCondensed Black Italic": {
+      "opsz": 96,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Hairline SemiLight Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Hairline Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Hairline Medium Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Hairline SemiBold Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Hairline Bold Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Hairline ExtraBold Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Hairline Black Italic": {
+      "opsz": 96,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Hairline SemiExpanded SemiLight Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Hairline SemiExpanded Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Hairline SemiExpanded Medium Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Hairline SemiExpanded SemiBold Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Hairline SemiExpanded Bold Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Hairline SemiExpanded ExtraBold Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Hairline SemiExpanded Black Italic": {
+      "opsz": 96,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    },
+    "PS6": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 300,
+      "ital": 1
+    },
+    "Needlepoint SemiCondensed Italic": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 400,
+      "ital": 1
+    },
+    "Needlepoint SemiCondensed Medium Italic": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 500,
+      "ital": 1
+    },
+    "Needlepoint SemiCondensed SemiBold Italic": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 600,
+      "ital": 1
+    },
+    "Needlepoint SemiCondensed Bold Italic": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 700,
+      "ital": 1
+    },
+    "Needlepoint SemiCondensed ExtraBold Italic": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 800,
+      "ital": 1
+    },
+    "Needlepoint SemiCondensed Black Italic": {
+      "opsz": 1200,
+      "wdth": 88,
+      "wght": 900,
+      "ital": 1
+    },
+    "Needlepoint SemiLight Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 300,
+      "ital": 1
+    },
+    "Needlepoint Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 400,
+      "ital": 1
+    },
+    "Needlepoint Medium Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 500,
+      "ital": 1
+    },
+    "Needlepoint SemiBold Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 600,
+      "ital": 1
+    },
+    "Needlepoint Bold Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 700,
+      "ital": 1
+    },
+    "Needlepoint ExtraBold Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 800,
+      "ital": 1
+    },
+    "Needlepoint Black Italic": {
+      "opsz": 1200,
+      "wdth": 100,
+      "wght": 900,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded SemiLight Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 300,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 400,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded Medium Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 500,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded SemiBold Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 600,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded Bold Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 700,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded ExtraBold Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 800,
+      "ital": 1
+    },
+    "Needlepoint SemiExpanded Black Italic": {
+      "opsz": 1200,
+      "wdth": 113,
+      "wght": 900,
+      "ital": 1
+    }
+  },
+  "bbox": {
+    "minX": -296,
+    "minY": -251,
+    "maxX": 4048,
+    "maxY": 1075
+  },
+  "italicAngle": -15.599990844726562,
+  "xWidthAvg": 436,
+  "styles": {
+    "Editorial Mega Display": {
+      "fontSize": "112px",
+      "lineHeight": "128px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3061em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2658em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
+      "lineHeightRem": 8,
+      "fontSizeRem": 7,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "112px",
+        "lineHeight": "128px",
+        "capHeightTrim": "-0.3061em",
+        "baselineTrim": "-0.2658em"
+      }
+    },
+    "Editorial Dominant Display": {
+      "fontSize": "96px",
+      "lineHeight": "112px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.318em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2777em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+      "lineHeightRem": 7,
+      "fontSizeRem": 6,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "96px",
+        "lineHeight": "112px",
+        "capHeightTrim": "-0.318em",
+        "baselineTrim": "-0.2777em"
+      }
+    },
+    "Display large": {
+      "fontSize": "80px",
+      "lineHeight": "96px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3347em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2944em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.3347em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2944em;\n  display: table;\n}",
+      "lineHeightRem": 6,
+      "fontSizeRem": 5,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "80px",
+        "lineHeight": "96px",
+        "capHeightTrim": "-0.3347em",
+        "baselineTrim": "-0.2944em"
+      }
+    },
+    "Display": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2972em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2569em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
+      "lineHeightRem": 4.5,
+      "fontSizeRem": 4,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "capHeightTrim": "-0.2972em",
+        "baselineTrim": "-0.2569em"
+      }
+    },
+    "Display small": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.318em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2777em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+      "lineHeightRem": 3.5,
+      "fontSizeRem": 3,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "capHeightTrim": "-0.318em",
+        "baselineTrim": "-0.2777em"
+      }
+    },
+    "Headline large": {
+      "fontSize": "37px",
+      "lineHeight": "44px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3293em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2889em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.3293em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2889em;\n  display: table;\n}",
+      "lineHeightRem": 2.75,
+      "fontSizeRem": 2.3125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "37px",
+        "lineHeight": "44px",
+        "capHeightTrim": "-0.3293em",
+        "baselineTrim": "-0.2889em"
+      }
+    },
+    "Headline": {
+      "fontSize": "32px",
+      "lineHeight": "36px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2972em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2569em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
+      "lineHeightRem": 2.25,
+      "fontSizeRem": 2,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "32px",
+        "lineHeight": "36px",
+        "capHeightTrim": "-0.2972em",
+        "baselineTrim": "-0.2569em"
+      }
+    },
+    "Headline small": {
+      "fontSize": "29px",
+      "lineHeight": "32px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2864em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2461em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2864em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2461em;\n  display: table;\n}",
+      "lineHeightRem": 2,
+      "fontSizeRem": 1.8125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "29px",
+        "lineHeight": "32px",
+        "capHeightTrim": "-0.2864em",
+        "baselineTrim": "-0.2461em"
+      }
+    },
+    "Title large": {
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.318em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2777em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+      "lineHeightRem": 1.75,
+      "fontSizeRem": 1.5,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "24px",
+        "lineHeight": "28px",
+        "capHeightTrim": "-0.318em",
+        "baselineTrim": "-0.2777em"
+      }
+    },
+    "Title": {
+      "fontSize": "21px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3061em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2658em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.3125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "21px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.3061em",
+        "baselineTrim": "-0.2658em"
+      }
+    },
+    "Title small": {
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3663em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3259em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3663em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3259em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.1875,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.3663em",
+        "baselineTrim": "-0.3259em"
+      }
+    },
+    "Body": {
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3597em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3194em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.3597em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 1,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.3597em",
+        "baselineTrim": "-0.3194em"
+      }
+    },
+    "Body small": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.9375,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    },
+    "Footnote": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.5039em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4636em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5039em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4636em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.8125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.5039em",
+        "baselineTrim": "-0.4636em"
+      }
+    },
+    "Caption large": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.75,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    },
+    "Caption": {
+      "fontSize": "11px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.462em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4216em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.462em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4216em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.6875,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.462em",
+        "baselineTrim": "-0.4216em"
+      }
+    },
+    "Caption small": {
+      "fontSize": "9px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5625,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "9px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    },
+    "Legal large": {
+      "fontSize": "8px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4847em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4444em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.4847em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.4444em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "8px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4847em",
+        "baselineTrim": "-0.4444em"
+      }
+    },
+    "Legal": {
+      "fontSize": "7px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.5918em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.5515em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5918em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5515em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.4375,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "7px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.5918em",
+        "baselineTrim": "-0.5515em"
+      }
+    },
+    "Legal small": {
+      "fontSize": "6px",
+      "lineHeight": "8px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 0.5,
+      "fontSizeRem": 0.375,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "6px",
+        "lineHeight": "8px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    }
+  },
+  "pgts": {
+    "Editorial Mega Display": {
+      "fontSize": "112px",
+      "lineHeight": "128px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3061em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2658em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
+      "lineHeightRem": 8,
+      "fontSizeRem": 7,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "112px",
+        "lineHeight": "128px",
+        "capHeightTrim": "-0.3061em",
+        "baselineTrim": "-0.2658em"
+      }
+    },
+    "Editorial Dominant Display": {
+      "fontSize": "96px",
+      "lineHeight": "112px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.318em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2777em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+      "lineHeightRem": 7,
+      "fontSizeRem": 6,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "96px",
+        "lineHeight": "112px",
+        "capHeightTrim": "-0.318em",
+        "baselineTrim": "-0.2777em"
+      }
+    },
+    "Display large": {
+      "fontSize": "80px",
+      "lineHeight": "96px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3347em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2944em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.3347em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2944em;\n  display: table;\n}",
+      "lineHeightRem": 6,
+      "fontSizeRem": 5,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "80px",
+        "lineHeight": "96px",
+        "capHeightTrim": "-0.3347em",
+        "baselineTrim": "-0.2944em"
+      }
+    },
+    "Display": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2972em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2569em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
+      "lineHeightRem": 4.5,
+      "fontSizeRem": 4,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "capHeightTrim": "-0.2972em",
+        "baselineTrim": "-0.2569em"
+      }
+    },
+    "Display small": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.318em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2777em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+      "lineHeightRem": 3.5,
+      "fontSizeRem": 3,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "capHeightTrim": "-0.318em",
+        "baselineTrim": "-0.2777em"
+      }
+    },
+    "Headline large": {
+      "fontSize": "37px",
+      "lineHeight": "44px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3293em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2889em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.3293em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2889em;\n  display: table;\n}",
+      "lineHeightRem": 2.75,
+      "fontSizeRem": 2.3125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "37px",
+        "lineHeight": "44px",
+        "capHeightTrim": "-0.3293em",
+        "baselineTrim": "-0.2889em"
+      }
+    },
+    "Headline": {
+      "fontSize": "32px",
+      "lineHeight": "36px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2972em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2569em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
+      "lineHeightRem": 2.25,
+      "fontSizeRem": 2,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "32px",
+        "lineHeight": "36px",
+        "capHeightTrim": "-0.2972em",
+        "baselineTrim": "-0.2569em"
+      }
+    },
+    "Headline small": {
+      "fontSize": "29px",
+      "lineHeight": "32px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2864em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2461em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2864em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2461em;\n  display: table;\n}",
+      "lineHeightRem": 2,
+      "fontSizeRem": 1.8125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "29px",
+        "lineHeight": "32px",
+        "capHeightTrim": "-0.2864em",
+        "baselineTrim": "-0.2461em"
+      }
+    },
+    "Title large": {
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.318em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2777em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+      "lineHeightRem": 1.75,
+      "fontSizeRem": 1.5,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "24px",
+        "lineHeight": "28px",
+        "capHeightTrim": "-0.318em",
+        "baselineTrim": "-0.2777em"
+      }
+    },
+    "Title": {
+      "fontSize": "21px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3061em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2658em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.3125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "21px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.3061em",
+        "baselineTrim": "-0.2658em"
+      }
+    },
+    "Title small": {
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3663em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3259em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3663em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3259em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.1875,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.3663em",
+        "baselineTrim": "-0.3259em"
+      }
+    },
+    "Body": {
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3597em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3194em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.3597em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 1,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.3597em",
+        "baselineTrim": "-0.3194em"
+      }
+    },
+    "Body small": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.9375,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    },
+    "Footnote": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.5039em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4636em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5039em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4636em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.8125,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.5039em",
+        "baselineTrim": "-0.4636em"
+      }
+    },
+    "Caption large": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.75,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    },
+    "Caption": {
+      "fontSize": "11px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.462em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4216em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.462em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4216em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.6875,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.462em",
+        "baselineTrim": "-0.4216em"
+      }
+    },
+    "Caption small": {
+      "fontSize": "9px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5625,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "9px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    },
+    "Legal large": {
+      "fontSize": "8px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4847em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4444em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.4847em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.4444em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "8px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4847em",
+        "baselineTrim": "-0.4444em"
+      }
+    },
+    "Legal": {
+      "fontSize": "7px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.5918em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.5515em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5918em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5515em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.4375,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "7px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.5918em",
+        "baselineTrim": "-0.5515em"
+      }
+    },
+    "Legal small": {
+      "fontSize": "6px",
+      "lineHeight": "8px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4013em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.361em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+      "lineHeightRem": 0.5,
+      "fontSizeRem": 0.375,
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+      "capsizeValues": {
+        "fontSize": "6px",
+        "lineHeight": "8px",
+        "capHeightTrim": "-0.4013em",
+        "baselineTrim": "-0.361em"
+      }
+    }
   }
 }

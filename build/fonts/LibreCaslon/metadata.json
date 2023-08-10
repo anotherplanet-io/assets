@@ -2,10 +2,12 @@
   "LibreCaslonCondensed-Italic": {
     "postscriptName": "LibreCaslonCondensed-Italic",
     "familyName": "Libre Caslon Condensed",
+    "category": "serif",
     "subfamilyName": "Italic",
     "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
     "version": "Version 2.000;gftools[0.9.33]",
-    "versionDisplay": "Version 2.000"
+    "versionDisplay": "Version 2.000",
+    "outpath": "build/fonts/LibreCaslon"
   },
   "variationAxes": {
     "wght": {
@@ -22,9 +24,1507 @@
   "LibreCaslonCondensed": {
     "postscriptName": "LibreCaslonCondensed-Regular",
     "familyName": "Libre Caslon Condensed",
+    "category": "serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
     "version": "Version 2.000;gftools[0.9.33]",
-    "versionDisplay": "Version 2.000"
+    "versionDisplay": "Version 2.000",
+    "outpath": "build/fonts/LibreCaslon"
+  },
+  "characterSet": [
+    0,
+    13,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    260,
+    261,
+    262,
+    263,
+    264,
+    265,
+    266,
+    267,
+    268,
+    269,
+    270,
+    271,
+    272,
+    273,
+    274,
+    275,
+    276,
+    277,
+    278,
+    279,
+    280,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    318,
+    319,
+    320,
+    321,
+    322,
+    323,
+    324,
+    325,
+    326,
+    327,
+    328,
+    329,
+    330,
+    331,
+    332,
+    333,
+    334,
+    335,
+    336,
+    337,
+    338,
+    339,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    373,
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381,
+    382,
+    399,
+    402,
+    452,
+    453,
+    454,
+    455,
+    456,
+    457,
+    458,
+    459,
+    460,
+    490,
+    491,
+    497,
+    498,
+    499,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    536,
+    537,
+    538,
+    539,
+    567,
+    601,
+    700,
+    710,
+    711,
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    806,
+    956,
+    7692,
+    7693,
+    7716,
+    7717,
+    7748,
+    7749,
+    7770,
+    7771,
+    7778,
+    7779,
+    7788,
+    7789,
+    7808,
+    7809,
+    7810,
+    7811,
+    7812,
+    7813,
+    7826,
+    7827,
+    7864,
+    7865,
+    7868,
+    7869,
+    7882,
+    7883,
+    7884,
+    7885,
+    7908,
+    7909,
+    7922,
+    7923,
+    7928,
+    7929,
+    8211,
+    8212,
+    8216,
+    8217,
+    8218,
+    8220,
+    8221,
+    8222,
+    8224,
+    8225,
+    8226,
+    8230,
+    8240,
+    8249,
+    8250,
+    8260,
+    8304,
+    8308,
+    8309,
+    8310,
+    8311,
+    8312,
+    8313,
+    8320,
+    8321,
+    8322,
+    8323,
+    8324,
+    8325,
+    8326,
+    8327,
+    8328,
+    8329,
+    8364,
+    8480,
+    8482,
+    8531,
+    8532,
+    8539,
+    8540,
+    8541,
+    8542,
+    8592,
+    8594,
+    8722,
+    8725,
+    8729,
+    64256,
+    64257,
+    64258,
+    64259,
+    64260,
+    64262,
+    65535
+  ],
+  "numGlyphs": 550,
+  "availableFeatures": [
+    "aalt",
+    "dlig",
+    "frac",
+    "liga",
+    "onum",
+    "ordn",
+    "sinf",
+    "sups",
+    "tnum",
+    "zero",
+    "kern",
+    "mark"
+  ],
+  "ascent": 1940,
+  "descent": -520,
+  "underlinePosition": -149,
+  "underlineThickness": 99,
+  "capHeight": 1523,
+  "xHeight": 1049,
+  "namedVariations": {
+    "Regular": {
+      "wght": 400
+    },
+    "Medium": {
+      "wght": 500
+    },
+    "SemiBold": {
+      "wght": 600
+    },
+    "Bold": {
+      "wght": 700
+    }
+  },
+  "bbox": {
+    "minX": -249,
+    "minY": -529,
+    "maxX": 2379,
+    "maxY": 1921
+  },
+  "italicAngle": -22.582992553710938,
+  "xWidthAvg": 759,
+  "styles": {
+    "Editorial Mega Display": {
+      "fontSize": "112px",
+      "lineHeight": "128px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1649em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2164em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
+      "lineHeightRem": 8,
+      "fontSizeRem": 7,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "112px",
+        "lineHeight": "128px",
+        "capHeightTrim": "-0.1649em",
+        "baselineTrim": "-0.2164em"
+      }
+    },
+    "Editorial Dominant Display": {
+      "fontSize": "96px",
+      "lineHeight": "112px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1768em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2283em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+      "lineHeightRem": 7,
+      "fontSizeRem": 6,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "96px",
+        "lineHeight": "112px",
+        "capHeightTrim": "-0.1768em",
+        "baselineTrim": "-0.2283em"
+      }
+    },
+    "Display large": {
+      "fontSize": "80px",
+      "lineHeight": "96px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1935em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.245em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1935em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.245em;\n  display: table;\n}",
+      "lineHeightRem": 6,
+      "fontSizeRem": 5,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "80px",
+        "lineHeight": "96px",
+        "capHeightTrim": "-0.1935em",
+        "baselineTrim": "-0.245em"
+      }
+    },
+    "Display": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.156em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2075em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
+      "lineHeightRem": 4.5,
+      "fontSizeRem": 4,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "capHeightTrim": "-0.156em",
+        "baselineTrim": "-0.2075em"
+      }
+    },
+    "Display small": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1768em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2283em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+      "lineHeightRem": 3.5,
+      "fontSizeRem": 3,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "capHeightTrim": "-0.1768em",
+        "baselineTrim": "-0.2283em"
+      }
+    },
+    "Headline large": {
+      "fontSize": "37px",
+      "lineHeight": "44px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1881em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2396em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1881em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2396em;\n  display: table;\n}",
+      "lineHeightRem": 2.75,
+      "fontSizeRem": 2.3125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "37px",
+        "lineHeight": "44px",
+        "capHeightTrim": "-0.1881em",
+        "baselineTrim": "-0.2396em"
+      }
+    },
+    "Headline": {
+      "fontSize": "32px",
+      "lineHeight": "36px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.156em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2075em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
+      "lineHeightRem": 2.25,
+      "fontSizeRem": 2,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "32px",
+        "lineHeight": "36px",
+        "capHeightTrim": "-0.156em",
+        "baselineTrim": "-0.2075em"
+      }
+    },
+    "Headline small": {
+      "fontSize": "29px",
+      "lineHeight": "32px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1452em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1967em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1452em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1967em;\n  display: table;\n}",
+      "lineHeightRem": 2,
+      "fontSizeRem": 1.8125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "29px",
+        "lineHeight": "32px",
+        "capHeightTrim": "-0.1452em",
+        "baselineTrim": "-0.1967em"
+      }
+    },
+    "Title large": {
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1768em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2283em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+      "lineHeightRem": 1.75,
+      "fontSizeRem": 1.5,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "24px",
+        "lineHeight": "28px",
+        "capHeightTrim": "-0.1768em",
+        "baselineTrim": "-0.2283em"
+      }
+    },
+    "Title": {
+      "fontSize": "21px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1649em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2164em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.3125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "21px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.1649em",
+        "baselineTrim": "-0.2164em"
+      }
+    },
+    "Title small": {
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2251em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2766em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2251em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2766em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.1875,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.2251em",
+        "baselineTrim": "-0.2766em"
+      }
+    },
+    "Body": {
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2185em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.27em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.27em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 1,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.2185em",
+        "baselineTrim": "-0.27em"
+      }
+    },
+    "Body small": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.9375,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    },
+    "Footnote": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3627em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4142em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3627em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4142em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.8125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.3627em",
+        "baselineTrim": "-0.4142em"
+      }
+    },
+    "Caption large": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.75,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    },
+    "Caption": {
+      "fontSize": "11px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3208em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3723em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3208em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3723em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.6875,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.3208em",
+        "baselineTrim": "-0.3723em"
+      }
+    },
+    "Caption small": {
+      "fontSize": "9px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5625,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "9px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    },
+    "Legal large": {
+      "fontSize": "8px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3435em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.395em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3435em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.395em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "8px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.3435em",
+        "baselineTrim": "-0.395em"
+      }
+    },
+    "Legal": {
+      "fontSize": "7px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4506em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.5021em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4506em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5021em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.4375,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "7px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4506em",
+        "baselineTrim": "-0.5021em"
+      }
+    },
+    "Legal small": {
+      "fontSize": "6px",
+      "lineHeight": "8px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 0.5,
+      "fontSizeRem": 0.375,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "6px",
+        "lineHeight": "8px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    }
+  },
+  "pgts": {
+    "Editorial Mega Display": {
+      "fontSize": "112px",
+      "lineHeight": "128px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1649em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2164em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
+      "lineHeightRem": 8,
+      "fontSizeRem": 7,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "112px",
+        "lineHeight": "128px",
+        "capHeightTrim": "-0.1649em",
+        "baselineTrim": "-0.2164em"
+      }
+    },
+    "Editorial Dominant Display": {
+      "fontSize": "96px",
+      "lineHeight": "112px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1768em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2283em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+      "lineHeightRem": 7,
+      "fontSizeRem": 6,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "96px",
+        "lineHeight": "112px",
+        "capHeightTrim": "-0.1768em",
+        "baselineTrim": "-0.2283em"
+      }
+    },
+    "Display large": {
+      "fontSize": "80px",
+      "lineHeight": "96px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1935em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.245em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1935em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.245em;\n  display: table;\n}",
+      "lineHeightRem": 6,
+      "fontSizeRem": 5,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "80px",
+        "lineHeight": "96px",
+        "capHeightTrim": "-0.1935em",
+        "baselineTrim": "-0.245em"
+      }
+    },
+    "Display": {
+      "fontSize": "64px",
+      "lineHeight": "72px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.156em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2075em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
+      "lineHeightRem": 4.5,
+      "fontSizeRem": 4,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "64px",
+        "lineHeight": "72px",
+        "capHeightTrim": "-0.156em",
+        "baselineTrim": "-0.2075em"
+      }
+    },
+    "Display small": {
+      "fontSize": "48px",
+      "lineHeight": "56px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1768em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2283em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+      "lineHeightRem": 3.5,
+      "fontSizeRem": 3,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "48px",
+        "lineHeight": "56px",
+        "capHeightTrim": "-0.1768em",
+        "baselineTrim": "-0.2283em"
+      }
+    },
+    "Headline large": {
+      "fontSize": "37px",
+      "lineHeight": "44px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1881em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2396em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1881em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2396em;\n  display: table;\n}",
+      "lineHeightRem": 2.75,
+      "fontSizeRem": 2.3125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "37px",
+        "lineHeight": "44px",
+        "capHeightTrim": "-0.1881em",
+        "baselineTrim": "-0.2396em"
+      }
+    },
+    "Headline": {
+      "fontSize": "32px",
+      "lineHeight": "36px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.156em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2075em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
+      "lineHeightRem": 2.25,
+      "fontSizeRem": 2,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "32px",
+        "lineHeight": "36px",
+        "capHeightTrim": "-0.156em",
+        "baselineTrim": "-0.2075em"
+      }
+    },
+    "Headline small": {
+      "fontSize": "29px",
+      "lineHeight": "32px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1452em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.1967em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1452em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1967em;\n  display: table;\n}",
+      "lineHeightRem": 2,
+      "fontSizeRem": 1.8125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "29px",
+        "lineHeight": "32px",
+        "capHeightTrim": "-0.1452em",
+        "baselineTrim": "-0.1967em"
+      }
+    },
+    "Title large": {
+      "fontSize": "24px",
+      "lineHeight": "28px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1768em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2283em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+      "lineHeightRem": 1.75,
+      "fontSizeRem": 1.5,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "24px",
+        "lineHeight": "28px",
+        "capHeightTrim": "-0.1768em",
+        "baselineTrim": "-0.2283em"
+      }
+    },
+    "Title": {
+      "fontSize": "21px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.1649em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2164em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.3125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "21px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.1649em",
+        "baselineTrim": "-0.2164em"
+      }
+    },
+    "Title small": {
+      "fontSize": "19px",
+      "lineHeight": "24px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2251em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.2766em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2251em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2766em;\n  display: table;\n}",
+      "lineHeightRem": 1.5,
+      "fontSizeRem": 1.1875,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "19px",
+        "lineHeight": "24px",
+        "capHeightTrim": "-0.2251em",
+        "baselineTrim": "-0.2766em"
+      }
+    },
+    "Body": {
+      "fontSize": "16px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2185em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.27em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.27em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 1,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "16px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.2185em",
+        "baselineTrim": "-0.27em"
+      }
+    },
+    "Body small": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.9375,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "15px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    },
+    "Footnote": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3627em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.4142em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3627em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4142em;\n  display: table;\n}",
+      "lineHeightRem": 1.25,
+      "fontSizeRem": 0.8125,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "13px",
+        "lineHeight": "20px",
+        "capHeightTrim": "-0.3627em",
+        "baselineTrim": "-0.4142em"
+      }
+    },
+    "Caption large": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.75,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "12px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    },
+    "Caption": {
+      "fontSize": "11px",
+      "lineHeight": "16px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3208em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3723em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3208em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3723em;\n  display: table;\n}",
+      "lineHeightRem": 1,
+      "fontSizeRem": 0.6875,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "11px",
+        "lineHeight": "16px",
+        "capHeightTrim": "-0.3208em",
+        "baselineTrim": "-0.3723em"
+      }
+    },
+    "Caption small": {
+      "fontSize": "9px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5625,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "9px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    },
+    "Legal large": {
+      "fontSize": "8px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.3435em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.395em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3435em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.395em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.5,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "8px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.3435em",
+        "baselineTrim": "-0.395em"
+      }
+    },
+    "Legal": {
+      "fontSize": "7px",
+      "lineHeight": "12px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.4506em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.5021em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4506em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5021em;\n  display: table;\n}",
+      "lineHeightRem": 0.75,
+      "fontSizeRem": 0.4375,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "7px",
+        "lineHeight": "12px",
+        "capHeightTrim": "-0.4506em",
+        "baselineTrim": "-0.5021em"
+      }
+    },
+    "Legal small": {
+      "fontSize": "6px",
+      "lineHeight": "8px",
+      "::before": {
+        "content": "''",
+        "marginBottom": "-0.2602em",
+        "display": "table"
+      },
+      "::after": {
+        "content": "''",
+        "marginTop": "-0.3117em",
+        "display": "table"
+      },
+      "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+      "lineHeightRem": 0.5,
+      "fontSizeRem": 0.375,
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+      "capsizeValues": {
+        "fontSize": "6px",
+        "lineHeight": "8px",
+        "capHeightTrim": "-0.2602em",
+        "baselineTrim": "-0.3117em"
+      }
+    }
   }
 }

@@ -13,7 +13,8 @@
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "Inter-italic",
@@ -29,7 +30,8 @@
     "css_weight": "100 900",
     "css_style": "italic",
     "css_extra": "font-named-instance: \"Italic\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "PlayfairRoman",
@@ -45,7 +47,8 @@
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "serif"
   },
   {
     "name": "PlayfairItalic",
@@ -61,7 +64,8 @@
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Italic\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "serif"
   },
   {
     "name": "DarkerGrotesque",
@@ -77,7 +81,8 @@
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "FiraGO-Thin",
@@ -93,7 +98,8 @@
     "css_weight": "100",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Thin\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "FiraGO-Regular",
@@ -109,7 +115,8 @@
     "css_weight": "400",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "FiraGO-Bold",
@@ -125,7 +132,8 @@
     "css_weight": "700",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Bold\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "FiraCode-Regular",
@@ -141,7 +149,8 @@
     "css_weight": "400",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "monospace"
   },
   {
     "name": "HubotSans",
@@ -157,7 +166,8 @@
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
   },
   {
     "name": "LibreCaslonCondensed-Italic",
@@ -173,7 +183,8 @@
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "serif"
   },
   {
     "name": "LibreCaslonCondensed",
@@ -189,6 +200,7 @@
     "css_weight": "100 900",
     "css_style": "italic",
     "css_extra": "font-named-instance: \"Italic\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"]
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "serif"
   }
 ]
