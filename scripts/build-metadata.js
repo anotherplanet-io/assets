@@ -1,5 +1,4 @@
 import fs from 'fs';
-import { glob } from 'glob';
 import * as fontkit from 'fontkit';
 import axesTags from './axesTags.js';
 import { camelCase } from "change-case";
@@ -33,6 +32,10 @@ import arial from '@capsizecss/metrics/arial.js';
    (above wiki also mentions Mozilla - https://trac.webkit.org/wiki/LayoutUnit#Notes)
 */
 const round = (value) => parseFloat(value.toFixed(4));
+
+
+// const unicodeRanges = generateUnicodeRange(latin);
+// console.log(unicodeRanges.join(', ')); // Outputs the formatted Unicode range strings
 
 
 const pgtsFontSize = {
@@ -198,7 +201,6 @@ async function generateMetaData(filePath) {
     if (font.underlinePosition && font.underlineThickness) {
       metadata.underlinePosition = font.underlinePosition;
       metadata.underlineThickness = font.underlineThickness;
-      console.log(font.underlinePosition, font.underlineThickness);
     }
 
     if (font.italicAngle) {
@@ -242,7 +244,6 @@ async function generateMetaData(filePath) {
     if (githubUrlMatch) {
       const githubUrl = githubUrlMatch[0].slice(1, -1); // Remove parentheses
       metadata.copyrightUrl = githubUrl;
-      console.log(githubUrl); // Output: "https://github.com/clauseggers/Playfair"
     } else {
       console.log("GitHub URL not found.");
     }
@@ -271,7 +272,7 @@ async function generateMetaData(filePath) {
         font,
         helveticaNeue,
         arial,
-      ],{
+      ], {
         fontFaceProperties: {
           fontDisplay: 'swap',
         },
@@ -295,8 +296,6 @@ async function generateMetaData(filePath) {
       return acc;
     }, {});
 
-    console.log(styles);
-
     if (styles) {
       metadata.pgts = styles;
     }
@@ -318,13 +317,10 @@ async function generateMetaData(filePath) {
 
       // Save the merged data back to the JSON file
       fs.writeFileSync(filePath, JSON.stringify(mergedData, null, 2));
-
       console.log('Data merged and saved successfully.');
     } catch (error) {
       console.error('Error merging and saving data:', error);
     }
-
-    console.log('--------------------------------');
     console.log(' ');
 
   });
