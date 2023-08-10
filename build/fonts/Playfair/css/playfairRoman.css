@@ -1,0 +1,65 @@
+
+/* subset: “latin” */
+@font-face {
+  font-family: 'PlayfairRoman var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('subset/PlayfairRoman.latin.var.woff2?v=version_2_100') format('woff2'),
+       url('subset/PlayfairRoman.latin.var.woff?v=version_2_100') format('woff'),
+       url('subset/PlayfairRoman.latin.var.ttf?v=version_2_100') format('truetype');
+  unicode-range: U+0000-007F, U+00A0-00B5, U+00B6-0100, U+0131, U+0152-0154, U+02BB-02BD, U+02C6, U+02DA, U+02DC, U+2002-2008, U+2009-200C, U+2010, U+2013-2016, U+2018-201B, U+201C-201F, U+2020-2023, U+2026, U+202F-2031, U+2032-2035, U+2039-203B, U+2044, U+2052, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+FEFF; 
+  font-named-instance: "Regular";
+}
+
+/* subset: “latin-ext” */
+@font-face {
+  font-family: 'PlayfairRoman var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('subset/PlayfairRoman.latin-ext.var.woff2?v=version_2_100') format('woff2'),
+       url('subset/PlayfairRoman.latin-ext.var.woff?v=version_2_100') format('woff'),
+       url('subset/PlayfairRoman.latin-ext.var.ttf?v=version_2_100') format('truetype');
+  unicode-range: U+0100-0133, U+0134-0149, U+014A-0180, U+018F, U+0192, U+01A0-01A2, U+01AF-01B1, U+01B7, U+01CD-01CF, U+01D3-01D5, U+01E4-01EA, U+01EE-01F0, U+01F4-01F6, U+01FE-0200, U+0218-021C, U+021E-0220, U+0237, U+0259, U+1E80-1E86, U+1E9E, U+1EA0-1EFA, U+2020, U+20A2-20A4, U+20A6-20A8, U+20A9-20AC, U+20AD, U+20B1-20B3, U+20B4-20B6, U+20B8-20BB, U+20BD-20BF; 
+  font-named-instance: "Regular";
+}
+
+/* subset: “vietnamese” */
+@font-face {
+  font-family: 'PlayfairRoman var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('subset/PlayfairRoman.vietnamese.var.woff2?v=version_2_100') format('woff2'),
+       url('subset/PlayfairRoman.vietnamese.var.woff?v=version_2_100') format('woff'),
+       url('subset/PlayfairRoman.vietnamese.var.ttf?v=version_2_100') format('truetype');
+  unicode-range: U+0102-0104, U+0110-0112, U+0128-012A, U+0168-016A, U+01A0-01A2, U+01AF-01B1, U+1EA0-1EFA, U+20AB; 
+  font-named-instance: "Regular";
+}
+
+/* subset: “greek” */
+@font-face {
+  font-family: 'PlayfairRoman var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('subset/PlayfairRoman.greek.var.woff2?v=version_2_100') format('woff2'),
+       url('subset/PlayfairRoman.greek.var.woff?v=version_2_100') format('woff'),
+       url('subset/PlayfairRoman.greek.var.ttf?v=version_2_100') format('truetype');
+  unicode-range: U+0394, U+03A9, U+03BC, U+03C0; 
+  font-named-instance: "Regular";
+}
+
+/* subset: “cyrillic” */
+@font-face {
+  font-family: 'PlayfairRoman var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('subset/PlayfairRoman.cyrillic.var.woff2?v=version_2_100') format('woff2'),
+       url('subset/PlayfairRoman.cyrillic.var.woff?v=version_2_100') format('woff'),
+       url('subset/PlayfairRoman.cyrillic.var.ttf?v=version_2_100') format('truetype');
+  unicode-range: U+0400-0460, U+0462-0464, U+046A-046C, U+0490-0494, U+0496-0498, U+049A-049C, U+04A2-04A4, U+04AE-04B4, U+04BA-04BC, U+04C9-04CB, U+04D8-04DA, U+04E8-04EA, U+20B4, U+2116; 
+  font-named-instance: "Regular";
+}

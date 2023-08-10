@@ -1,27 +1,32 @@
 import fs from 'fs';
+import path from 'path';
 import * as fontkit from 'fontkit';
 import axesTags from './axesTags.js';
 import { camelCase } from "change-case";
 import { camelCaseTransformMerge } from "camel-case";
 import { createStyleObject, createStyleString, createFontStack, precomputeValues } from '@capsizecss/core';
-
+import Handlebars from 'handlebars';
+import delimiters from 'handlebars-delimiters';
 import helveticaNeue from '@capsizecss/metrics/helveticaNeue.js';
 import arial from '@capsizecss/metrics/arial.js';
+import { compactRanges, convertToUnicodeString, flattenNestedArray, getArrayIntersection, range as unicodeRange } from '@ap.cx/unicode-range';
 
+// Set the new delimiters to use python template delimiters
+delimiters(Handlebars, ['{', '}']);
 
-
-// const CSS_URL_STRING = `url('font-files/${filename}?v=${font_v}') format('${type}')`;
-// //  template for CSS
-// const CSS_TEMPLATE = `
-// /* “${comment} */
-// @font-face {{
-//   font-family: '${family}';
-//   font-style: ${style};
-//   font-weight: ${weight ? weight : 'normal'};
-//   font-display: swap;
-//   src: ${src};
-//   unicode-range: {unicode_range};{extra}
-// }}`;
+const cssUrlString = ({ filename, font_v, type }) => `url('${filename}?v=${font_v}') format('${type}')`;
+//  template for CSS
+const cssTemplate = ({ comment, family, style, weight, src, unicode_range, extra }) => `
+/* subset: “${comment}” */
+@font-face {
+  font-family: '${family}';
+  font-style: ${style};
+  font-weight: ${weight ? weight : 'normal'};
+  font-display: swap;
+  src: ${src};
+  unicode-range: ${unicode_range}; 
+  ${extra}
+}`;
 
 
 /*
@@ -38,7 +43,7 @@ const round = (value) => parseFloat(value.toFixed(4));
 // console.log(unicodeRanges.join(', ')); // Outputs the formatted Unicode range strings
 
 
-const pgtsFontSize = {
+const pgtsDesktopFontSize = {
   "Editorial Mega Display": { fontSize: 112, leading: 128 },
   "Editorial Dominant Display": { fontSize: 96, leading: 112 },
   "Display large": { fontSize: 80, leading: 96 },
@@ -91,13 +96,153 @@ const weightings = {
   z: 0.0006,
   ' ': 0.1818,
 };
+
+const SUBSET = {
+  latin: [  // Latin & ASCII
+    ...unicodeRange(0x0000, 0x00FF),
+    0x0131,
+    ...unicodeRange(0x0152, 0x0153),
+    ...unicodeRange(0x02BB, 0x02BC),
+    0x02C6,
+    0x02DA,
+    0x02DC,
+    ...unicodeRange(0x2000, 0x206F),
+    0x2074,
+    0x20AC,
+    0x2122,
+    0x2191,
+    0x2193,
+    0x2212,
+    0x2215,
+    0xFEFF,
+    0xFFFD,
+  ],
+
+  'latin-ext': [  // Latin extended A & B
+    ...unicodeRange(0x0100, 0x024F),
+    0x0259,
+    ...unicodeRange(0x1E00, 0x1EFF),
+    0x2020,
+    ...unicodeRange(0x20A0, 0x20AB),
+    ...unicodeRange(0x20AD, 0x20CF),
+    0x2113,
+    ...unicodeRange(0x2C60, 0x2C7F),
+    ...unicodeRange(0xA720, 0xA7FF),
+  ],
+
+  vietnamese: [
+    ...unicodeRange(0x0102, 0x0103),
+    ...unicodeRange(0x0110, 0x0111),
+    ...unicodeRange(0x0128, 0x0129),
+    ...unicodeRange(0x0168, 0x0169),
+    ...unicodeRange(0x01A0, 0x01A1),
+    ...unicodeRange(0x01AF, 0x01B0),
+    ...unicodeRange(0x1EA0, 0x1EF9),
+    0x20AB,
+  ],
+
+  greek: [
+    ...unicodeRange(0x0370, 0x03FF),
+    ...unicodeRange(0x1F00, 0x1FFF),  // extended
+  ],
+
+  cyrillic: [
+    ...unicodeRange(0x0400, 0x045F),
+    ...unicodeRange(0x0490, 0x0491),
+    ...unicodeRange(0x04B0, 0x04B1),
+    0x2116,
+    // extended:
+    ...unicodeRange(0x0460, 0x052F),
+    ...unicodeRange(0x1C80, 0x1C88),
+    0x20B4,
+    ...unicodeRange(0x2DE0, 0x2DFF),
+    ...unicodeRange(0xA640, 0xA69F),
+    ...unicodeRange(0xFE2E, 0xFE2F),
+  ],
+
+  symbols: [],
+  //*genCompactIntRanges(SYMBOL_UNICODES)
+
+};
+
 const sampleString = Object.keys(weightings).join('');
+
 const weightingForCharacter = (character) => {
   if (!Object.keys(weightings).includes(character)) {
     throw new Error(`No weighting specified for character: “${character}”`);
   }
   return weightings[character];
 };
+
+function getFontType(extension) {
+  console.log(extension);
+  switch (extension) {
+    case 'woff':
+      return 'woff';
+    case 'woff2':
+      return 'woff2';
+    case 'ttf':
+      return 'truetype';
+    case 'eot':
+      return 'embedded-opentype';
+    case 'otf':
+      return 'opentype';
+    case 'svg':
+      return 'svg';
+    default:
+      return 'truetype';
+  }
+}
+
+function generateFontfaceCssFiles(fontinfo, metadata, font) {
+
+  const src = fontinfo['outfile'].map((filePath) => {
+    const extension = path.extname(filePath);
+    const type = getFontType(extension.slice(1));
+
+    return cssUrlString({
+      filename: path.relative(fontinfo['outpath'], filePath),
+      font_v: encodeURIComponent(camelCase(metadata.versionDisplay)),
+      type
+    })
+  }).join(',\n       ');
+
+  const cssString = fontinfo['subset'].map((subset) => {
+    if (!SUBSET[subset]) {
+      throw new Error(`No font subset specified: “${subset}”`);
+    }
+    const currentSubset = getArrayIntersection(SUBSET[subset], metadata.characterSet);
+    const compactSubset = compactRanges(currentSubset);
+    const compiledTemplate = Handlebars.compile(src);
+    const srcString = compiledTemplate({ subset });
+    // ignore empty subsets
+    if (compactSubset.length === 0) {
+      return '';
+    }
+    return cssTemplate({
+      comment: subset,
+      family: fontinfo['css_family'],
+      style: fontinfo['css_style'],
+      weight: fontinfo['css_weight'],
+      src: srcString,
+      unicode_range: convertToUnicodeString(compactSubset),
+      extra: fontinfo['css_extra']
+    });
+  }).join('\n');
+
+  const filePath = path.join(fontinfo['outpath'], 'css', camelCase(fontinfo['name'], { transform: camelCaseTransformMerge }) + '.css');
+
+  try {
+    // Save css to file
+    fs.writeFileSync(filePath, cssString);
+    console.log('CSS fontface saved successfully.');
+  } catch (error) {
+    console.error('CSS fontface saving data:', error);
+  }
+
+  
+  // console.log(font);
+}
 
 function getxWidthAvg(font) {
 
@@ -120,7 +265,6 @@ function getxWidthAvg(font) {
 
   return Math.round(weightedWidth)
 }
-
 
 function validateVariationAxes(axes) {
   const validAxes = Object.keys(axes).reduce((acc, key) => {
@@ -168,94 +312,99 @@ async function generateMetaData(filePath) {
       outpath: fontinfo['outpath'],
     }
 
+    const fontMetadata = metadata[fontinfo['name']];
+
     // variations axes
 
     if (font.namedVariations) {
-      metadata.namedVariations = font.namedVariations;
+      fontMetadata.namedVariations = font.namedVariations;
     }
 
     if (Object.keys(font.variationAxes).length > 0) {
       // variable font 
       const variationAxes = validateVariationAxes(font.variationAxes);
-      metadata.variationAxes = variationAxes;
+      fontMetadata.variationAxes = variationAxes;
     }
 
     // metrics
 
     if (font.unitsPerEm) {
-      metadata.unitsPerEm = font.unitsPerEm;
+      fontMetadata.unitsPerEm = font.unitsPerEm;
     }
 
     if (font.ascent) {
-      metadata.ascent = font.ascent;
+      fontMetadata.ascent = font.ascent;
     }
 
     if (font.descent) {
-      metadata.descent = font.descent;
+      fontMetadata.descent = font.descent;
     }
 
     if (font.lineGap) {
-      metadata.lineGap = font.lineGap;
+      fontMetadata.lineGap = font.lineGap;
     }
 
     if (font.underlinePosition && font.underlineThickness) {
-      metadata.underlinePosition = font.underlinePosition;
-      metadata.underlineThickness = font.underlineThickness;
+      fontMetadata.underlinePosition = font.underlinePosition;
+      fontMetadata.underlineThickness = font.underlineThickness;
     }
 
     if (font.italicAngle) {
-      metadata.italicAngle = font.italicAngle;
+      fontMetadata.italicAngle = font.italicAngle;
     }
 
     if (font.capHeight) {
-      metadata.capHeight = font.capHeight;
+      fontMetadata.capHeight = font.capHeight;
     }
 
     if (font.xHeight) {
-      metadata.xHeight = font.xHeight;
+      fontMetadata.xHeight = font.xHeight;
     }
 
     if (font.bbox) {
-      metadata.bbox = font.bbox;
+      fontMetadata.bbox = font.bbox;
     }
 
     // Glyphs
 
     if (font.characterSet) {
-      metadata.characterSet = font.characterSet;
+      let characterSet = font.characterSet;
+      // the "base" (latin) subset < 0x0030. extend it to include control codepoints.
+      if (Math.min(...font.characterSet) < 0x0030) {
+        characterSet = [...new Set([...unicodeRange(0x0000, 0x001F), ...characterSet])]
+      }
+      fontMetadata.characterSet = characterSet;
     }
 
     if (font.numGlyphs) {
-      metadata.numGlyphs = font.numGlyphs;
+      fontMetadata.numGlyphs = font.numGlyphs;
     }
 
     if (font.availableFeatures) {
-      metadata.availableFeatures = font.availableFeatures;
+      fontMetadata.availableFeatures = font.availableFeatures;
     }
 
     const versionMatch = font.version.match(/\d+\.\d+/);
     if (versionMatch) {
       const versionNumber = versionMatch[0];
-      metadata.versionNumber = versionNumber;
+      fontMetadata.versionNumber = versionNumber;
     }
 
     const githubUrlMatch = font.copyright.match(/\(https:\/\/github\.com\/[^)]+\)/);
 
     if (githubUrlMatch) {
       const githubUrl = githubUrlMatch[0].slice(1, -1); // Remove parentheses
-      metadata.copyrightUrl = githubUrl;
-    } else {
-      console.log("GitHub URL not found.");
+      fontMetadata.copyrightUrl = githubUrl;
     }
 
     const xWidthAvg = getxWidthAvg(font);
 
     if (xWidthAvg) {
-      metadata.xWidthAvg = xWidthAvg;
+      fontMetadata.xWidthAvg = xWidthAvg;
     }
 
-    const styles = Object.keys(pgtsFontSize).reduce((acc, key) => {
-      const { fontSize, leading } = pgtsFontSize[key];
+    const desktopStyles = Object.keys(pgtsDesktopFontSize).reduce((acc, key) => {
+      const { fontSize, leading } = pgtsDesktopFontSize[key];
       const capsizeStyles = createStyleObject({
         fontSize,
         leading, // = lineHeight
@@ -296,9 +445,26 @@ async function generateMetaData(filePath) {
       return acc;
     }, {});
 
-    if (styles) {
-      metadata.pgts = styles;
+    const mobileStyles = null;
+
+    fontMetadata.pgts = {}
+
+    if (desktopStyles) {
+      fontMetadata.pgts['desktop'] = desktopStyles;
     }
+
+    if (mobileStyles) {
+      fontMetadata.pgts['mobile'] = mobileStyles;
+    }
+
+    // generate  css files
+
+    generateFontfaceCssFiles(fontinfo, fontMetadata, font);
+
+    // generate typography css files
+
+
+    // Save the JSON data back to the file
 
     const filePath = `${fontinfo['outpath']}/metadata.json`;
 
@@ -325,31 +491,6 @@ async function generateMetaData(filePath) {
 
   });
 }
-
-// const fontsFiles = await glob(['build/fonts/**/*.ttf'])
-
-/* fontsFiles.forEach(filePath => {
-  fs.readFile(filePath, (readErr, buffer) => {
-    console.log('filePath', filePath);
-    if (readErr) {
-      console.error(`Error reading font file ${filePath}:`, readErr);
-    } else {
-      // Process the font buffer
-      console.log(`Loaded font file ${filePath}`);
-      const font = fontkit.create(buffer);
-      console.log(font.postscriptName);
-      console.log(font.familyName);
-      console.log(font.subfamilyName);
-      console.log(font.copyright);
-      console.log(font.version);
-      console.log(font.unitsPerEm);
-      // console.log(font.variationAxes);
-    }
-  });
-}); */
-
-
-
 
 // Path to your JSON file
 const filePath = 'src/fonts.json';
