@@ -22,3 +22,9 @@
 [submodule "src/fonts/LibreCaslonCondensed"]
 	path = src/fonts/LibreCaslonCondensed
 	url = https://github.com/ertekinno/libre-caslon-condensed.git
+[submodule "src/fonts/SpaceGrotesk"]
+	path = src/fonts/SpaceGrotesk
+	url = https://github.com/floriankarsten/space-grotesk.git
+[submodule "src/fonts/MonaSans"]
+	path = src/fonts/MonaSans
+	url = https://github.com/github/mona-sans.git
