@@ -10,7 +10,7 @@
     "test:fonts": "node scripts/test-font-files.js",
     "build:readme": "node scripts/build-readme.js",
     "build:metadata": "node scripts/build-metadata.js",
-    "build": "npm run build:fonts && npm run build:readme",
+    "build": "npm run build:fonts && npm run build:metadata && npm run build:readme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,7 +31,8 @@
   "homepage": "https://github.com/anotherplanet-io/assets#readme",
   "devDependencies": {
     "handlebars": "^4.7.8",
-    "markdown-table": "^3.0.3"
+    "markdown-table": "^3.0.3",
+    "prettier": "3.0.2"
   },
   "dependencies": {
     "@ap.cx/unicode-range": "^1.4.0",

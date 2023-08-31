@@ -1,13 +1,24 @@
 {
   "LibreCaslonCondensed-Italic": {
     "postscriptName": "LibreCaslonCondensed-Italic",
+    "fullName": "Libre Caslon Condensed Italic",
     "familyName": "Libre Caslon Condensed",
+    "cssFamily": "Libre Caslon Condensed",
     "category": "serif",
     "subfamilyName": "Italic",
     "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
     "version": "Version 2.000;gftools[0.9.33]",
     "versionDisplay": "Version 2.000",
-    "outpath": "build/fonts/LibreCaslon",
+    "outpath": "fonts/LibreCaslon",
+    "variationAxes": {
+      "wght": {
+        "name": "Weight",
+        "min": 400,
+        "default": 400,
+        "max": 700,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Italic": {
         "wght": 400
@@ -20,15 +31,6 @@
       },
       "Bold Italic": {
         "wght": 700
-      }
-    },
-    "variationAxes": {
-      "wght": {
-        "name": "Weight",
-        "min": 400,
-        "default": 400,
-        "max": 700,
-        "valid": true
       }
     },
     "unitsPerEm": 2000,
@@ -547,26 +549,37 @@
     "versionNumber": "2.000",
     "copyrightUrl": "https://github.com/thundernixon/Libre-Caslon",
     "xWidthAvg": 775,
+    "fontStack": {
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1649em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2164em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1649em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2164em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.1649em",
+            "marginTop": "-0.2164em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -575,23 +588,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1768em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2283em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -600,23 +620,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1935em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.245em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1935em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.245em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1935em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.245em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.1935em",
+            "marginTop": "-0.245em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -625,23 +652,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.156em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2075em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.156em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2075em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.156em",
+            "marginTop": "-0.2075em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -650,23 +684,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1768em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2283em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -675,48 +716,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1881em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2396em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1881em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2396em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.1881em",
-            "baselineTrim": "-0.2396em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1829em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2344em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1829em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2344em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.1829em",
+            "marginTop": "-0.2344em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.1829em",
+            "baselineTrim": "-0.2344em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.156em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2075em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.156em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2075em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.156em",
+            "marginTop": "-0.2075em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -725,48 +780,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1452em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1967em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1452em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1967em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.1452em",
-            "baselineTrim": "-0.1967em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1391em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1906em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1391em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1906em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.1391em",
+            "marginTop": "-0.1906em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.1391em",
+            "baselineTrim": "-0.1906em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1768em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2283em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -775,73 +844,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1649em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2164em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.1649em",
-            "baselineTrim": "-0.2164em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2251em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2766em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2251em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2766em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2251em",
-            "baselineTrim": "-0.2766em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2877em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2877em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2877em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2362em",
+            "baselineTrim": "-0.2877em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.1768em",
+            "baselineTrim": "-0.2283em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2877em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2877em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2877em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2362em",
+            "baselineTrim": "-0.2877em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2185em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.27em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2185em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.27em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.27em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.27em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -850,73 +1036,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.2602em",
-            "baselineTrim": "-0.3117em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2751em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3266em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2751em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3266em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2751em",
+            "marginTop": "-0.3266em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2751em",
+            "baselineTrim": "-0.3266em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3627em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4142em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3627em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4142em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3627em",
-            "baselineTrim": "-0.4142em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3438em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3953em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3438em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3953em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3438em",
+            "marginTop": "-0.3953em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3438em",
+            "baselineTrim": "-0.3953em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -925,73 +1132,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3208em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3723em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3208em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3723em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3208em",
-            "baselineTrim": "-0.3723em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3431em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3946em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3431em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3946em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3431em",
+            "marginTop": "-0.3946em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3431em",
+            "baselineTrim": "-0.3946em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.2602em",
-            "baselineTrim": "-0.3117em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2367em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2882em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2367em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2882em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2367em",
+            "marginTop": "-0.2882em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2367em",
+            "baselineTrim": "-0.2882em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3435em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.395em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.395em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3435em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.395em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3435em",
+            "marginTop": "-0.395em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -1000,48 +1228,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4506em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.5021em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4506em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5021em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4506em",
-            "baselineTrim": "-0.5021em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4928em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5443em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4928em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5443em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4928em",
+            "marginTop": "-0.5443em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4928em",
+            "baselineTrim": "-0.5443em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.2602em",
+            "baselineTrim": "-0.3117em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1935em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.245em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1935em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.245em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.1935em",
+            "marginTop": "-0.245em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.1935em",
+            "baselineTrim": "-0.245em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1128em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1643em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1128em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1643em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1128em",
+            "marginTop": "-0.1643em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.1128em",
+            "baselineTrim": "-0.1643em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1389em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1904em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1389em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1904em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.1389em",
+            "marginTop": "-0.1904em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.1389em",
+            "baselineTrim": "-0.1904em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.1768em",
+            "baselineTrim": "-0.2283em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1829em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2344em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1829em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2344em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.1829em",
+            "marginTop": "-0.2344em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.1829em",
+            "baselineTrim": "-0.2344em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.156em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2075em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.156em",
+            "marginTop": "-0.2075em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.156em",
+            "baselineTrim": "-0.2075em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2089em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2604em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2089em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2604em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.2089em",
+            "marginTop": "-0.2604em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.2089em",
+            "baselineTrim": "-0.2604em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.1768em",
+            "baselineTrim": "-0.2283em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3433em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3948em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3433em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3948em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3433em",
+            "marginTop": "-0.3948em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3433em",
+            "baselineTrim": "-0.3948em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.286em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3375em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.286em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3375em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.286em",
+            "marginTop": "-0.3375em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.286em",
+            "baselineTrim": "-0.3375em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3433em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3948em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3433em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3948em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3433em",
+            "marginTop": "-0.3948em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3433em",
+            "baselineTrim": "-0.3948em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.286em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3375em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.286em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3375em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.286em",
+            "marginTop": "-0.3375em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.286em",
+            "baselineTrim": "-0.3375em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2185em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.27em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.27em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.27em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2185em",
+            "baselineTrim": "-0.27em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2751em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3266em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2751em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3266em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2751em",
+            "marginTop": "-0.3266em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2751em",
+            "baselineTrim": "-0.3266em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3438em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3953em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3438em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3953em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3438em",
+            "marginTop": "-0.3953em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3438em",
+            "baselineTrim": "-0.3953em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.2602em",
+            "baselineTrim": "-0.3117em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3431em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3946em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3431em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3946em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3431em",
+            "marginTop": "-0.3946em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3431em",
+            "baselineTrim": "-0.3946em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2367em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2882em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2367em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2882em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2367em",
+            "marginTop": "-0.2882em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2367em",
+            "baselineTrim": "-0.2882em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.395em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3435em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.395em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3435em",
+            "marginTop": "-0.395em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3435em",
+            "baselineTrim": "-0.395em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4928em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5443em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4928em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5443em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4928em",
+            "marginTop": "-0.5443em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4928em",
+            "baselineTrim": "-0.5443em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
@@ -1054,13 +2034,24 @@
   },
   "LibreCaslonCondensed": {
     "postscriptName": "LibreCaslonCondensed-Regular",
+    "fullName": "Libre Caslon Condensed Regular",
     "familyName": "Libre Caslon Condensed",
+    "cssFamily": "Libre Caslon Condensed",
     "category": "serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2020 The Libre Caslon Text Project Authors (https://github.com/thundernixon/Libre-Caslon)",
     "version": "Version 2.000;gftools[0.9.33]",
     "versionDisplay": "Version 2.000",
-    "outpath": "build/fonts/LibreCaslon",
+    "outpath": "fonts/LibreCaslon",
+    "variationAxes": {
+      "wght": {
+        "name": "Weight",
+        "min": 400,
+        "default": 400,
+        "max": 700,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Regular": {
         "wght": 400
@@ -1073,15 +2064,6 @@
       },
       "Bold": {
         "wght": 700
-      }
-    },
-    "variationAxes": {
-      "wght": {
-        "name": "Weight",
-        "min": 400,
-        "default": 400,
-        "max": 700,
-        "valid": true
       }
     },
     "unitsPerEm": 2000,
@@ -1594,26 +2576,37 @@
     "versionNumber": "2.000",
     "copyrightUrl": "https://github.com/thundernixon/Libre-Caslon",
     "xWidthAvg": 759,
+    "fontStack": {
+      "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1649em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2164em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1649em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2164em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.1649em",
+            "marginTop": "-0.2164em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -1622,23 +2615,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1768em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2283em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -1647,23 +2647,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1935em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.245em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1935em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.245em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1935em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.245em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.1935em",
+            "marginTop": "-0.245em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -1672,23 +2679,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.156em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2075em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.156em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2075em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.156em",
+            "marginTop": "-0.2075em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -1697,23 +2711,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1768em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2283em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -1722,48 +2743,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1881em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2396em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1881em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2396em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.1881em",
-            "baselineTrim": "-0.2396em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1829em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2344em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1829em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2344em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.1829em",
+            "marginTop": "-0.2344em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.1829em",
+            "baselineTrim": "-0.2344em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.156em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2075em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.156em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2075em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.156em",
+            "marginTop": "-0.2075em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -1772,48 +2807,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1452em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1967em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1452em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1967em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.1452em",
-            "baselineTrim": "-0.1967em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1391em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1906em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1391em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1906em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.1391em",
+            "marginTop": "-0.1906em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.1391em",
+            "baselineTrim": "-0.1906em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1768em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2283em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -1822,73 +2871,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1649em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2164em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.1649em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2164em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.1649em",
-            "baselineTrim": "-0.2164em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2251em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2766em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2251em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2766em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2251em",
-            "baselineTrim": "-0.2766em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2877em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2877em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2877em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2362em",
+            "baselineTrim": "-0.2877em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.1768em",
+            "baselineTrim": "-0.2283em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2877em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2877em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2877em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2362em",
+            "baselineTrim": "-0.2877em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2185em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.27em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2185em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.27em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.27em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.27em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -1897,73 +3063,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.2602em",
-            "baselineTrim": "-0.3117em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2751em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3266em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2751em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3266em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2751em",
+            "marginTop": "-0.3266em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2751em",
+            "baselineTrim": "-0.3266em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3627em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4142em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3627em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4142em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3627em",
-            "baselineTrim": "-0.4142em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3438em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3953em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3438em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3953em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3438em",
+            "marginTop": "-0.3953em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3438em",
+            "baselineTrim": "-0.3953em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -1972,73 +3159,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3208em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3723em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3208em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3723em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3208em",
-            "baselineTrim": "-0.3723em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3431em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3946em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3431em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3946em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3431em",
+            "marginTop": "-0.3946em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3431em",
+            "baselineTrim": "-0.3946em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.2602em",
-            "baselineTrim": "-0.3117em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2367em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2882em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2367em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2882em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2367em",
+            "marginTop": "-0.2882em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2367em",
+            "baselineTrim": "-0.2882em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3435em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.395em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.395em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3435em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.395em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3435em",
+            "marginTop": "-0.395em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -2047,48 +3255,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4506em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.5021em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4506em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5021em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4506em",
-            "baselineTrim": "-0.5021em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4928em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5443em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4928em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5443em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4928em",
+            "marginTop": "-0.5443em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4928em",
+            "baselineTrim": "-0.5443em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2602em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3117em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}\n@font-face {\n  font-family: \"Libre Caslon Condensed Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 97%;\n  descent-override: 26%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.2602em",
+            "baselineTrim": "-0.3117em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1935em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.245em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1935em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.245em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.1935em",
+            "marginTop": "-0.245em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.1935em",
+            "baselineTrim": "-0.245em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1128em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1643em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1128em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1643em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1128em",
+            "marginTop": "-0.1643em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.1128em",
+            "baselineTrim": "-0.1643em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1389em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1904em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1389em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1904em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.1389em",
+            "marginTop": "-0.1904em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.1389em",
+            "baselineTrim": "-0.1904em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.1768em",
+            "baselineTrim": "-0.2283em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1829em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2344em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1829em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2344em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.1829em",
+            "marginTop": "-0.2344em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.1829em",
+            "baselineTrim": "-0.2344em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.156em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2075em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.156em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2075em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.156em",
+            "marginTop": "-0.2075em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.156em",
+            "baselineTrim": "-0.2075em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2089em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2604em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2089em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2604em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.2089em",
+            "marginTop": "-0.2604em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.2089em",
+            "baselineTrim": "-0.2604em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1768em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2283em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1768em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2283em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1768em",
+            "marginTop": "-0.2283em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.1768em",
+            "baselineTrim": "-0.2283em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3433em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3948em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3433em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3948em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3433em",
+            "marginTop": "-0.3948em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3433em",
+            "baselineTrim": "-0.3948em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.286em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3375em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.286em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3375em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.286em",
+            "marginTop": "-0.3375em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.286em",
+            "baselineTrim": "-0.3375em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2499em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2499em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2499em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2499em",
+            "baselineTrim": "-0.3014em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3433em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3948em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3433em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3948em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3433em",
+            "marginTop": "-0.3948em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3433em",
+            "baselineTrim": "-0.3948em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.286em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3375em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.286em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3375em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.286em",
+            "marginTop": "-0.3375em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.286em",
+            "baselineTrim": "-0.3375em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2185em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.27em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.27em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.27em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2185em",
+            "baselineTrim": "-0.27em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2751em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3266em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2751em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3266em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2751em",
+            "marginTop": "-0.3266em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2751em",
+            "baselineTrim": "-0.3266em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3438em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3953em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3438em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3953em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3438em",
+            "marginTop": "-0.3953em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3438em",
+            "baselineTrim": "-0.3953em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.2602em",
+            "baselineTrim": "-0.3117em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3431em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3946em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3431em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3946em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3431em",
+            "marginTop": "-0.3946em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3431em",
+            "baselineTrim": "-0.3946em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2367em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2882em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2367em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2882em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2367em",
+            "marginTop": "-0.2882em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2367em",
+            "baselineTrim": "-0.2882em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.395em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3435em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.395em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3435em",
+            "marginTop": "-0.395em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3435em",
+            "baselineTrim": "-0.395em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4928em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5443em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4928em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5443em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4928em",
+            "marginTop": "-0.5443em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4928em",
+            "baselineTrim": "-0.5443em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2602em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3117em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2602em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3117em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.2602em",
+            "marginTop": "-0.3117em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Libre Caslon Condensed\", \"Libre Caslon Condensed Fallback: Helvetica Neue\", \"Libre Caslon Condensed Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",

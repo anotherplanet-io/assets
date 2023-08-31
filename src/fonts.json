@@ -3,13 +3,13 @@
     "name": "Inter-roman",
     "version": "4.0-beta9h",
     "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable.ttf",
-    "outpath": "build/fonts/Inter",
+    "outpath": "fonts/Inter",
     "outfile": [
-      "build/fonts/Inter/subset/Inter-roman.{subset}.var.woff2",
-      "build/fonts/Inter/subset/Inter-roman.{subset}.var.woff",
-      "build/fonts/Inter/subset/Inter-roman.{subset}.var.ttf"
+      "fonts/Inter/subset/Inter-roman.{subset}.var.woff2",
+      "fonts/Inter/subset/Inter-roman.{subset}.var.woff",
+      "fonts/Inter/subset/Inter-roman.{subset}.var.ttf"
     ],
-    "css_family": "Inter var",
+    "css_family": "Inter Variable",
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
@@ -20,13 +20,13 @@
     "name": "Inter-italic",
     "version": "4.0-beta9h",
     "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable-Italic.ttf",
-    "outpath": "build/fonts/Inter",
+    "outpath": "fonts/Inter",
     "outfile": [
-      "build/fonts/Inter/subset/Inter-italic.{subset}.var.woff2",
-      "build/fonts/Inter/subset/Inter-italic.{subset}.var.woff",
-      "build/fonts/Inter/subset/Inter-italic.{subset}.var.ttf"
+      "fonts/Inter/subset/Inter-italic.{subset}.var.woff2",
+      "fonts/Inter/subset/Inter-italic.{subset}.var.woff",
+      "fonts/Inter/subset/Inter-italic.{subset}.var.ttf"
     ],
-    "css_family": "Inter var",
+    "css_family": "Inter Variable",
     "css_weight": "100 900",
     "css_style": "italic",
     "css_extra": "font-named-instance: \"Italic\";",
@@ -37,13 +37,13 @@
     "name": "PlayfairRoman",
     "version": "2.1",
     "infile": "src/fonts/Playfair/fonts/VF-TTF/PlayfairRomanVF.ttf",
-    "outpath": "build/fonts/Playfair",
+    "outpath": "fonts/Playfair",
     "outfile": [
-      "build/fonts/Playfair/subset/PlayfairRoman.{subset}.var.woff2",
-      "build/fonts/Playfair/subset/PlayfairRoman.{subset}.var.woff",
-      "build/fonts/Playfair/subset/PlayfairRoman.{subset}.var.ttf"
+      "fonts/Playfair/subset/PlayfairRoman.{subset}.var.woff2",
+      "fonts/Playfair/subset/PlayfairRoman.{subset}.var.woff",
+      "fonts/Playfair/subset/PlayfairRoman.{subset}.var.ttf"
     ],
-    "css_family": "PlayfairRoman var",
+    "css_family": "Playfair",
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
@@ -54,13 +54,13 @@
     "name": "PlayfairItalic",
     "version": "2.1",
     "infile": "src/fonts/Playfair/fonts/VF-TTF/PlayfairItalicVF.ttf",
-    "outpath": "build/fonts/Playfair",
+    "outpath": "fonts/Playfair",
     "outfile": [
-      "build/fonts/Playfair/subset/PlayfairItalic.{subset}.var.woff2",
-      "build/fonts/Playfair/subset/PlayfairItalic.{subset}.var.woff",
-      "build/fonts/Playfair/subset/PlayfairItalic.{subset}.var.ttf"
+      "fonts/Playfair/subset/PlayfairItalic.{subset}.var.woff2",
+      "fonts/Playfair/subset/PlayfairItalic.{subset}.var.woff",
+      "fonts/Playfair/subset/PlayfairItalic.{subset}.var.ttf"
     ],
-    "css_family": "PlayfairItalic var",
+    "css_family": "Playfair",
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Italic\";",
@@ -71,13 +71,13 @@
     "name": "DarkerGrotesque",
     "version": "1.0.0",
     "infile": "src/fonts/DarkerGrotesque/fonts/variable/DarkerGrotesque[wght].ttf",
-    "outpath": "build/fonts/DarkerGrotesque",
+    "outpath": "fonts/DarkerGrotesque",
     "outfile": [
-      "build/fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.woff2",
-      "build/fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.woff",
-      "build/fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.ttf"
+      "fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.woff2",
+      "fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.woff",
+      "fonts/DarkerGrotesque/subset/DarkerGrotesque.{subset}.var.ttf"
     ],
-    "css_family": "DarkerGrotesque var",
+    "css_family": "DarkerGrotesque",
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
@@ -88,11 +88,11 @@
     "name": "FiraGO-Thin",
     "version": "1.0.0",
     "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Thin.ttf",
-    "outpath": "build/fonts/FiraGO",
+    "outpath": "fonts/FiraGO",
     "outfile": [
-      "build/fonts/FiraGO/subset/FiraGO-Thin.{subset}.woff2",
-      "build/fonts/FiraGO/subset/FiraGO-Thin.{subset}.woff",
-      "build/fonts/FiraGO/subset/FiraGO-Thin.{subset}.ttf"
+      "fonts/FiraGO/subset/FiraGO-Thin.{subset}.woff2",
+      "fonts/FiraGO/subset/FiraGO-Thin.{subset}.woff",
+      "fonts/FiraGO/subset/FiraGO-Thin.{subset}.ttf"
     ],
     "css_family": "FiraGO",
     "css_weight": "100",
@@ -105,11 +105,11 @@
     "name": "FiraGO-Regular",
     "version": "1.0.0",
     "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Regular.ttf",
-    "outpath": "build/fonts/FiraGO",
+    "outpath": "fonts/FiraGO",
     "outfile": [
-      "build/fonts/FiraGO/subset/FiraGO-Regular.{subset}.woff2",
-      "build/fonts/FiraGO/subset/FiraGO-Regular.{subset}.woff",
-      "build/fonts/FiraGO/subset/FiraGO-Regular.{subset}.ttf"
+      "fonts/FiraGO/subset/FiraGO-Regular.{subset}.woff2",
+      "fonts/FiraGO/subset/FiraGO-Regular.{subset}.woff",
+      "fonts/FiraGO/subset/FiraGO-Regular.{subset}.ttf"
     ],
     "css_family": "FiraGO",
     "css_weight": "400",
@@ -122,11 +122,11 @@
     "name": "FiraGO-Bold",
     "version": "1.0.0",
     "infile": "src/fonts/FiraGO/Fonts/FiraGO_TTF_1001/Roman/FiraGO-Bold.ttf",
-    "outpath": "build/fonts/FiraGO",
+    "outpath": "fonts/FiraGO",
     "outfile": [
-      "build/fonts/FiraGO/subset/FiraGO-Bold.{subset}.woff2",
-      "build/fonts/FiraGO/subset/FiraGO-Bold.{subset}.woff",
-      "build/fonts/FiraGO/subset/FiraGO-Bold.{subset}.ttf"
+      "fonts/FiraGO/subset/FiraGO-Bold.{subset}.woff2",
+      "fonts/FiraGO/subset/FiraGO-Bold.{subset}.woff",
+      "fonts/FiraGO/subset/FiraGO-Bold.{subset}.ttf"
     ],
     "css_family": "FiraGO",
     "css_weight": "700",
@@ -139,13 +139,13 @@
     "name": "FiraCode-Regular",
     "version": "1.0.0",
     "infile": "src/fonts/FiraSans/Fira_Code_3_2/Fonts/FiraCode_OTF_32/FiraCode-Regular.otf",
-    "outpath": "build/fonts/FiraSans",
+    "outpath": "fonts/FiraSans",
     "outfile": [
-      "build/fonts/FiraSans/subset/FiraCode-Regular.{subset}.woff2",
-      "build/fonts/FiraSans/subset/FiraCode-Regular.{subset}.woff",
-      "build/fonts/FiraSans/subset/FiraCode-Regular.{subset}.ttf"
+      "fonts/FiraSans/subset/FiraCode-Regular.{subset}.woff2",
+      "fonts/FiraSans/subset/FiraCode-Regular.{subset}.woff",
+      "fonts/FiraSans/subset/FiraCode-Regular.{subset}.ttf"
     ],
-    "css_family": "FiraCode",
+    "css_family": "Fira Code",
     "css_weight": "400",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
@@ -156,13 +156,30 @@
     "name": "HubotSans",
     "version": "1.0.0",
     "infile": "src/fonts/Hubot/fonts/variable/HubotSans[slnt,wdth,wght].ttf",
-    "outpath": "build/fonts/Hubot",
+    "outpath": "fonts/Hubot",
     "outfile": [
-      "build/fonts/Hubot/subset/HubotSans.{subset}.var.woff2",
-      "build/fonts/Hubot/subset/HubotSans.{subset}.var.woff",
-      "build/fonts/Hubot/subset/HubotSans.{subset}.var.ttf"
+      "fonts/Hubot/subset/HubotSans.{subset}.var.woff2",
+      "fonts/Hubot/subset/HubotSans.{subset}.var.woff",
+      "fonts/Hubot/subset/HubotSans.{subset}.var.ttf"
     ],
-    "css_family": "HubotSans",
+    "css_family": "Hubot Sans",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
+    "category": "sans-serif"
+  },
+  {
+    "name": "MonaSans",
+    "version": "1.0.0",
+    "infile": "src/fonts/Mona/fonts/variable/MonaSans[slnt,wdth,wght].ttf",
+    "outpath": "fonts/Mona",
+    "outfile": [
+      "fonts/Mona/subset/MonaSans.{subset}.var.woff2",
+      "fonts/Mona/subset/MonaSans.{subset}.var.woff",
+      "fonts/Mona/subset/MonaSans.{subset}.var.ttf"
+    ],
+    "css_family": "Mona Sans",
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
@@ -173,13 +190,13 @@
     "name": "LibreCaslonCondensed-Italic",
     "version": "1.0.0",
     "infile": "src/fonts/LibreCaslonCondensed/fonts/variable/LibreCaslonCondensed-Italic[wght].ttf",
-    "outpath": "build/fonts/LibreCaslon",
+    "outpath": "fonts/LibreCaslon",
     "outfile": [
-      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.woff2",
-      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.woff",
-      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.ttf"
+      "fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.woff2",
+      "fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.woff",
+      "fonts/LibreCaslon/subset/LibreCaslonCondensed-Italic.{subset}.var.ttf"
     ],
-    "css_family": "LibreCaslonCondensed",
+    "css_family": "Libre Caslon Condensed",
     "css_weight": "100 900",
     "css_style": "normal",
     "css_extra": "font-named-instance: \"Regular\";",
@@ -190,17 +207,34 @@
     "name": "LibreCaslonCondensed",
     "version": "1.0.0",
     "infile": "src/fonts/LibreCaslonCondensed/fonts/variable/LibreCaslonCondensed[wght].ttf",
-    "outpath": "build/fonts/LibreCaslon",
+    "outpath": "fonts/LibreCaslon",
     "outfile": [
-      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.woff2",
-      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.woff",
-      "build/fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.ttf"
+      "fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.woff2",
+      "fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.woff",
+      "fonts/LibreCaslon/subset/LibreCaslonCondensed.{subset}.var.ttf"
     ],
-    "css_family": "LibreCaslonCondensed",
+    "css_family": "Libre Caslon Condensed",
     "css_weight": "100 900",
     "css_style": "italic",
     "css_extra": "font-named-instance: \"Italic\";",
     "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
     "category": "serif"
+  },
+  {
+    "name": "SpaceGrotesk",
+    "version": "1.0.0",
+    "infile": "src/fonts/SpaceGrotesk/fonts/ttf/SpaceGrotesk[wght].ttf",
+    "outpath": "fonts/SpaceGrotesk",
+    "outfile": [
+      "fonts/SpaceGrotesk/subset/SpaceGrotesk.{subset}.var.woff2",
+      "fonts/SpaceGrotesk/subset/SpaceGrotesk.{subset}.var.woff",
+      "fonts/SpaceGrotesk/subset/SpaceGrotesk.{subset}.var.ttf"
+    ],
+    "css_family": "SpaceGrotesk",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "symbols"],
+    "category": "sans-serif"
   }
 ]

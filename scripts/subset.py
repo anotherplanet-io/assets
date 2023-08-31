@@ -21,6 +21,8 @@ from tabulate import tabulate
 # font has changed or not
 FORCE = False
 
+BUILDDIR = 'build'
+
 file_path = pjoin(BASEDIR, 'src/fonts.json')
 file = open(file_path, "r")
 FONTS = json.load(file)
@@ -172,7 +174,7 @@ def main(argv):
   for fontinfo in FONTS:
     css = genCSS(fontinfo, subsets)
     infile, _ = os.path.splitext(basename(fontinfo['infile']))
-    cssfile = pjoin(BASEDIR, fontinfo['outpath'], 'css', infile + '.css')
+    cssfile = pjoin(BASEDIR, BUILDDIR, fontinfo['outpath'], 'css', infile + '.css')
     folder_path = os.path.dirname(cssfile)
 
     if not os.path.exists(folder_path):
@@ -189,12 +191,16 @@ def main(argv):
 def subset_font(fontinfo, subsets, procpool):
   infile          = pjoin(BASEDIR, fontinfo['infile'])
 
+  print('infile', infile)
+
   if not isinstance(fontinfo['outfile'], list):
     raise TypeError("fontinfo['outfile'] must be a list.")
   
+  
+  
   # If it's an array, iterate over its elements
   for outfileData in fontinfo['outfile']:
-    outfileTemplate = pjoin(BASEDIR, outfileData)
+    outfileTemplate = pjoin(BASEDIR, BUILDDIR, outfileData)
     font            = ttLib.TTFont(infile)
     ucall           = set(getUnicodeMap(font)) # set of all codepoints mapped by the font
     covered         = set()  # set of codepoints covered by 'subsets'
@@ -211,8 +217,7 @@ def subset_font(fontinfo, subsets, procpool):
     extraUnicodes = ucall - covered
     _, extraUnicodeRange = genUnicodeRange(extraUnicodes) # type: ignore
     outfile = outfileTemplate.format(subset='extra')
-    subset_range_async(procpool, infile, outfile, unicodeRange)
-
+    subset_range_async(procpool, infile, outfile, extraUnicodeRange)
 
 
 def subset_range_async(procpool :ProcPool, infile :str, outfile :str, unicodeRange :str): # type: ignore
@@ -365,7 +370,7 @@ def genCSS(fontinfo, subsets):
   for subset in list(subsets) + [{ 'name':'extra' }]:
     # for outfileData in fontinfo['outfile']:
     if subset['name'] in fontinfo['subset']:
-      outfileTemplate = pjoin(BASEDIR, fontinfo['outfile'][0])
+      outfileTemplate = pjoin(BASEDIR, BUILDDIR, fontinfo['outfile'][0])
       outfile = outfileTemplate.format(subset=subset['name'])
 
       # Read effective codepoint coverage. This may be greater than requested

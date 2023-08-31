@@ -88,6 +88,17 @@ install the required dependencies
 ```
 pip install -r requirements.txt
 ```
+## Variation axis
+
+| Axis tag        | Name         | CSS Attribute       |
+| --------------- | ------------ | ------------------- |
+| 'ital'          | Italic       | font-style          |
+| 'opsz'          | Optical size | font-optical-sizing |
+| 'slnt'          | Slant        | font-style          |
+| 'wdth'          | Width        | font-stretch        |
+| 'wght'          | Weight       | font-weight         |
+
+
 
 ## Ressources 
 
@@ -98,6 +109,10 @@ https://learn.microsoft.com/en-us/typography/opentype/spec/name
 ### OpenType Font Variations Overview
 
 https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview
+
+### TrueType Reference Manual
+
+https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html
 
 ### Capsize ❤️
 
@@ -110,11 +125,10 @@ https://seek-oss.github.io/capsize/
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 
+### variablefonts.io
 
-| Axis tag        | Name         |
-| --------------- | ------------ |
-| 'ital'          | Italic       |
-| 'opsz'          | Optical size |
-| 'slnt'          | Slant        |
-| 'wdth'          | Width        |
-| 'wght'          | Weight       |
+https://variablefonts.io/about-variable-fonts/
+
+### Glyph Metrics
+
+https://freetype.org/freetype2/docs/glyphs/glyphs-3.html

@@ -1,6 +1,6 @@
 /* symbols */
 @font-face {
-  font-family: 'PlayfairRoman var';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -10,7 +10,7 @@
 }
 /* cyrillic */
 @font-face {
-  font-family: 'PlayfairRoman var';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -20,7 +20,7 @@
 }
 /* greek */
 @font-face {
-  font-family: 'PlayfairRoman var';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -30,7 +30,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'PlayfairRoman var';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -40,7 +40,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'PlayfairRoman var';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -50,7 +50,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'PlayfairRoman var';
+  font-family: 'Playfair';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;

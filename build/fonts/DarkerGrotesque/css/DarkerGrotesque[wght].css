@@ -1,6 +1,6 @@
 /* symbols */
 @font-face {
-  font-family: 'DarkerGrotesque var';
+  font-family: 'DarkerGrotesque';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -10,7 +10,7 @@
 }
 /* vietnamese */
 @font-face {
-  font-family: 'DarkerGrotesque var';
+  font-family: 'DarkerGrotesque';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -20,7 +20,7 @@
 }
 /* latin-ext */
 @font-face {
-  font-family: 'DarkerGrotesque var';
+  font-family: 'DarkerGrotesque';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;
@@ -30,7 +30,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'DarkerGrotesque var';
+  font-family: 'DarkerGrotesque';
   font-style: normal;
   font-weight: 100 900;
   font-display: swap;

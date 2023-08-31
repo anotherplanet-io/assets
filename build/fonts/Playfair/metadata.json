@@ -1,13 +1,38 @@
 {
   "PlayfairRoman": {
     "postscriptName": "Playfair-NeedlepointSemiCondensedSemiLight",
+    "fullName": "Playfair Needlepoint SemiCondensed SemiLight",
     "familyName": "Playfair Needlepoint SmCond SmLight",
+    "cssFamily": "Playfair",
     "category": "serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
     "version": "Version 2.100;Glyphs 3.2 (3197)",
     "versionDisplay": "Version 2.100",
-    "outpath": "build/fonts/Playfair",
+    "outpath": "fonts/Playfair",
+    "variationAxes": {
+      "opsz": {
+        "name": "Optical size",
+        "min": 5,
+        "default": 1200,
+        "max": 1200,
+        "valid": true
+      },
+      "wdth": {
+        "name": "Width",
+        "min": 88,
+        "default": 88,
+        "max": 113,
+        "valid": true
+      },
+      "wght": {
+        "name": "Weight",
+        "min": 300,
+        "default": 300,
+        "max": 900,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Micro SemiCondensed SemiLight": {
         "opsz": 5,
@@ -1270,29 +1295,6 @@
         "wght": 900
       }
     },
-    "variationAxes": {
-      "opsz": {
-        "name": "Optical size",
-        "min": 5,
-        "default": 1200,
-        "max": 1200,
-        "valid": true
-      },
-      "wdth": {
-        "name": "Width",
-        "min": 88,
-        "default": 88,
-        "max": 113,
-        "valid": true
-      },
-      "wght": {
-        "name": "Weight",
-        "min": 300,
-        "default": 300,
-        "max": 900,
-        "valid": true
-      }
-    },
     "unitsPerEm": 1240,
     "ascent": 999,
     "descent": -241,
@@ -2090,26 +2092,37 @@
     "versionNumber": "2.100",
     "copyrightUrl": "https://github.com/clauseggers/Playfair",
     "xWidthAvg": 458,
+    "fontStack": {
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3061em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2658em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3061em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2658em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.3061em",
+            "marginTop": "-0.2658em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -2118,23 +2131,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.318em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2777em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -2143,23 +2163,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3347em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2944em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3347em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2944em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.3347em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2944em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.3347em",
+            "marginTop": "-0.2944em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -2168,23 +2195,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2972em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2569em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2972em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2569em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.2972em",
+            "marginTop": "-0.2569em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -2193,23 +2227,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.318em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2777em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -2218,48 +2259,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3293em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2889em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.3293em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2889em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.3293em",
-            "baselineTrim": "-0.2889em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.324em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2837em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.324em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2837em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.324em",
+            "marginTop": "-0.2837em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.324em",
+            "baselineTrim": "-0.2837em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2972em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2569em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2972em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2569em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.2972em",
+            "marginTop": "-0.2569em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -2268,48 +2323,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2864em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2461em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2864em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2461em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.2864em",
-            "baselineTrim": "-0.2461em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2802em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2399em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2802em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2399em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.2802em",
+            "marginTop": "-0.2399em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.2802em",
+            "baselineTrim": "-0.2399em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.318em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2777em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -2318,73 +2387,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3061em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2658em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.3061em",
-            "baselineTrim": "-0.2658em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3663em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3259em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3663em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3259em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.3663em",
-            "baselineTrim": "-0.3259em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3774em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.337em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3774em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.337em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3774em",
+            "marginTop": "-0.337em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3774em",
+            "baselineTrim": "-0.337em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.318em",
+            "baselineTrim": "-0.2777em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3774em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.337em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.3774em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.337em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3774em",
+            "marginTop": "-0.337em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3774em",
+            "baselineTrim": "-0.337em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3597em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3194em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3597em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3194em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.3597em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3597em",
+            "marginTop": "-0.3194em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -2393,73 +2579,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.4013em",
-            "baselineTrim": "-0.361em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4162em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3759em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4162em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3759em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.4162em",
+            "marginTop": "-0.3759em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.4162em",
+            "baselineTrim": "-0.3759em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.5039em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4636em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5039em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4636em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.5039em",
-            "baselineTrim": "-0.4636em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.485em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4447em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.485em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4447em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.485em",
+            "marginTop": "-0.4447em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.485em",
+            "baselineTrim": "-0.4447em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -2468,73 +2675,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.462em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4216em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.462em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4216em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.462em",
-            "baselineTrim": "-0.4216em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4843em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.444em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.4843em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.444em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4843em",
+            "marginTop": "-0.444em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4843em",
+            "baselineTrim": "-0.444em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4013em",
-            "baselineTrim": "-0.361em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3779em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3376em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3779em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3376em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3779em",
+            "marginTop": "-0.3376em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3779em",
+            "baselineTrim": "-0.3376em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4847em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4444em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4847em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4444em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.4847em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.4444em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4847em",
+            "marginTop": "-0.4444em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -2543,48 +2771,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.5918em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.5515em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5918em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5515em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.5918em",
-            "baselineTrim": "-0.5515em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.634em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5936em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.634em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5936em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.634em",
+            "marginTop": "-0.5936em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.634em",
+            "baselineTrim": "-0.5936em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.4013em",
+            "baselineTrim": "-0.361em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3347em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2944em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3347em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2944em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.3347em",
+            "marginTop": "-0.2944em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.3347em",
+            "baselineTrim": "-0.2944em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2539em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2136em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2539em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2136em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.2539em",
+            "marginTop": "-0.2136em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.2539em",
+            "baselineTrim": "-0.2136em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2801em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2398em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.2801em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2398em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.2801em",
+            "marginTop": "-0.2398em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.2801em",
+            "baselineTrim": "-0.2398em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.318em",
+            "baselineTrim": "-0.2777em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.324em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2837em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.324em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2837em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.324em",
+            "marginTop": "-0.2837em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.324em",
+            "baselineTrim": "-0.2837em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2972em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2569em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.2972em",
+            "marginTop": "-0.2569em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.2972em",
+            "baselineTrim": "-0.2569em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3501em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3097em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.3501em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.3097em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.3501em",
+            "marginTop": "-0.3097em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.3501em",
+            "baselineTrim": "-0.3097em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.318em",
+            "baselineTrim": "-0.2777em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4845em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4441em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.4845em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.4441em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4845em",
+            "marginTop": "-0.4441em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4845em",
+            "baselineTrim": "-0.4441em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4272em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3869em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.4272em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3869em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.4272em",
+            "marginTop": "-0.3869em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.4272em",
+            "baselineTrim": "-0.3869em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4845em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4441em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.4845em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.4441em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4845em",
+            "marginTop": "-0.4441em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4845em",
+            "baselineTrim": "-0.4441em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4272em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3869em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.4272em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3869em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.4272em",
+            "marginTop": "-0.3869em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.4272em",
+            "baselineTrim": "-0.3869em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3597em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3194em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.3597em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3597em",
+            "marginTop": "-0.3194em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3597em",
+            "baselineTrim": "-0.3194em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4162em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3759em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4162em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3759em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.4162em",
+            "marginTop": "-0.3759em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.4162em",
+            "baselineTrim": "-0.3759em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.485em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4447em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.485em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4447em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.485em",
+            "marginTop": "-0.4447em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.485em",
+            "baselineTrim": "-0.4447em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4013em",
+            "baselineTrim": "-0.361em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4843em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.444em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.4843em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.444em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4843em",
+            "marginTop": "-0.444em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4843em",
+            "baselineTrim": "-0.444em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3779em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3376em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3779em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3376em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3779em",
+            "marginTop": "-0.3376em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3779em",
+            "baselineTrim": "-0.3376em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4847em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4444em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.4847em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.4444em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4847em",
+            "marginTop": "-0.4444em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4847em",
+            "baselineTrim": "-0.4444em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.634em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5936em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.634em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5936em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.634em",
+            "marginTop": "-0.5936em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.634em",
+            "baselineTrim": "-0.5936em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
@@ -2597,13 +3577,45 @@
   },
   "PlayfairItalic": {
     "postscriptName": "PlayfairItalic-NeedlepointSemiCondensedSemiLightItalic",
+    "fullName": "Playfair Needlepoint SemiCondensed SemiLight Italic",
     "familyName": "Playfair Needlepoint SmCond SmLight",
+    "cssFamily": "Playfair",
     "category": "serif",
     "subfamilyName": "Italic",
     "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
     "version": "Version 2.100;Glyphs 3.2 (3197)",
     "versionDisplay": "Version 2.100",
-    "outpath": "build/fonts/Playfair",
+    "outpath": "fonts/Playfair",
+    "variationAxes": {
+      "opsz": {
+        "name": "Optical size",
+        "min": 5,
+        "default": 1200,
+        "max": 1200,
+        "valid": true
+      },
+      "wdth": {
+        "name": "Width",
+        "min": 88,
+        "default": 88,
+        "max": 113,
+        "valid": true
+      },
+      "wght": {
+        "name": "Weight",
+        "min": 300,
+        "default": 300,
+        "max": 900,
+        "valid": true
+      },
+      "ital": {
+        "name": "ital",
+        "min": 1,
+        "default": 1,
+        "max": 1,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Micro SemiCondensed SemiLight Italic": {
         "opsz": 5,
@@ -4118,36 +5130,6 @@
         "ital": 1
       }
     },
-    "variationAxes": {
-      "opsz": {
-        "name": "Optical size",
-        "min": 5,
-        "default": 1200,
-        "max": 1200,
-        "valid": true
-      },
-      "wdth": {
-        "name": "Width",
-        "min": 88,
-        "default": 88,
-        "max": 113,
-        "valid": true
-      },
-      "wght": {
-        "name": "Weight",
-        "min": 300,
-        "default": 300,
-        "max": 900,
-        "valid": true
-      },
-      "ital": {
-        "name": "ital",
-        "min": 1,
-        "default": 1,
-        "max": 1,
-        "valid": true
-      }
-    },
     "unitsPerEm": 1240,
     "ascent": 999,
     "descent": -241,
@@ -4955,26 +5937,37 @@
     "versionNumber": "2.100",
     "copyrightUrl": "https://github.com/clauseggers/Playfair",
     "xWidthAvg": 436,
+    "fontStack": {
+      "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3061em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2658em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3061em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2658em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.3061em",
+            "marginTop": "-0.2658em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -4983,23 +5976,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.318em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2777em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -5008,23 +6008,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3347em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2944em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3347em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2944em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.3347em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2944em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.3347em",
+            "marginTop": "-0.2944em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -5033,23 +6040,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2972em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2569em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2972em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2569em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.2972em",
+            "marginTop": "-0.2569em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -5058,23 +6072,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.318em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2777em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -5083,48 +6104,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3293em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2889em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.3293em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2889em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.3293em",
-            "baselineTrim": "-0.2889em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.324em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2837em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.324em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2837em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.324em",
+            "marginTop": "-0.2837em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.324em",
+            "baselineTrim": "-0.2837em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2972em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2569em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2972em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2569em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.2972em",
+            "marginTop": "-0.2569em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -5133,48 +6168,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2864em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2461em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2864em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2461em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.2864em",
-            "baselineTrim": "-0.2461em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2802em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2399em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2802em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2399em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.2802em",
+            "marginTop": "-0.2399em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.2802em",
+            "baselineTrim": "-0.2399em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.318em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2777em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -5183,73 +6232,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3061em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2658em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3061em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2658em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.3061em",
-            "baselineTrim": "-0.2658em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3663em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3259em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3663em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3259em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.3663em",
-            "baselineTrim": "-0.3259em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3774em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.337em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3774em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.337em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3774em",
+            "marginTop": "-0.337em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3774em",
+            "baselineTrim": "-0.337em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.318em",
+            "baselineTrim": "-0.2777em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3774em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.337em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.3774em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.337em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3774em",
+            "marginTop": "-0.337em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3774em",
+            "baselineTrim": "-0.337em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3597em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3194em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3597em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3194em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.3597em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3597em",
+            "marginTop": "-0.3194em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -5258,73 +6424,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.4013em",
-            "baselineTrim": "-0.361em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4162em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3759em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4162em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3759em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.4162em",
+            "marginTop": "-0.3759em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.4162em",
+            "baselineTrim": "-0.3759em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.5039em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4636em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5039em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4636em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.5039em",
-            "baselineTrim": "-0.4636em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.485em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4447em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.485em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4447em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.485em",
+            "marginTop": "-0.4447em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.485em",
+            "baselineTrim": "-0.4447em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -5333,73 +6520,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.462em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4216em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.462em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4216em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.462em",
-            "baselineTrim": "-0.4216em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4843em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.444em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.4843em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.444em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4843em",
+            "marginTop": "-0.444em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4843em",
+            "baselineTrim": "-0.444em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4013em",
-            "baselineTrim": "-0.361em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3779em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3376em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3779em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3376em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3779em",
+            "marginTop": "-0.3376em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3779em",
+            "baselineTrim": "-0.3376em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4847em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4444em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4847em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4444em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.4847em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.4444em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4847em",
+            "marginTop": "-0.4444em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -5408,48 +6616,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.5918em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.5515em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5918em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5515em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.5918em",
-            "baselineTrim": "-0.5515em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.634em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5936em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.634em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5936em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.634em",
+            "marginTop": "-0.5936em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.634em",
+            "baselineTrim": "-0.5936em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4013em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.361em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}\n@font-face {\n  font-family: \"Playfair Needlepoint SmCond SmLight Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 80.5645%;\n  descent-override: 19.4355%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.4013em",
+            "baselineTrim": "-0.361em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3347em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2944em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3347em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2944em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.3347em",
+            "marginTop": "-0.2944em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.3347em",
+            "baselineTrim": "-0.2944em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2539em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2136em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2539em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2136em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.2539em",
+            "marginTop": "-0.2136em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.2539em",
+            "baselineTrim": "-0.2136em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2801em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2398em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.2801em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2398em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.2801em",
+            "marginTop": "-0.2398em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.2801em",
+            "baselineTrim": "-0.2398em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.318em",
+            "baselineTrim": "-0.2777em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.324em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2837em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.324em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2837em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.324em",
+            "marginTop": "-0.2837em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.324em",
+            "baselineTrim": "-0.2837em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2972em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2569em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2972em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2569em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.2972em",
+            "marginTop": "-0.2569em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.2972em",
+            "baselineTrim": "-0.2569em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3501em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3097em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.3501em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.3097em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.3501em",
+            "marginTop": "-0.3097em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.3501em",
+            "baselineTrim": "-0.3097em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.318em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2777em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.318em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.318em",
+            "marginTop": "-0.2777em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.318em",
+            "baselineTrim": "-0.2777em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4845em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4441em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.4845em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.4441em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4845em",
+            "marginTop": "-0.4441em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4845em",
+            "baselineTrim": "-0.4441em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4272em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3869em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.4272em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3869em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.4272em",
+            "marginTop": "-0.3869em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.4272em",
+            "baselineTrim": "-0.3869em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3911em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3508em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.3911em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.3508em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3911em",
+            "marginTop": "-0.3508em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3911em",
+            "baselineTrim": "-0.3508em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4845em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4441em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.4845em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.4441em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4845em",
+            "marginTop": "-0.4441em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4845em",
+            "baselineTrim": "-0.4441em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4272em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3869em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.4272em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3869em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.4272em",
+            "marginTop": "-0.3869em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.4272em",
+            "baselineTrim": "-0.3869em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3597em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3194em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.3597em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3597em",
+            "marginTop": "-0.3194em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3597em",
+            "baselineTrim": "-0.3194em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4162em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3759em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4162em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3759em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.4162em",
+            "marginTop": "-0.3759em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.4162em",
+            "baselineTrim": "-0.3759em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.485em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4447em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.485em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4447em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.485em",
+            "marginTop": "-0.4447em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.485em",
+            "baselineTrim": "-0.4447em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4013em",
+            "baselineTrim": "-0.361em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4843em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.444em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.4843em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.444em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4843em",
+            "marginTop": "-0.444em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4843em",
+            "baselineTrim": "-0.444em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3779em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3376em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3779em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3376em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3779em",
+            "marginTop": "-0.3376em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3779em",
+            "baselineTrim": "-0.3376em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4847em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4444em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.4847em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.4444em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4847em",
+            "marginTop": "-0.4444em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4847em",
+            "baselineTrim": "-0.4444em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.634em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5936em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.634em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5936em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.634em",
+            "marginTop": "-0.5936em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.634em",
+            "baselineTrim": "-0.5936em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4013em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.361em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4013em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.361em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.4013em",
+            "marginTop": "-0.361em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Playfair Needlepoint SmCond SmLight\", \"Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue\", \"Playfair Needlepoint SmCond SmLight Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",

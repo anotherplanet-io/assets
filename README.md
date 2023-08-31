@@ -1,7 +1,7 @@
 # @ap.cx/assets
 
 <!-- 
-This page is automatically generated (2023-08-04 12:42:14) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
+This page is automatically generated (2023-08-30 17:49:19) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
 
 This project is currently in an early stage of development and is a work in progress. It may contain incomplete features, bugs, and changes that are subject to frequent updates. We encourage contributors and users to be aware of these potential issues and to use the project with caution.
 
@@ -27,19 +27,22 @@ While **ap.cx/assets** is made available for general use, it has a special focus
 For the moment, **ap.cx/assets** includes the following fonts:
 
 
-| css_family           |   version  |                                            subset |
-| :------------------- | :--------: | ------------------------------------------------: |
-| Inter var            | 4.0-beta9h | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Inter var            | 4.0-beta9h | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| PlayfairRoman var    |     2.1    | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| PlayfairItalic var   |     2.1    | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| DarkerGrotesque var  |    1.0.0   |                latin,latin-ext,vietnamese,symbols |
-| FiraGO               |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| FiraGO               |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| FiraGO               |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| FiraCode             |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| LibreCaslonCondensed |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| LibreCaslonCondensed |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| css_family             |   version  |                                            subset |
+| :--------------------- | :--------: | ------------------------------------------------: |
+| Inter Variable         | 4.0-beta9h | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Inter Variable         | 4.0-beta9h | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Playfair               |     2.1    | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Playfair               |     2.1    | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| DarkerGrotesque        |    1.0.0   |                latin,latin-ext,vietnamese,symbols |
+| FiraGO                 |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| FiraGO                 |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| FiraGO                 |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Fira Code              |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Hubot Sans             |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Mona Sans              |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Libre Caslon Condensed |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| Libre Caslon Condensed |    1.0.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
+| SpaceGrotesk           |    1.0.0   |                latin,latin-ext,vietnamese,symbols |
 
 
 I will continue to update and expand my font library to offer more fantastic font options in the future.
@@ -82,10 +85,6 @@ To get involved, please reach out to me on this GitHub repository or a DM on Twi
 
 From terminal:
 
-```
-cd your/local/project/directory/build
-```
-
 In the project folder create a virtual environment. 
 This step has to be done just once, the first time:
 
@@ -96,7 +95,7 @@ python3 -m venv venv
 activate the virtual environment
 
 ```
-source ./build/venv/bin/activate
+source ./venv/bin/activate
 ```
 
 install the required dependencies
@@ -104,6 +103,17 @@ install the required dependencies
 ```
 pip install -r requirements.txt
 ```
+## Variation axis
+
+| Axis tag        | Name         | CSS Attribute       |
+| --------------- | ------------ | ------------------- |
+| 'ital'          | Italic       | font-style          |
+| 'opsz'          | Optical size | font-optical-sizing |
+| 'slnt'          | Slant        | font-style          |
+| 'wdth'          | Width        | font-stretch        |
+| 'wght'          | Weight       | font-weight         |
+
+
 
 ## Ressources 
 
@@ -115,8 +125,25 @@ https://learn.microsoft.com/en-us/typography/opentype/spec/name
 
 https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview
 
+### TrueType Reference Manual
+
+https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6cmap.html
+
 ### Capsize ❤️
 
 Flipping how we define typography in CSS
 
 https://seek-oss.github.io/capsize/
+
+
+### Variable fonts guide
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
+
+### variablefonts.io
+
+https://variablefonts.io/about-variable-fonts/
+
+### Glyph Metrics
+
+https://freetype.org/freetype2/docs/glyphs/glyphs-3.html

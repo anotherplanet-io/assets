@@ -1,0 +1,790 @@
+.firaCodeRegular {
+  font-family: "Fira Code", "Fira Code Fallback: Helvetica Neue", "Fira Code Fallback: Arial";
+}
+
+/* Default font size for mobile devices */
+
+.editorialMegaDisplay {
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.editorialMegaDisplay::before {
+  content: "";
+  margin-bottom: -0.181em;
+  display: table;
+}
+
+.editorialMegaDisplay::after {
+  content: "";
+  margin-top: -0.33em;
+  display: table;
+}
+
+.editorialDominantDisplay {
+  font-size: 69.328px;
+  line-height: 72px;
+}
+
+.editorialDominantDisplay::before {
+  content: "";
+  margin-bottom: -0.1003em;
+  display: table;
+}
+
+.editorialDominantDisplay::after {
+  content: "";
+  margin-top: -0.2493em;
+  display: table;
+}
+
+.displayLarge {
+  font-size: 58.672px;
+  line-height: 64px;
+}
+
+.displayLarge::before {
+  content: "";
+  margin-bottom: -0.1264em;
+  display: table;
+}
+
+.displayLarge::after {
+  content: "";
+  margin-top: -0.2754em;
+  display: table;
+}
+
+.display {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.display::before {
+  content: "";
+  margin-bottom: -0.1643em;
+  display: table;
+}
+
+.display::after {
+  content: "";
+  margin-top: -0.3133em;
+  display: table;
+}
+
+.displaySmall {
+  font-size: 37.328px;
+  line-height: 44px;
+}
+
+.displaySmall::before {
+  content: "";
+  margin-bottom: -0.1704em;
+  display: table;
+}
+
+.displaySmall::after {
+  content: "";
+  margin-top: -0.3194em;
+  display: table;
+}
+
+.headlineLarge {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.headlineLarge::before {
+  content: "";
+  margin-bottom: -0.1435em;
+  display: table;
+}
+
+.headlineLarge::after {
+  content: "";
+  margin-top: -0.2925em;
+  display: table;
+}
+
+.headline {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.headline::before {
+  content: "";
+  margin-bottom: -0.1964em;
+  display: table;
+}
+
+.headline::after {
+  content: "";
+  margin-top: -0.3454em;
+  display: table;
+}
+
+.headlineSmall {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.headlineSmall::before {
+  content: "";
+  margin-bottom: -0.1643em;
+  display: table;
+}
+
+.headlineSmall::after {
+  content: "";
+  margin-top: -0.3133em;
+  display: table;
+}
+
+.titleLarge {
+  font-size: 21.328px;
+  line-height: 28px;
+}
+
+.titleLarge::before {
+  content: "";
+  margin-bottom: -0.2374em;
+  display: table;
+}
+
+.titleLarge::after {
+  content: "";
+  margin-top: -0.3864em;
+  display: table;
+}
+
+.title {
+  font-size: 18.672px;
+  line-height: 28px;
+}
+
+.title::before {
+  content: "";
+  margin-bottom: -0.3308em;
+  display: table;
+}
+
+.title::after {
+  content: "";
+  margin-top: -0.4798em;
+  display: table;
+}
+
+.titleSmall {
+  font-size: 17.328px;
+  line-height: 24px;
+}
+
+.titleSmall::before {
+  content: "";
+  margin-bottom: -0.2735em;
+  display: table;
+}
+
+.titleSmall::after {
+  content: "";
+  margin-top: -0.4225em;
+  display: table;
+}
+
+.heroLarge {
+  font-size: 21.328px;
+  line-height: 28px;
+}
+
+.heroLarge::before {
+  content: "";
+  margin-bottom: -0.2374em;
+  display: table;
+}
+
+.heroLarge::after {
+  content: "";
+  margin-top: -0.3864em;
+  display: table;
+}
+
+.hero {
+  font-size: 18.672px;
+  line-height: 28px;
+}
+
+.hero::before {
+  content: "";
+  margin-bottom: -0.3308em;
+  display: table;
+}
+
+.hero::after {
+  content: "";
+  margin-top: -0.4798em;
+  display: table;
+}
+
+.bodyLarge {
+  font-size: 17.328px;
+  line-height: 24px;
+}
+
+.bodyLarge::before {
+  content: "";
+  margin-bottom: -0.2735em;
+  display: table;
+}
+
+.bodyLarge::after {
+  content: "";
+  margin-top: -0.4225em;
+  display: table;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.body::before {
+  content: "";
+  margin-bottom: -0.206em;
+  display: table;
+}
+
+.body::after {
+  content: "";
+  margin-top: -0.355em;
+  display: table;
+}
+
+.bodySmall {
+  font-size: 14.672px;
+  line-height: 20px;
+}
+
+.bodySmall::before {
+  content: "";
+  margin-bottom: -0.2626em;
+  display: table;
+}
+
+.bodySmall::after {
+  content: "";
+  margin-top: -0.4116em;
+  display: table;
+}
+
+.footnote {
+  font-size: 13.328px;
+  line-height: 20px;
+}
+
+.footnote::before {
+  content: "";
+  margin-bottom: -0.3313em;
+  display: table;
+}
+
+.footnote::after {
+  content: "";
+  margin-top: -0.4803em;
+  display: table;
+}
+
+.captionLarge {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.captionLarge::before {
+  content: "";
+  margin-bottom: -0.2477em;
+  display: table;
+}
+
+.captionLarge::after {
+  content: "";
+  margin-top: -0.3967em;
+  display: table;
+}
+
+.caption {
+  font-size: 10.672px;
+  line-height: 16px;
+}
+
+.caption::before {
+  content: "";
+  margin-bottom: -0.3306em;
+  display: table;
+}
+
+.caption::after {
+  content: "";
+  margin-top: -0.4796em;
+  display: table;
+}
+
+.captionSmall {
+  font-size: 9.328px;
+  line-height: 12px;
+}
+
+.captionSmall::before {
+  content: "";
+  margin-bottom: -0.2242em;
+  display: table;
+}
+
+.captionSmall::after {
+  content: "";
+  margin-top: -0.3732em;
+  display: table;
+}
+
+.legalLarge {
+  font-size: 8px;
+  line-height: 12px;
+}
+
+.legalLarge::before {
+  content: "";
+  margin-bottom: -0.331em;
+  display: table;
+}
+
+.legalLarge::after {
+  content: "";
+  margin-top: -0.48em;
+  display: table;
+}
+
+.legal {
+  font-size: 6.672px;
+  line-height: 12px;
+}
+
+.legal::before {
+  content: "";
+  margin-bottom: -0.4803em;
+  display: table;
+}
+
+.legal::after {
+  content: "";
+  margin-top: -0.6293em;
+  display: table;
+}
+
+.legalSmall {
+  font-size: 6px;
+  line-height: 8px;
+}
+
+.legalSmall::before {
+  content: "";
+  margin-bottom: -0.2477em;
+  display: table;
+}
+
+.legalSmall::after {
+  content: "";
+  margin-top: -0.3967em;
+  display: table;
+}
+
+/* Media query for devices with a viewport width greater than 768px (desktop) */
+@media (min-width: 768px) {
+  .editorialMegaDisplay {
+    font-size: 112px;
+    line-height: 128px;
+  }
+
+  .editorialMegaDisplay::before {
+    content: "";
+    margin-bottom: -0.1524em;
+    display: table;
+  }
+
+  .editorialMegaDisplay::after {
+    content: "";
+    margin-top: -0.3014em;
+    display: table;
+  }
+
+  .editorialDominantDisplay {
+    font-size: 96px;
+    line-height: 112px;
+  }
+
+  .editorialDominantDisplay::before {
+    content: "";
+    margin-bottom: -0.1643em;
+    display: table;
+  }
+
+  .editorialDominantDisplay::after {
+    content: "";
+    margin-top: -0.3133em;
+    display: table;
+  }
+
+  .displayLarge {
+    font-size: 80px;
+    line-height: 96px;
+  }
+
+  .displayLarge::before {
+    content: "";
+    margin-bottom: -0.181em;
+    display: table;
+  }
+
+  .displayLarge::after {
+    content: "";
+    margin-top: -0.33em;
+    display: table;
+  }
+
+  .display {
+    font-size: 64px;
+    line-height: 72px;
+  }
+
+  .display::before {
+    content: "";
+    margin-bottom: -0.1435em;
+    display: table;
+  }
+
+  .display::after {
+    content: "";
+    margin-top: -0.2925em;
+    display: table;
+  }
+
+  .displaySmall {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .displaySmall::before {
+    content: "";
+    margin-bottom: -0.1643em;
+    display: table;
+  }
+
+  .displaySmall::after {
+    content: "";
+    margin-top: -0.3133em;
+    display: table;
+  }
+
+  .headlineLarge {
+    font-size: 37.328px;
+    line-height: 44px;
+  }
+
+  .headlineLarge::before {
+    content: "";
+    margin-bottom: -0.1704em;
+    display: table;
+  }
+
+  .headlineLarge::after {
+    content: "";
+    margin-top: -0.3194em;
+    display: table;
+  }
+
+  .headline {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .headline::before {
+    content: "";
+    margin-bottom: -0.1435em;
+    display: table;
+  }
+
+  .headline::after {
+    content: "";
+    margin-top: -0.2925em;
+    display: table;
+  }
+
+  .headlineSmall {
+    font-size: 29.328px;
+    line-height: 32px;
+  }
+
+  .headlineSmall::before {
+    content: "";
+    margin-bottom: -0.1266em;
+    display: table;
+  }
+
+  .headlineSmall::after {
+    content: "";
+    margin-top: -0.2756em;
+    display: table;
+  }
+
+  .titleLarge {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .titleLarge::before {
+    content: "";
+    margin-bottom: -0.1643em;
+    display: table;
+  }
+
+  .titleLarge::after {
+    content: "";
+    margin-top: -0.3133em;
+    display: table;
+  }
+
+  .title {
+    font-size: 21.328px;
+    line-height: 28px;
+  }
+
+  .title::before {
+    content: "";
+    margin-bottom: -0.2374em;
+    display: table;
+  }
+
+  .title::after {
+    content: "";
+    margin-top: -0.3864em;
+    display: table;
+  }
+
+  .titleSmall {
+    font-size: 18.672px;
+    line-height: 24px;
+  }
+
+  .titleSmall::before {
+    content: "";
+    margin-bottom: -0.2237em;
+    display: table;
+  }
+
+  .titleSmall::after {
+    content: "";
+    margin-top: -0.3727em;
+    display: table;
+  }
+
+  .heroLarge {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .heroLarge::before {
+    content: "";
+    margin-bottom: -0.1643em;
+    display: table;
+  }
+
+  .heroLarge::after {
+    content: "";
+    margin-top: -0.3133em;
+    display: table;
+  }
+
+  .hero {
+    font-size: 21.328px;
+    line-height: 28px;
+  }
+
+  .hero::before {
+    content: "";
+    margin-bottom: -0.2374em;
+    display: table;
+  }
+
+  .hero::after {
+    content: "";
+    margin-top: -0.3864em;
+    display: table;
+  }
+
+  .bodyLarge {
+    font-size: 18.672px;
+    line-height: 24px;
+  }
+
+  .bodyLarge::before {
+    content: "";
+    margin-bottom: -0.2237em;
+    display: table;
+  }
+
+  .bodyLarge::after {
+    content: "";
+    margin-top: -0.3727em;
+    display: table;
+  }
+
+  .body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .body::before {
+    content: "";
+    margin-bottom: -0.206em;
+    display: table;
+  }
+
+  .body::after {
+    content: "";
+    margin-top: -0.355em;
+    display: table;
+  }
+
+  .bodySmall {
+    font-size: 14.672px;
+    line-height: 20px;
+  }
+
+  .bodySmall::before {
+    content: "";
+    margin-bottom: -0.2626em;
+    display: table;
+  }
+
+  .bodySmall::after {
+    content: "";
+    margin-top: -0.4116em;
+    display: table;
+  }
+
+  .footnote {
+    font-size: 13.328px;
+    line-height: 20px;
+  }
+
+  .footnote::before {
+    content: "";
+    margin-bottom: -0.3313em;
+    display: table;
+  }
+
+  .footnote::after {
+    content: "";
+    margin-top: -0.4803em;
+    display: table;
+  }
+
+  .captionLarge {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .captionLarge::before {
+    content: "";
+    margin-bottom: -0.2477em;
+    display: table;
+  }
+
+  .captionLarge::after {
+    content: "";
+    margin-top: -0.3967em;
+    display: table;
+  }
+
+  .caption {
+    font-size: 10.672px;
+    line-height: 16px;
+  }
+
+  .caption::before {
+    content: "";
+    margin-bottom: -0.3306em;
+    display: table;
+  }
+
+  .caption::after {
+    content: "";
+    margin-top: -0.4796em;
+    display: table;
+  }
+
+  .captionSmall {
+    font-size: 9.328px;
+    line-height: 12px;
+  }
+
+  .captionSmall::before {
+    content: "";
+    margin-bottom: -0.2242em;
+    display: table;
+  }
+
+  .captionSmall::after {
+    content: "";
+    margin-top: -0.3732em;
+    display: table;
+  }
+
+  .legalLarge {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .legalLarge::before {
+    content: "";
+    margin-bottom: -0.331em;
+    display: table;
+  }
+
+  .legalLarge::after {
+    content: "";
+    margin-top: -0.48em;
+    display: table;
+  }
+
+  .legal {
+    font-size: 6.672px;
+    line-height: 12px;
+  }
+
+  .legal::before {
+    content: "";
+    margin-bottom: -0.4803em;
+    display: table;
+  }
+
+  .legal::after {
+    content: "";
+    margin-top: -0.6293em;
+    display: table;
+  }
+
+  .legalSmall {
+    font-size: 6px;
+    line-height: 8px;
+  }
+
+  .legalSmall::before {
+    content: "";
+    margin-bottom: -0.2477em;
+    display: table;
+  }
+
+  .legalSmall::after {
+    content: "";
+    margin-top: -0.3967em;
+    display: table;
+  }
+}

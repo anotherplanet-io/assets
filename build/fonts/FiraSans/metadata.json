@@ -1,13 +1,16 @@
 {
   "FiraCode-Regular": {
     "postscriptName": "FiraCode-Regular",
+    "fullName": "Fira Code Regular",
     "familyName": "Fira Code",
+    "cssFamily": "Fira Code",
     "category": "monospace",
     "subfamilyName": "Regular",
     "copyright": "Digitized data copyright 2012-2016, The Mozilla Foundation and Telefonica S.A.",
     "version": "Version 3.206;PS 003.206;hotconv 1.0.88;makeotf.lib2.5.64775",
     "versionDisplay": "Version 3.206",
-    "outpath": "build/fonts/FiraSans",
+    "outpath": "fonts/FiraSans",
+    "variationAxes": {},
     "namedVariations": {},
     "unitsPerEm": 1000,
     "ascent": 770,
@@ -1425,26 +1428,37 @@
     ],
     "versionNumber": "3.206",
     "xWidthAvg": 600,
+    "fontStack": {
+      "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1524em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3014em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1524em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3014em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1524em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.1524em",
+            "marginTop": "-0.3014em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -1453,23 +1467,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1643em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3133em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1643em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3133em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1643em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.3133em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.1643em",
+            "marginTop": "-0.3133em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -1478,23 +1499,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.181em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.33em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.181em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.33em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.181em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.33em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.181em",
+            "marginTop": "-0.33em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -1503,23 +1531,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1435em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2925em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2925em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1435em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2925em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1435em",
+            "marginTop": "-0.2925em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -1528,23 +1563,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1643em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3133em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1643em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3133em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1643em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.3133em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.1643em",
+            "marginTop": "-0.3133em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -1553,48 +1595,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1756em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3246em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1756em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.3246em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.1756em",
-            "baselineTrim": "-0.3246em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1704em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3194em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1704em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.1704em",
+            "marginTop": "-0.3194em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.1704em",
+            "baselineTrim": "-0.3194em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1435em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2925em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2925em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1435em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2925em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.1435em",
+            "marginTop": "-0.2925em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -1603,48 +1659,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1327em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2817em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1327em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2817em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.1327em",
-            "baselineTrim": "-0.2817em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1266em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2756em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1266em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2756em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.1266em",
+            "marginTop": "-0.2756em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.1266em",
+            "baselineTrim": "-0.2756em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1643em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3133em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1643em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3133em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.1643em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.3133em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1643em",
+            "marginTop": "-0.3133em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -1653,73 +1723,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1524em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2374em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3864em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3014em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2374em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3864em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2374em",
+            "marginTop": "-0.3864em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.1524em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3014em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.1524em",
-            "baselineTrim": "-0.3014em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2374em",
+            "baselineTrim": "-0.3864em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2126em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3616em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2126em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3616em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2126em",
-            "baselineTrim": "-0.3616em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2237em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3727em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2237em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3727em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2237em",
+            "marginTop": "-0.3727em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2237em",
+            "baselineTrim": "-0.3727em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1643em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3133em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.1643em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.3133em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1643em",
+            "marginTop": "-0.3133em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.1643em",
+            "baselineTrim": "-0.3133em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2374em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3864em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.2374em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3864em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2374em",
+            "marginTop": "-0.3864em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2374em",
+            "baselineTrim": "-0.3864em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2237em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3727em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2237em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3727em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2237em",
+            "marginTop": "-0.3727em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2237em",
+            "baselineTrim": "-0.3727em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.206em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.355em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.206em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.355em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.206em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.355em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.206em",
+            "marginTop": "-0.355em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -1728,73 +1915,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2477em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3967em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2477em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3967em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.2477em",
-            "baselineTrim": "-0.3967em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2626em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4116em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2626em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.4116em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2626em",
+            "marginTop": "-0.4116em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2626em",
+            "baselineTrim": "-0.4116em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3502em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4992em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3502em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4992em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3502em",
-            "baselineTrim": "-0.4992em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3313em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4803em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3313em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4803em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3313em",
+            "marginTop": "-0.4803em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3313em",
+            "baselineTrim": "-0.4803em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2477em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3967em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2477em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3967em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2477em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3967em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.2477em",
+            "marginTop": "-0.3967em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -1803,73 +2011,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3083em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4573em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3083em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4573em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3083em",
-            "baselineTrim": "-0.4573em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3306em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4796em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3306em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4796em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3306em",
+            "marginTop": "-0.4796em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3306em",
+            "baselineTrim": "-0.4796em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2477em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3967em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2477em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3967em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.2477em",
-            "baselineTrim": "-0.3967em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2242em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3732em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2242em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3732em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2242em",
+            "marginTop": "-0.3732em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2242em",
+            "baselineTrim": "-0.3732em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.331em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.48em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.331em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.48em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.331em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.48em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.331em",
+            "marginTop": "-0.48em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -1878,48 +2107,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4381em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.5871em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4381em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5871em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4381em",
-            "baselineTrim": "-0.5871em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4803em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.6293em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4803em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.6293em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4803em",
+            "marginTop": "-0.6293em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4803em",
+            "baselineTrim": "-0.6293em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2477em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3967em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2477em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3967em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2477em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3967em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.2477em",
+            "marginTop": "-0.3967em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}\n@font-face {\n  font-family: \"Fira Code Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.2477em",
+            "baselineTrim": "-0.3967em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.181em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.33em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.181em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.33em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.181em",
+            "marginTop": "-0.33em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.181em",
+            "baselineTrim": "-0.33em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1003em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2493em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1003em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2493em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1003em",
+            "marginTop": "-0.2493em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.1003em",
+            "baselineTrim": "-0.2493em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1264em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2754em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1264em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2754em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.1264em",
+            "marginTop": "-0.2754em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.1264em",
+            "baselineTrim": "-0.2754em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1643em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3133em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1643em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.3133em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.1643em",
+            "marginTop": "-0.3133em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.1643em",
+            "baselineTrim": "-0.3133em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1704em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3194em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.1704em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.3194em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.1704em",
+            "marginTop": "-0.3194em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.1704em",
+            "baselineTrim": "-0.3194em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1435em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2925em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1435em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2925em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.1435em",
+            "marginTop": "-0.2925em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.1435em",
+            "baselineTrim": "-0.2925em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1964em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3454em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1964em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.3454em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.1964em",
+            "marginTop": "-0.3454em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.1964em",
+            "baselineTrim": "-0.3454em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1643em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3133em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1643em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.3133em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.1643em",
+            "marginTop": "-0.3133em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.1643em",
+            "baselineTrim": "-0.3133em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2374em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3864em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2374em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.3864em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2374em",
+            "marginTop": "-0.3864em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2374em",
+            "baselineTrim": "-0.3864em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3308em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4798em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3308em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.4798em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3308em",
+            "marginTop": "-0.4798em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3308em",
+            "baselineTrim": "-0.4798em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2735em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4225em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2735em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.4225em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2735em",
+            "marginTop": "-0.4225em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2735em",
+            "baselineTrim": "-0.4225em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2374em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3864em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2374em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.3864em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2374em",
+            "marginTop": "-0.3864em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2374em",
+            "baselineTrim": "-0.3864em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3308em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4798em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3308em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.4798em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.3308em",
+            "marginTop": "-0.4798em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.3308em",
+            "baselineTrim": "-0.4798em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2735em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4225em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2735em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.4225em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2735em",
+            "marginTop": "-0.4225em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2735em",
+            "baselineTrim": "-0.4225em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.206em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.355em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.206em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.355em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.206em",
+            "marginTop": "-0.355em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.206em",
+            "baselineTrim": "-0.355em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2626em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4116em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.2626em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.4116em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2626em",
+            "marginTop": "-0.4116em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2626em",
+            "baselineTrim": "-0.4116em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3313em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4803em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3313em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4803em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3313em",
+            "marginTop": "-0.4803em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3313em",
+            "baselineTrim": "-0.4803em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2477em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3967em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.2477em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3967em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.2477em",
+            "marginTop": "-0.3967em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.2477em",
+            "baselineTrim": "-0.3967em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3306em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.4796em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3306em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.4796em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3306em",
+            "marginTop": "-0.4796em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3306em",
+            "baselineTrim": "-0.4796em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2242em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3732em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2242em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3732em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2242em",
+            "marginTop": "-0.3732em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2242em",
+            "baselineTrim": "-0.3732em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.331em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.48em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.331em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.48em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.331em",
+            "marginTop": "-0.48em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.331em",
+            "baselineTrim": "-0.48em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4803em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.6293em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4803em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.6293em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4803em",
+            "marginTop": "-0.6293em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4803em",
+            "baselineTrim": "-0.6293em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2477em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3967em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.2477em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3967em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.2477em",
+            "marginTop": "-0.3967em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Fira Code\", \"Fira Code Fallback: Helvetica Neue\", \"Fira Code Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",

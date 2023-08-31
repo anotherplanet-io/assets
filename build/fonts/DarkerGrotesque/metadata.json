@@ -1,13 +1,24 @@
 {
   "DarkerGrotesque": {
     "postscriptName": "DarkerGrotesque-Light",
+    "fullName": "Darker Grotesque Light",
     "familyName": "Darker Grotesque Light",
+    "cssFamily": "DarkerGrotesque",
     "category": "sans-serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2019 The Darker Grotesque Project Authors (https://github.com/bettergui/DarkerGrotesque)",
     "version": "Version 1.000;gftools[0.9.28]",
     "versionDisplay": "Version 1.000",
-    "outpath": "build/fonts/DarkerGrotesque",
+    "outpath": "fonts/DarkerGrotesque",
+    "variationAxes": {
+      "wght": {
+        "name": "Weight",
+        "min": 300,
+        "default": 300,
+        "max": 900,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Light": {
         "wght": 300
@@ -29,15 +40,6 @@
       },
       "Black": {
         "wght": 900
-      }
-    },
-    "variationAxes": {
-      "wght": {
-        "name": "Weight",
-        "min": 300,
-        "default": 300,
-        "max": 900,
-        "valid": true
       }
     },
     "unitsPerEm": 1000,
@@ -576,26 +578,37 @@
     "versionNumber": "1.000",
     "copyrightUrl": "https://github.com/bettergui/DarkerGrotesque",
     "xWidthAvg": 352,
+    "fontStack": {
+      "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3904em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1894em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3904em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1894em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3904em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.1894em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.3904em",
+            "marginTop": "-0.1894em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -604,23 +617,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4023em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2013em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4023em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2013em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.4023em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2013em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.4023em",
+            "marginTop": "-0.2013em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -629,23 +649,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.419em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.218em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.419em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.218em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.419em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.218em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.419em",
+            "marginTop": "-0.218em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -654,23 +681,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3815em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1805em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3815em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1805em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.3815em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1805em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.3815em",
+            "marginTop": "-0.1805em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -679,23 +713,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4023em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2013em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4023em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2013em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.4023em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2013em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.4023em",
+            "marginTop": "-0.2013em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -704,48 +745,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4136em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2126em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.4136em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2126em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.4136em",
-            "baselineTrim": "-0.2126em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4084em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2074em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.4084em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2074em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.4084em",
+            "marginTop": "-0.2074em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.4084em",
+            "baselineTrim": "-0.2074em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3815em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1805em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3815em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1805em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.3815em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1805em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.3815em",
+            "marginTop": "-0.1805em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -754,48 +809,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3707em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1697em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.3707em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1697em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.3707em",
-            "baselineTrim": "-0.1697em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3646em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1636em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.3646em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1636em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.3646em",
+            "marginTop": "-0.1636em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.3646em",
+            "baselineTrim": "-0.1636em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4023em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2013em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4023em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2013em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.4023em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2013em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4023em",
+            "marginTop": "-0.2013em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -804,73 +873,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3904em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4754em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2744em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1894em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.4754em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2744em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4754em",
+            "marginTop": "-0.2744em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3904em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.1894em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.3904em",
-            "baselineTrim": "-0.1894em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4754em",
+            "baselineTrim": "-0.2744em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4506em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2496em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.4506em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2496em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.4506em",
-            "baselineTrim": "-0.2496em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4617em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2607em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.4617em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2607em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.4617em",
+            "marginTop": "-0.2607em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.4617em",
+            "baselineTrim": "-0.2607em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4023em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2013em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.4023em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2013em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4023em",
+            "marginTop": "-0.2013em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4023em",
+            "baselineTrim": "-0.2013em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4754em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2744em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.4754em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.2744em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4754em",
+            "marginTop": "-0.2744em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4754em",
+            "baselineTrim": "-0.2744em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4617em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2607em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.4617em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2607em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.4617em",
+            "marginTop": "-0.2607em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.4617em",
+            "baselineTrim": "-0.2607em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.444em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.243em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.444em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.243em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.444em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.243em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.444em",
+            "marginTop": "-0.243em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -879,73 +1065,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4857em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2847em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.4857em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.2847em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.4857em",
-            "baselineTrim": "-0.2847em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5006em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2996em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.5006em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.2996em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.5006em",
+            "marginTop": "-0.2996em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.5006em",
+            "baselineTrim": "-0.2996em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.5882em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3872em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5882em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3872em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.5882em",
-            "baselineTrim": "-0.3872em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5693em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3683em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5693em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3683em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.5693em",
+            "marginTop": "-0.3683em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.5693em",
+            "baselineTrim": "-0.3683em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4857em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2847em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4857em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2847em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4857em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.2847em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4857em",
+            "marginTop": "-0.2847em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -954,73 +1161,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.5463em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3453em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.5463em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3453em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.5463em",
-            "baselineTrim": "-0.3453em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5686em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3676em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.5686em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3676em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.5686em",
+            "marginTop": "-0.3676em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.5686em",
+            "baselineTrim": "-0.3676em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4857em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2847em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4857em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2847em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4857em",
-            "baselineTrim": "-0.2847em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4622em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2612em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4622em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2612em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4622em",
+            "marginTop": "-0.2612em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4622em",
+            "baselineTrim": "-0.2612em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.569em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.368em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.569em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.368em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.569em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.368em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.569em",
+            "marginTop": "-0.368em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -1029,48 +1257,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.6761em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4751em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.6761em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.4751em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.6761em",
-            "baselineTrim": "-0.4751em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.7183em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5173em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.7183em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5173em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.7183em",
+            "marginTop": "-0.5173em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.7183em",
+            "baselineTrim": "-0.5173em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4857em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2847em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4857em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2847em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4857em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.2847em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.4857em",
+            "marginTop": "-0.2847em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}\n@font-face {\n  font-family: \"Darker Grotesque Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 106%;\n  descent-override: 29.6%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.4857em",
+            "baselineTrim": "-0.2847em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.419em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.218em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.419em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.218em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.419em",
+            "marginTop": "-0.218em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.419em",
+            "baselineTrim": "-0.218em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3383em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1373em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.3383em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1373em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.3383em",
+            "marginTop": "-0.1373em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.3383em",
+            "baselineTrim": "-0.1373em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3644em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1634em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.3644em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1634em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.3644em",
+            "marginTop": "-0.1634em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.3644em",
+            "baselineTrim": "-0.1634em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4023em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2013em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.4023em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2013em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.4023em",
+            "marginTop": "-0.2013em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.4023em",
+            "baselineTrim": "-0.2013em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4084em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2074em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.4084em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2074em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.4084em",
+            "marginTop": "-0.2074em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.4084em",
+            "baselineTrim": "-0.2074em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3815em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1805em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.3815em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.1805em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.3815em",
+            "marginTop": "-0.1805em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.3815em",
+            "baselineTrim": "-0.1805em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4344em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2334em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.4344em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2334em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.4344em",
+            "marginTop": "-0.2334em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.4344em",
+            "baselineTrim": "-0.2334em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4023em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2013em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.4023em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2013em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4023em",
+            "marginTop": "-0.2013em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4023em",
+            "baselineTrim": "-0.2013em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4754em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2744em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.4754em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2744em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4754em",
+            "marginTop": "-0.2744em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4754em",
+            "baselineTrim": "-0.2744em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5688em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3678em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.5688em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3678em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.5688em",
+            "marginTop": "-0.3678em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.5688em",
+            "baselineTrim": "-0.3678em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5115em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3105em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.5115em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3105em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.5115em",
+            "marginTop": "-0.3105em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.5115em",
+            "baselineTrim": "-0.3105em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4754em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2744em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.4754em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2744em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.4754em",
+            "marginTop": "-0.2744em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.4754em",
+            "baselineTrim": "-0.2744em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5688em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3678em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.5688em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3678em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.5688em",
+            "marginTop": "-0.3678em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.5688em",
+            "baselineTrim": "-0.3678em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5115em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3105em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.5115em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3105em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.5115em",
+            "marginTop": "-0.3105em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.5115em",
+            "baselineTrim": "-0.3105em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.444em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.243em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.444em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.243em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.444em",
+            "marginTop": "-0.243em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.444em",
+            "baselineTrim": "-0.243em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5006em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2996em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.5006em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.2996em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.5006em",
+            "marginTop": "-0.2996em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.5006em",
+            "baselineTrim": "-0.2996em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5693em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3683em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.5693em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3683em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.5693em",
+            "marginTop": "-0.3683em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.5693em",
+            "baselineTrim": "-0.3683em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4857em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2847em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.4857em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.2847em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.4857em",
+            "marginTop": "-0.2847em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.4857em",
+            "baselineTrim": "-0.2847em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5686em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3676em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.5686em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3676em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.5686em",
+            "marginTop": "-0.3676em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.5686em",
+            "baselineTrim": "-0.3676em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4622em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2612em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.4622em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2612em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.4622em",
+            "marginTop": "-0.2612em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.4622em",
+            "baselineTrim": "-0.2612em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.569em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.368em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.569em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.368em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.569em",
+            "marginTop": "-0.368em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.569em",
+            "baselineTrim": "-0.368em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.7183em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5173em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.7183em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5173em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.7183em",
+            "marginTop": "-0.5173em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.7183em",
+            "baselineTrim": "-0.5173em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.4857em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2847em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.4857em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.2847em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.4857em",
+            "marginTop": "-0.2847em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Darker Grotesque Light\", \"Darker Grotesque Light Fallback: Helvetica Neue\", \"Darker Grotesque Light Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",

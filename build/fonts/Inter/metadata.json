@@ -1,13 +1,31 @@
 {
   "Inter-italic": {
     "postscriptName": "InterVariableItalic",
+    "fullName": "Inter Variable Italic",
     "familyName": "Inter Variable",
+    "cssFamily": "Inter Variable",
     "category": "sans-serif",
     "subfamilyName": "Italic",
     "copyright": "Copyright 2016 The Inter Project Authors",
     "version": "Version 4.000;git-fe75d3a2c",
     "versionDisplay": "Version 4.000",
-    "outpath": "build/fonts/Inter",
+    "outpath": "fonts/Inter",
+    "variationAxes": {
+      "opsz": {
+        "name": "Optical size",
+        "min": 14,
+        "default": 28,
+        "max": 28,
+        "valid": true
+      },
+      "wght": {
+        "name": "Weight",
+        "min": 100,
+        "default": 400,
+        "max": 900,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Thin Italic": {
         "opsz": 28,
@@ -44,22 +62,6 @@
       "Black Italic": {
         "opsz": 28,
         "wght": 900
-      }
-    },
-    "variationAxes": {
-      "opsz": {
-        "name": "Optical size",
-        "min": 14,
-        "default": 28,
-        "max": 28,
-        "valid": true
-      },
-      "wght": {
-        "name": "Weight",
-        "min": 100,
-        "default": 400,
-        "max": 900,
-        "valid": true
       }
     },
     "unitsPerEm": 2048,
@@ -2523,26 +2525,37 @@
     ],
     "versionNumber": "4.000",
     "xWidthAvg": 889,
+    "fontStack": {
+      "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2077em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2077em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2077em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2077em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2077em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2077em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.2077em",
+            "marginTop": "-0.2077em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -2551,23 +2564,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2196em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2196em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -2576,23 +2596,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2362em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2362em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2362em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2362em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2362em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -2601,23 +2628,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1987em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1987em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1987em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1987em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1987em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1987em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1987em",
+            "marginTop": "-0.1987em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -2626,23 +2660,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2196em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2196em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -2651,48 +2692,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2308em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2308em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2308em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2308em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.2308em",
-            "baselineTrim": "-0.2308em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2256em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2256em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2256em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2256em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.2256em",
+            "marginTop": "-0.2256em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.2256em",
+            "baselineTrim": "-0.2256em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1987em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1987em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1987em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1987em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1987em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1987em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.1987em",
+            "marginTop": "-0.1987em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -2701,48 +2756,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.188em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.188em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.188em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.188em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.188em",
-            "baselineTrim": "-0.188em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1818em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1818em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1818em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1818em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.1818em",
+            "marginTop": "-0.1818em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.1818em",
+            "baselineTrim": "-0.1818em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2196em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2196em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -2751,73 +2820,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2077em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2077em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2077em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2077em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.2077em",
-            "baselineTrim": "-0.2077em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2678em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2678em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2678em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2678em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2678em",
-            "baselineTrim": "-0.2678em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2789em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2789em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2789em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2789em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2789em",
+            "marginTop": "-0.2789em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2789em",
+            "baselineTrim": "-0.2789em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2196em",
+            "baselineTrim": "-0.2196em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2789em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2789em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2789em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2789em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2789em",
+            "marginTop": "-0.2789em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2789em",
+            "baselineTrim": "-0.2789em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2612em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2612em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2612em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2612em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2612em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.2612em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2612em",
+            "marginTop": "-0.2612em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -2826,73 +3012,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3029em",
-            "baselineTrim": "-0.3029em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3178em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3178em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3178em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3178em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3178em",
+            "marginTop": "-0.3178em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3178em",
+            "baselineTrim": "-0.3178em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4055em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4055em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.4055em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4055em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.4055em",
-            "baselineTrim": "-0.4055em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3865em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3865em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3865em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3865em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3865em",
+            "marginTop": "-0.3865em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3865em",
+            "baselineTrim": "-0.3865em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -2901,73 +3108,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3635em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3635em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3635em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3635em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3635em",
-            "baselineTrim": "-0.3635em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3859em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3859em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3859em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3859em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3859em",
+            "marginTop": "-0.3859em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3859em",
+            "baselineTrim": "-0.3859em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.3029em",
-            "baselineTrim": "-0.3029em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2795em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2795em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2795em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2795em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2795em",
+            "marginTop": "-0.2795em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2795em",
+            "baselineTrim": "-0.2795em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3862em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3862em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3862em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3862em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3862em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.3862em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3862em",
+            "marginTop": "-0.3862em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -2976,48 +3204,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4934em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4934em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4934em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.4934em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4934em",
-            "baselineTrim": "-0.4934em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5355em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5355em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5355em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5355em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.5355em",
+            "marginTop": "-0.5355em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.5355em",
+            "baselineTrim": "-0.5355em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.3029em",
+            "baselineTrim": "-0.3029em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2362em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2362em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2362em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.2362em",
+            "baselineTrim": "-0.2362em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1555em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1555em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1555em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1555em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1555em",
+            "marginTop": "-0.1555em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.1555em",
+            "baselineTrim": "-0.1555em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1816em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1816em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1816em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1816em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.1816em",
+            "marginTop": "-0.1816em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.1816em",
+            "baselineTrim": "-0.1816em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.2196em",
+            "baselineTrim": "-0.2196em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2256em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2256em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2256em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2256em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.2256em",
+            "marginTop": "-0.2256em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.2256em",
+            "baselineTrim": "-0.2256em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1987em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1987em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1987em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.1987em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.1987em",
+            "marginTop": "-0.1987em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.1987em",
+            "baselineTrim": "-0.1987em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2516em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2516em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2516em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2516em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.2516em",
+            "marginTop": "-0.2516em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.2516em",
+            "baselineTrim": "-0.2516em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2196em",
+            "baselineTrim": "-0.2196em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.386em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.386em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.386em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.386em",
+            "marginTop": "-0.386em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.386em",
+            "baselineTrim": "-0.386em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3288em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3288em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3288em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3288em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3288em",
+            "marginTop": "-0.3288em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3288em",
+            "baselineTrim": "-0.3288em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.386em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.386em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.386em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.386em",
+            "marginTop": "-0.386em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.386em",
+            "baselineTrim": "-0.386em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3288em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3288em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.3288em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3288em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3288em",
+            "marginTop": "-0.3288em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3288em",
+            "baselineTrim": "-0.3288em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2612em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2612em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2612em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.2612em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2612em",
+            "marginTop": "-0.2612em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2612em",
+            "baselineTrim": "-0.2612em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3178em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3178em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3178em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3178em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3178em",
+            "marginTop": "-0.3178em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3178em",
+            "baselineTrim": "-0.3178em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3865em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3865em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3865em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3865em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3865em",
+            "marginTop": "-0.3865em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3865em",
+            "baselineTrim": "-0.3865em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3029em",
+            "baselineTrim": "-0.3029em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3859em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3859em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3859em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3859em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3859em",
+            "marginTop": "-0.3859em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3859em",
+            "baselineTrim": "-0.3859em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2795em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2795em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2795em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2795em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2795em",
+            "marginTop": "-0.2795em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2795em",
+            "baselineTrim": "-0.2795em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3862em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3862em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3862em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.3862em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3862em",
+            "marginTop": "-0.3862em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3862em",
+            "baselineTrim": "-0.3862em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5355em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5355em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5355em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5355em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.5355em",
+            "marginTop": "-0.5355em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.5355em",
+            "baselineTrim": "-0.5355em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
@@ -3030,13 +4010,31 @@
   },
   "Inter-roman": {
     "postscriptName": "InterVariable",
+    "fullName": "Inter Variable",
     "familyName": "Inter Variable",
+    "cssFamily": "Inter Variable",
     "category": "sans-serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2016 The Inter Project Authors",
     "version": "Version 4.000;git-fe75d3a2c",
     "versionDisplay": "Version 4.000",
-    "outpath": "build/fonts/Inter",
+    "outpath": "fonts/Inter",
+    "variationAxes": {
+      "opsz": {
+        "name": "Optical size",
+        "min": 14,
+        "default": 28,
+        "max": 28,
+        "valid": true
+      },
+      "wght": {
+        "name": "Weight",
+        "min": 100,
+        "default": 400,
+        "max": 900,
+        "valid": true
+      }
+    },
     "namedVariations": {
       "Thin": {
         "opsz": 28,
@@ -3073,22 +4071,6 @@
       "Black": {
         "opsz": 28,
         "wght": 900
-      }
-    },
-    "variationAxes": {
-      "opsz": {
-        "name": "Optical size",
-        "min": 14,
-        "default": 28,
-        "max": 28,
-        "valid": true
-      },
-      "wght": {
-        "name": "Weight",
-        "min": 100,
-        "default": 400,
-        "max": 900,
-        "valid": true
       }
     },
     "unitsPerEm": 2048,
@@ -5583,26 +6565,37 @@
     ],
     "versionNumber": "4.000",
     "xWidthAvg": 884,
+    "fontStack": {
+      "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+      "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}"
+    },
     "pgts": {
       "desktop": {
         "Editorial Mega Display": {
-          "fontSize": "112px",
-          "lineHeight": "128px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2077em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2077em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "112px",
+            "lineHeight": "128px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2077em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2077em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2077em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2077em;\n  display: table;\n}",
-          "lineHeightRem": 8,
-          "fontSizeRem": 7,
+          "capsizedCssVariables": {
+            "fontSize": "7rem",
+            "lineHeight": "128px",
+            "marginBottom": "-0.2077em",
+            "marginTop": "-0.2077em"
+          },
+          "lineHeight": "128px",
+          "fontSize": 7,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -5611,23 +6604,30 @@
           }
         },
         "Editorial Dominant Display": {
-          "fontSize": "96px",
-          "lineHeight": "112px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2196em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2196em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "96px",
+            "lineHeight": "112px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
-          "lineHeightRem": 7,
-          "fontSizeRem": 6,
+          "capsizedCssVariables": {
+            "fontSize": "6rem",
+            "lineHeight": "112px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "112px",
+          "fontSize": 6,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -5636,23 +6636,30 @@
           }
         },
         "Display large": {
-          "fontSize": "80px",
-          "lineHeight": "96px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2362em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2362em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2362em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.2362em;\n  display: table;\n}",
-          "lineHeightRem": 6,
-          "fontSizeRem": 5,
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2362em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -5661,23 +6668,30 @@
           }
         },
         "Display": {
-          "fontSize": "64px",
-          "lineHeight": "72px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1987em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1987em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "64px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1987em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1987em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1987em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1987em;\n  display: table;\n}",
-          "lineHeightRem": 4.5,
-          "fontSizeRem": 4,
+          "capsizedCssVariables": {
+            "fontSize": "4rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1987em",
+            "marginTop": "-0.1987em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -5686,23 +6700,30 @@
           }
         },
         "Display small": {
-          "fontSize": "48px",
-          "lineHeight": "56px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2196em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2196em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
-          "lineHeightRem": 3.5,
-          "fontSizeRem": 3,
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -5711,48 +6732,62 @@
           }
         },
         "Headline large": {
-          "fontSize": "37px",
-          "lineHeight": "44px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2308em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2308em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2308em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2308em;\n  display: table;\n}",
-          "lineHeightRem": 2.75,
-          "fontSizeRem": 2.3125,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "37px",
+          "capsizeStyles": {
+            "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.2308em",
-            "baselineTrim": "-0.2308em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2256em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2256em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2256em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2256em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.2256em",
+            "marginTop": "-0.2256em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.2256em",
+            "baselineTrim": "-0.2256em"
           }
         },
         "Headline": {
-          "fontSize": "32px",
-          "lineHeight": "36px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.1987em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.1987em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1987em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1987em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1987em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1987em;\n  display: table;\n}",
-          "lineHeightRem": 2.25,
-          "fontSizeRem": 2,
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.1987em",
+            "marginTop": "-0.1987em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -5761,48 +6796,62 @@
           }
         },
         "Headline small": {
-          "fontSize": "29px",
-          "lineHeight": "32px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.188em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.188em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.188em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.188em;\n  display: table;\n}",
-          "lineHeightRem": 2,
-          "fontSizeRem": 1.8125,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "29px",
+          "capsizeStyles": {
+            "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.188em",
-            "baselineTrim": "-0.188em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1818em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1818em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1818em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1818em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.833rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.1818em",
+            "marginTop": "-0.1818em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.833,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "29.328px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.1818em",
+            "baselineTrim": "-0.1818em"
           }
         },
         "Title large": {
-          "fontSize": "24px",
-          "lineHeight": "28px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2196em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2196em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
-          "lineHeightRem": 1.75,
-          "fontSizeRem": 1.5,
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -5811,73 +6860,190 @@
           }
         },
         "Title": {
-          "fontSize": "21px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2077em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
           },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2077em",
-            "display": "table"
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21px;\n  line-height: 24px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2077em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2077em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.3125,
+          "lineHeight": "28px",
+          "fontSize": 1.333,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
-            "fontSize": "21px",
-            "lineHeight": "24px",
-            "capHeightTrim": "-0.2077em",
-            "baselineTrim": "-0.2077em"
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
           }
         },
         "Title small": {
-          "fontSize": "19px",
-          "lineHeight": "24px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2678em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2678em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 19px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2678em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2678em;\n  display: table;\n}",
-          "lineHeightRem": 1.5,
-          "fontSizeRem": 1.1875,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "19px",
+          "capsizeStyles": {
+            "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2678em",
-            "baselineTrim": "-0.2678em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2789em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2789em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2789em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2789em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2789em",
+            "marginTop": "-0.2789em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2789em",
+            "baselineTrim": "-0.2789em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2196em",
+            "baselineTrim": "-0.2196em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2789em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2789em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2789em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2789em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.2789em",
+            "marginTop": "-0.2789em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.2789em",
+            "baselineTrim": "-0.2789em"
           }
         },
         "Body": {
-          "fontSize": "16px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.2612em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.2612em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2612em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2612em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2612em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.2612em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 1,
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2612em",
+            "marginTop": "-0.2612em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -5886,73 +7052,94 @@
           }
         },
         "Body small": {
-          "fontSize": "15px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 15px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.9375,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "15px",
+          "capsizeStyles": {
+            "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3029em",
-            "baselineTrim": "-0.3029em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3178em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3178em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3178em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3178em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3178em",
+            "marginTop": "-0.3178em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3178em",
+            "baselineTrim": "-0.3178em"
           }
         },
         "Footnote": {
-          "fontSize": "13px",
-          "lineHeight": "20px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4055em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4055em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.4055em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.4055em;\n  display: table;\n}",
-          "lineHeightRem": 1.25,
-          "fontSizeRem": 0.8125,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "13px",
+          "capsizeStyles": {
+            "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.4055em",
-            "baselineTrim": "-0.4055em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3865em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3865em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3865em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3865em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3865em",
+            "marginTop": "-0.3865em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3865em",
+            "baselineTrim": "-0.3865em"
           }
         },
         "Caption large": {
-          "fontSize": "12px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.75,
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -5961,73 +7148,94 @@
           }
         },
         "Caption": {
-          "fontSize": "11px",
-          "lineHeight": "16px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3635em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3635em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 11px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3635em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3635em;\n  display: table;\n}",
-          "lineHeightRem": 1,
-          "fontSizeRem": 0.6875,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "11px",
+          "capsizeStyles": {
+            "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3635em",
-            "baselineTrim": "-0.3635em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3859em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3859em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3859em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3859em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3859em",
+            "marginTop": "-0.3859em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3859em",
+            "baselineTrim": "-0.3859em"
           }
         },
         "Caption small": {
-          "fontSize": "9px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5625,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "9px",
+          "capsizeStyles": {
+            "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.3029em",
-            "baselineTrim": "-0.3029em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2795em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2795em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2795em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2795em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2795em",
+            "marginTop": "-0.2795em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2795em",
+            "baselineTrim": "-0.2795em"
           }
         },
         "Legal large": {
-          "fontSize": "8px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3862em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3862em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3862em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3862em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3862em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.3862em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.5,
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3862em",
+            "marginTop": "-0.3862em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -6036,48 +7244,800 @@
           }
         },
         "Legal": {
-          "fontSize": "7px",
-          "lineHeight": "12px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.4934em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.4934em",
-            "display": "table"
-          },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 7px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.4934em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.4934em;\n  display: table;\n}",
-          "lineHeightRem": 0.75,
-          "fontSizeRem": 0.4375,
-          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
-          "capsizeValues": {
-            "fontSize": "7px",
+          "capsizeStyles": {
+            "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.4934em",
-            "baselineTrim": "-0.4934em"
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5355em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5355em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5355em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5355em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.5355em",
+            "marginTop": "-0.5355em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.5355em",
+            "baselineTrim": "-0.5355em"
           }
         },
         "Legal small": {
-          "fontSize": "6px",
-          "lineHeight": "8px",
-          "::before": {
-            "content": "''",
-            "marginBottom": "-0.3029em",
-            "display": "table"
-          },
-          "::after": {
-            "content": "''",
-            "marginTop": "-0.3029em",
-            "display": "table"
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
           },
           "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
-          "lineHeightRem": 0.5,
-          "fontSizeRem": 0.375,
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
           "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
-          "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}",
+          "capsizeValues": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "capHeightTrim": "-0.3029em",
+            "baselineTrim": "-0.3029em"
+          }
+        }
+      },
+      "mobile": {
+        "Editorial Mega Display": {
+          "capsizeStyles": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2362em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2362em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2362em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2362em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "5rem",
+            "lineHeight": "96px",
+            "marginBottom": "-0.2362em",
+            "marginTop": "-0.2362em"
+          },
+          "lineHeight": "96px",
+          "fontSize": 5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "80px",
+            "lineHeight": "96px",
+            "capHeightTrim": "-0.2362em",
+            "baselineTrim": "-0.2362em"
+          }
+        },
+        "Editorial Dominant Display": {
+          "capsizeStyles": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1555em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1555em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1555em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1555em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "4.333rem",
+            "lineHeight": "72px",
+            "marginBottom": "-0.1555em",
+            "marginTop": "-0.1555em"
+          },
+          "lineHeight": "72px",
+          "fontSize": 4.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "69.328px",
+            "lineHeight": "72px",
+            "capHeightTrim": "-0.1555em",
+            "baselineTrim": "-0.1555em"
+          }
+        },
+        "Display large": {
+          "capsizeStyles": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1816em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1816em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1816em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1816em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3.667rem",
+            "lineHeight": "64px",
+            "marginBottom": "-0.1816em",
+            "marginTop": "-0.1816em"
+          },
+          "lineHeight": "64px",
+          "fontSize": 3.667,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "58.672px",
+            "lineHeight": "64px",
+            "capHeightTrim": "-0.1816em",
+            "baselineTrim": "-0.1816em"
+          }
+        },
+        "Display": {
+          "capsizeStyles": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "3rem",
+            "lineHeight": "56px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "56px",
+          "fontSize": 3,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "48px",
+            "lineHeight": "56px",
+            "capHeightTrim": "-0.2196em",
+            "baselineTrim": "-0.2196em"
+          }
+        },
+        "Display small": {
+          "capsizeStyles": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2256em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2256em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2256em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2256em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2.333rem",
+            "lineHeight": "44px",
+            "marginBottom": "-0.2256em",
+            "marginTop": "-0.2256em"
+          },
+          "lineHeight": "44px",
+          "fontSize": 2.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "37.328px",
+            "lineHeight": "44px",
+            "capHeightTrim": "-0.2256em",
+            "baselineTrim": "-0.2256em"
+          }
+        },
+        "Headline large": {
+          "capsizeStyles": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.1987em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.1987em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1987em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.1987em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "2rem",
+            "lineHeight": "36px",
+            "marginBottom": "-0.1987em",
+            "marginTop": "-0.1987em"
+          },
+          "lineHeight": "36px",
+          "fontSize": 2,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "32px",
+            "lineHeight": "36px",
+            "capHeightTrim": "-0.1987em",
+            "baselineTrim": "-0.1987em"
+          }
+        },
+        "Headline": {
+          "capsizeStyles": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2516em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2516em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2516em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2516em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.625rem",
+            "lineHeight": "32px",
+            "marginBottom": "-0.2516em",
+            "marginTop": "-0.2516em"
+          },
+          "lineHeight": "32px",
+          "fontSize": 1.625,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "26px",
+            "lineHeight": "32px",
+            "capHeightTrim": "-0.2516em",
+            "baselineTrim": "-0.2516em"
+          }
+        },
+        "Headline small": {
+          "capsizeStyles": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2196em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2196em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2196em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2196em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.5rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2196em",
+            "marginTop": "-0.2196em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "24px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2196em",
+            "baselineTrim": "-0.2196em"
+          }
+        },
+        "Title large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
+          }
+        },
+        "Title": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.386em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.386em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.386em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.386em",
+            "marginTop": "-0.386em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.386em",
+            "baselineTrim": "-0.386em"
+          }
+        },
+        "Title small": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3288em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3288em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3288em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3288em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3288em",
+            "marginTop": "-0.3288em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3288em",
+            "baselineTrim": "-0.3288em"
+          }
+        },
+        "Hero large": {
+          "capsizeStyles": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2926em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2926em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2926em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2926em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.333rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.2926em",
+            "marginTop": "-0.2926em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.333,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "21.328px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.2926em",
+            "baselineTrim": "-0.2926em"
+          }
+        },
+        "Hero": {
+          "capsizeStyles": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.386em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.386em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.386em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.167rem",
+            "lineHeight": "28px",
+            "marginBottom": "-0.386em",
+            "marginTop": "-0.386em"
+          },
+          "lineHeight": "28px",
+          "fontSize": 1.167,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "18.672px",
+            "lineHeight": "28px",
+            "capHeightTrim": "-0.386em",
+            "baselineTrim": "-0.386em"
+          }
+        },
+        "Body large": {
+          "capsizeStyles": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3288em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3288em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.3288em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3288em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1.083rem",
+            "lineHeight": "24px",
+            "marginBottom": "-0.3288em",
+            "marginTop": "-0.3288em"
+          },
+          "lineHeight": "24px",
+          "fontSize": 1.083,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "17.328px",
+            "lineHeight": "24px",
+            "capHeightTrim": "-0.3288em",
+            "baselineTrim": "-0.3288em"
+          }
+        },
+        "Body": {
+          "capsizeStyles": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2612em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2612em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.2612em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.2612em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "1rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.2612em",
+            "marginTop": "-0.2612em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 1,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "16px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.2612em",
+            "baselineTrim": "-0.2612em"
+          }
+        },
+        "Body small": {
+          "capsizeStyles": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3178em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3178em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3178em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3178em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.917rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3178em",
+            "marginTop": "-0.3178em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.917,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "14.672px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3178em",
+            "baselineTrim": "-0.3178em"
+          }
+        },
+        "Footnote": {
+          "capsizeStyles": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3865em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3865em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3865em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3865em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.833rem",
+            "lineHeight": "20px",
+            "marginBottom": "-0.3865em",
+            "marginTop": "-0.3865em"
+          },
+          "lineHeight": "20px",
+          "fontSize": 0.833,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "13.328px",
+            "lineHeight": "20px",
+            "capHeightTrim": "-0.3865em",
+            "baselineTrim": "-0.3865em"
+          }
+        },
+        "Caption large": {
+          "capsizeStyles": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.75rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.75,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "12px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3029em",
+            "baselineTrim": "-0.3029em"
+          }
+        },
+        "Caption": {
+          "capsizeStyles": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3859em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3859em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3859em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3859em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.667rem",
+            "lineHeight": "16px",
+            "marginBottom": "-0.3859em",
+            "marginTop": "-0.3859em"
+          },
+          "lineHeight": "16px",
+          "fontSize": 0.667,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "10.672px",
+            "lineHeight": "16px",
+            "capHeightTrim": "-0.3859em",
+            "baselineTrim": "-0.3859em"
+          }
+        },
+        "Caption small": {
+          "capsizeStyles": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.2795em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.2795em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2795em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2795em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.583rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.2795em",
+            "marginTop": "-0.2795em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.583,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "9.328px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.2795em",
+            "baselineTrim": "-0.2795em"
+          }
+        },
+        "Legal large": {
+          "capsizeStyles": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3862em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3862em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.3862em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.3862em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.5rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.3862em",
+            "marginTop": "-0.3862em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.5,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "8px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.3862em",
+            "baselineTrim": "-0.3862em"
+          }
+        },
+        "Legal": {
+          "capsizeStyles": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.5355em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.5355em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5355em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5355em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.417rem",
+            "lineHeight": "12px",
+            "marginBottom": "-0.5355em",
+            "marginTop": "-0.5355em"
+          },
+          "lineHeight": "12px",
+          "fontSize": 0.417,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
+          "capsizeValues": {
+            "fontSize": "6.672px",
+            "lineHeight": "12px",
+            "capHeightTrim": "-0.5355em",
+            "baselineTrim": "-0.5355em"
+          }
+        },
+        "Legal small": {
+          "capsizeStyles": {
+            "fontSize": "6px",
+            "lineHeight": "8px",
+            "::before": {
+              "content": "''",
+              "marginBottom": "-0.3029em",
+              "display": "table"
+            },
+            "::after": {
+              "content": "''",
+              "marginTop": "-0.3029em",
+              "display": "table"
+            }
+          },
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3029em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3029em;\n  display: table;\n}",
+          "capsizedCssVariables": {
+            "fontSize": "0.375rem",
+            "lineHeight": "8px",
+            "marginBottom": "-0.3029em",
+            "marginTop": "-0.3029em"
+          },
+          "lineHeight": "8px",
+          "fontSize": 0.375,
+          "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Helvetica Neue\", \"Inter Variable Fallback: Arial\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
