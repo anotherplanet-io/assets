@@ -45,6 +45,6 @@
   font-weight: 100 900;
   font-display: swap;
   src: url('font-files/MonaSans.latin.var.woff2?v={1.001}') format('woff2'), url('font-files/MonaSans.latin.var.woff?v={1.001}') format('woff'), url('font-files/MonaSans.latin.var.ttf?v={1.001}') format('truetype');
-  unicode-range: U+0000-007F,U+00A0-00A7,U+00A8-00AD,U+00AE-00B5,U+00B6-00F0,U+00F1-0100,U+0131,U+0152-0154,U+02C6,U+02DA,U+02DC,U+2013-2015,U+2018-201B,U+201C-201F,U+2022,U+2026,U+2030,U+2039-203B,U+2044,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212;
+  unicode-range: U+0000-007F,U+00A0-00A7,U+00A8-00AD,U+00AE-00B5,U+00B6-0100,U+0131,U+0152-0154,U+02C6,U+02DA,U+02DC,U+2013-2015,U+2018-201B,U+201C-201F,U+2022,U+2026,U+2030,U+2039-203B,U+2044,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212;
   font-named-instance: "Regular";
 }

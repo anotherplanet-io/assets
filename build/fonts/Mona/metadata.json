@@ -7,7 +7,7 @@
     "category": "sans-serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2022 The Mona Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Mona\"",
-    "version": "Version 1.001;gftools[0.9.31]",
+    "version": "Version 1.001;gftools[0.9.33]",
     "versionDisplay": "Version 1.001",
     "outpath": "fonts/Mona",
     "variationAxes": {
@@ -333,6 +333,7 @@
       237,
       238,
       239,
+      240,
       241,
       242,
       243,
@@ -473,7 +474,7 @@
       64258,
       65535
     ],
-    "numGlyphs": 371,
+    "numGlyphs": 368,
     "availableFeatures": [
       "aalt",
       "case",
