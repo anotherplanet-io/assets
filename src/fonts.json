@@ -170,24 +170,6 @@
     "category": "sans-serif"
   },
   {
-    "name": "HubotSansBold",
-    "version": "1.0.0",
-    "infile": "src/fonts/Hubot/fonts/ttf/HubotSans-Bold.ttf",
-    "outpath": "fonts/Hubot",
-    "outfile": [
-      "fonts/Hubot/subset/HubotSans.{subset}.woff2",
-      "fonts/Hubot/subset/HubotSans.{subset}.woff",
-      "fonts/Hubot/subset/HubotSans.{subset}.ttf"
-    ],
-    "css_family": "Hubot Sans Bold",
-    "css_weight": "700",
-    "css_style": "normal",
-    "css_extra": "font-named-instance: \"Bold\";",
-    "subset": ["latin", "latin-ext", "vietnamese", "greek", "cyrillic", "symbols"],
-    "category": "sans-serif"
-  },
-  
-  {
     "name": "MonaSans",
     "version": "1.0.0",
     "infile": "src/fonts/Mona/fonts/variable/MonaSans[slnt,wdth,wght].ttf",
