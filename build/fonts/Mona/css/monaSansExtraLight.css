@@ -83,18 +83,18 @@
 }
 
 /* Style definitions for local fallback fonts  Mona Sans ExtraLight*/
-/* the font family is : "Mona Sans ExtraLight", "Mona Sans ExtraLight Fallback: Helvetica Neue", "Mona Sans ExtraLight Fallback: Arial" */
+/* the font family is : "Mona Sans ExtraLight", "Mona Sans ExtraLight Fallback: Arial", "Mona Sans ExtraLight Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "Mona Sans ExtraLight Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Mona Sans ExtraLight Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 96.5%;
   descent-override: 23.5%;
 }
 @font-face {
-  font-family: "Mona Sans ExtraLight Fallback: Arial";
-  src: local("Arial");
+  font-family: "Mona Sans ExtraLight Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 96.5%;
   descent-override: 23.5%;

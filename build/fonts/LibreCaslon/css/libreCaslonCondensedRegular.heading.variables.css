@@ -1,7 +1,7 @@
 /* Libre caslon condensed regular */
 
 :root {
-  --typography-libre-caslon-condensed-regular-font-family: "Libre Caslon Condensed", "Libre Caslon Condensed Fallback: Helvetica Neue", "Libre Caslon Condensed Fallback: Arial";
+  --typography-libre-caslon-condensed-regular-font-family: "Libre Caslon Condensed", "Libre Caslon Condensed Fallback: Times New Roman", "Libre Caslon Condensed Fallback: Georgia";
   --typography-heading-font-family: var(--typography-libre-caslon-condensed-regular-font-family);
 
   /* ---- editorial-mega-display ---- */

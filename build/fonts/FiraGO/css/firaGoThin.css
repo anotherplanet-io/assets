@@ -101,18 +101,18 @@
 }
 
 /* Style definitions for local fallback fonts  FiraGO Thin*/
-/* the font family is : "FiraGO Thin", "FiraGO Thin Fallback: Helvetica Neue", "FiraGO Thin Fallback: Arial" */
+/* the font family is : "FiraGO Thin", "FiraGO Thin Fallback: Arial", "FiraGO Thin Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "FiraGO Thin Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "FiraGO Thin Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 93.5%;
   descent-override: 26.5%;
 }
 @font-face {
-  font-family: "FiraGO Thin Fallback: Arial";
-  src: local("Arial");
+  font-family: "FiraGO Thin Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 93.5%;
   descent-override: 26.5%;

@@ -1,7 +1,7 @@
 /* Space grotesk light */
 
 :root {
-  --typography-space-grotesk-light-font-family: "Space Grotesk Light", "Space Grotesk Light Fallback: Helvetica Neue", "Space Grotesk Light Fallback: Arial";
+  --typography-space-grotesk-light-font-family: "Space Grotesk Light", "Space Grotesk Light Fallback: Arial", "Space Grotesk Light Fallback: Helvetica Neue";
   --typography-body-font-family: var(--typography-space-grotesk-light-font-family);
 
   /* ---- hero-large ---- */

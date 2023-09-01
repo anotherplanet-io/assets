@@ -100,18 +100,18 @@
 }
 
 /* Style definitions for local fallback fonts  Inter Variable Italic*/
-/* the font family is : "Inter Variable", "Inter Variable Fallback: Helvetica Neue", "Inter Variable Fallback: Arial" */
+/* the font family is : "Inter Variable", "Inter Variable Fallback: Arial", "Inter Variable Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "Inter Variable Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Inter Variable Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 96.875%;
   descent-override: 24.1211%;
 }
 @font-face {
-  font-family: "Inter Variable Fallback: Arial";
-  src: local("Arial");
+  font-family: "Inter Variable Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 96.875%;
   descent-override: 24.1211%;

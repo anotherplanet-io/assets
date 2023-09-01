@@ -9,6 +9,9 @@ import Handlebars from 'handlebars';
 import delimiters from 'handlebars-delimiters';
 import helveticaNeue from '@capsizecss/metrics/helveticaNeue.js';
 import arial from '@capsizecss/metrics/arial.js';
+import timesNewRoman from '@capsizecss/metrics/timesNewRoman.js';
+import georgia from '@capsizecss/metrics/georgia.js';
+import courierNew from '@capsizecss/metrics/courierNew.js';
 import { compactRanges, convertToUnicodeString, getMissingValues, getArrayIntersection, range as unicodeRange } from '@ap.cx/unicode-range';
 import { format } from 'prettier'
 
@@ -775,11 +778,38 @@ async function generateMetaData(filePath) {
       fontMetadata.xWidthAvg = xWidthAvg;
     }
 
+
+    function getDefaultFonts(classification) {
+      switch (classification) {
+        case 'serif':
+          return [timesNewRoman, georgia];
+        case 'sans-serif':
+          return [arial, helveticaNeue];
+        case 'monospace':
+          return [courierNew];
+        /*
+        case 'cursive':
+          return ['Brush Script', 'Comic Sans MS', 'Lucida Handwriting', 'Zapfino'];
+        case 'fantasy':
+          return ['Curlz MT', 'Chiller', 'Viner Hand ITC', 'Impact'];
+        case 'script':
+          return ['Brush Script', 'Scriptina', 'Snell Roundhand', 'Great Vibes'];
+        case 'display':
+          return ['Playfair Display', 'Bebas Neue', 'Oswald', 'Montserrat'];
+        case 'hybrid':
+          return ['Times New Roman', 'Georgia', 'Arial', 'Helvetica'];
+        case 'dingbat':
+          return ['Wingdings', 'Webdings', 'Zapf Dingbats', 'Symbol']; */
+        default:
+          return [];
+      }
+    }
+
+
     /* fontFamily, fontFaces */
     fontMetadata.fontStack = createFontStack([
       font,
-      helveticaNeue,
-      arial,
+      ...getDefaultFonts(fontinfo['category'])
     ], {
       fontFaceProperties: {
         fontDisplay: 'swap',

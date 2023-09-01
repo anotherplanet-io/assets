@@ -1,7 +1,7 @@
 /* Hubot sans extra light */
 
 :root {
-  --typography-hubot-sans-extra-light-font-family: "Hubot Sans ExtraLight", "Hubot Sans ExtraLight Fallback: Helvetica Neue", "Hubot Sans ExtraLight Fallback: Arial";
+  --typography-hubot-sans-extra-light-font-family: "Hubot Sans ExtraLight", "Hubot Sans ExtraLight Fallback: Arial", "Hubot Sans ExtraLight Fallback: Helvetica Neue";
   --typography-heading-font-family: var(--typography-hubot-sans-extra-light-font-family);
 
   /* ---- editorial-mega-display ---- */

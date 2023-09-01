@@ -1,7 +1,7 @@
 /* Fira go bold */
 
 :root {
-  --typography-fira-go-bold-font-family: FiraGO, "FiraGO Fallback: Helvetica Neue", "FiraGO Fallback: Arial";
+  --typography-fira-go-bold-font-family: FiraGO, "FiraGO Fallback: Arial", "FiraGO Fallback: Helvetica Neue";
   --typography-heading-font-family: var(--typography-fira-go-bold-font-family);
 
   /* ---- editorial-mega-display ---- */

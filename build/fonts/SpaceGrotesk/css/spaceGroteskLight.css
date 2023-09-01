@@ -70,18 +70,18 @@
 }
 
 /* Style definitions for local fallback fonts  Space Grotesk Light*/
-/* the font family is : "Space Grotesk Light", "Space Grotesk Light Fallback: Helvetica Neue", "Space Grotesk Light Fallback: Arial" */
+/* the font family is : "Space Grotesk Light", "Space Grotesk Light Fallback: Arial", "Space Grotesk Light Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "Space Grotesk Light Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Space Grotesk Light Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 98.4%;
   descent-override: 29.2%;
 }
 @font-face {
-  font-family: "Space Grotesk Light Fallback: Arial";
-  src: local("Arial");
+  font-family: "Space Grotesk Light Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 98.4%;
   descent-override: 29.2%;

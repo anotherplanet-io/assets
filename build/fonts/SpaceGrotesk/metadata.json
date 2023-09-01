@@ -847,8 +847,8 @@
     "copyrightUrl": "https://github.com/floriankarsten/space-grotesk",
     "xWidthAvg": 489,
     "fontStack": {
-      "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
-      "fontFaces": "@font-face {\n  font-family: \"Space Grotesk Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 98.4%;\n  descent-override: 29.2%;\n}\n@font-face {\n  font-family: \"Space Grotesk Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 98.4%;\n  descent-override: 29.2%;\n}"
+      "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
+      "fontFaces": "@font-face {\n  font-family: \"Space Grotesk Light Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 98.4%;\n  descent-override: 29.2%;\n}\n@font-face {\n  font-family: \"Space Grotesk Light Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 98.4%;\n  descent-override: 29.2%;\n}"
     },
     "pgts": {
       "desktop": {
@@ -876,7 +876,7 @@
           },
           "lineHeight": "128px",
           "fontSize": 7,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
@@ -908,7 +908,7 @@
           },
           "lineHeight": "112px",
           "fontSize": 6,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
@@ -940,7 +940,7 @@
           },
           "lineHeight": "96px",
           "fontSize": 5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -972,7 +972,7 @@
           },
           "lineHeight": "72px",
           "fontSize": 4,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
@@ -1004,7 +1004,7 @@
           },
           "lineHeight": "56px",
           "fontSize": 3,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -1036,7 +1036,7 @@
           },
           "lineHeight": "44px",
           "fontSize": 2.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "37.328px",
             "lineHeight": "44px",
@@ -1068,7 +1068,7 @@
           },
           "lineHeight": "36px",
           "fontSize": 2,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -1100,7 +1100,7 @@
           },
           "lineHeight": "32px",
           "fontSize": 1.833,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "29.328px",
             "lineHeight": "32px",
@@ -1132,7 +1132,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -1164,7 +1164,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
@@ -1196,7 +1196,7 @@
           },
           "lineHeight": "24px",
           "fontSize": 1.167,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "24px",
@@ -1228,7 +1228,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -1260,7 +1260,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
@@ -1292,7 +1292,7 @@
           },
           "lineHeight": "24px",
           "fontSize": 1.167,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "24px",
@@ -1324,7 +1324,7 @@
           },
           "lineHeight": "20px",
           "fontSize": 1,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -1356,7 +1356,7 @@
           },
           "lineHeight": "20px",
           "fontSize": 0.917,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "14.672px",
             "lineHeight": "20px",
@@ -1388,7 +1388,7 @@
           },
           "lineHeight": "20px",
           "fontSize": 0.833,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "13.328px",
             "lineHeight": "20px",
@@ -1420,7 +1420,7 @@
           },
           "lineHeight": "16px",
           "fontSize": 0.75,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -1452,7 +1452,7 @@
           },
           "lineHeight": "16px",
           "fontSize": 0.667,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "10.672px",
             "lineHeight": "16px",
@@ -1484,7 +1484,7 @@
           },
           "lineHeight": "12px",
           "fontSize": 0.583,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "9.328px",
             "lineHeight": "12px",
@@ -1516,7 +1516,7 @@
           },
           "lineHeight": "12px",
           "fontSize": 0.5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -1548,7 +1548,7 @@
           },
           "lineHeight": "12px",
           "fontSize": 0.417,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "6.672px",
             "lineHeight": "12px",
@@ -1580,7 +1580,7 @@
           },
           "lineHeight": "8px",
           "fontSize": 0.375,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
@@ -1614,7 +1614,7 @@
           },
           "lineHeight": "96px",
           "fontSize": 5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
@@ -1646,7 +1646,7 @@
           },
           "lineHeight": "72px",
           "fontSize": 4.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "69.328px",
             "lineHeight": "72px",
@@ -1678,7 +1678,7 @@
           },
           "lineHeight": "64px",
           "fontSize": 3.667,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "58.672px",
             "lineHeight": "64px",
@@ -1710,7 +1710,7 @@
           },
           "lineHeight": "56px",
           "fontSize": 3,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
@@ -1742,7 +1742,7 @@
           },
           "lineHeight": "44px",
           "fontSize": 2.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "37.328px",
             "lineHeight": "44px",
@@ -1774,7 +1774,7 @@
           },
           "lineHeight": "36px",
           "fontSize": 2,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
@@ -1806,7 +1806,7 @@
           },
           "lineHeight": "32px",
           "fontSize": 1.625,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "26px",
             "lineHeight": "32px",
@@ -1838,7 +1838,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
@@ -1870,7 +1870,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
@@ -1902,7 +1902,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.167,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "28px",
@@ -1934,7 +1934,7 @@
           },
           "lineHeight": "24px",
           "fontSize": 1.083,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "17.328px",
             "lineHeight": "24px",
@@ -1966,7 +1966,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
@@ -1998,7 +1998,7 @@
           },
           "lineHeight": "28px",
           "fontSize": 1.167,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "28px",
@@ -2030,7 +2030,7 @@
           },
           "lineHeight": "24px",
           "fontSize": 1.083,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "17.328px",
             "lineHeight": "24px",
@@ -2062,7 +2062,7 @@
           },
           "lineHeight": "20px",
           "fontSize": 1,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
@@ -2094,7 +2094,7 @@
           },
           "lineHeight": "20px",
           "fontSize": 0.917,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "14.672px",
             "lineHeight": "20px",
@@ -2126,7 +2126,7 @@
           },
           "lineHeight": "20px",
           "fontSize": 0.833,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "13.328px",
             "lineHeight": "20px",
@@ -2158,7 +2158,7 @@
           },
           "lineHeight": "16px",
           "fontSize": 0.75,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
@@ -2190,7 +2190,7 @@
           },
           "lineHeight": "16px",
           "fontSize": 0.667,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "10.672px",
             "lineHeight": "16px",
@@ -2222,7 +2222,7 @@
           },
           "lineHeight": "12px",
           "fontSize": 0.583,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "9.328px",
             "lineHeight": "12px",
@@ -2254,7 +2254,7 @@
           },
           "lineHeight": "12px",
           "fontSize": 0.5,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
@@ -2286,7 +2286,7 @@
           },
           "lineHeight": "12px",
           "fontSize": 0.417,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "6.672px",
             "lineHeight": "12px",
@@ -2318,7 +2318,7 @@
           },
           "lineHeight": "8px",
           "fontSize": 0.375,
-          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Helvetica Neue\", \"Space Grotesk Light Fallback: Arial\"",
+          "fontFamily": "\"Space Grotesk Light\", \"Space Grotesk Light Fallback: Arial\", \"Space Grotesk Light Fallback: Helvetica Neue\"",
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",

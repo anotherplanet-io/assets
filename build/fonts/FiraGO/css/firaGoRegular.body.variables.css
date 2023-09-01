@@ -1,7 +1,7 @@
 /* Fira go regular */
 
 :root {
-  --typography-fira-go-regular-font-family: FiraGO, "FiraGO Fallback: Helvetica Neue", "FiraGO Fallback: Arial";
+  --typography-fira-go-regular-font-family: FiraGO, "FiraGO Fallback: Arial", "FiraGO Fallback: Helvetica Neue";
   --typography-body-font-family: var(--typography-fira-go-regular-font-family);
 
   /* ---- hero-large ---- */

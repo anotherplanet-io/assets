@@ -97,18 +97,18 @@
 }
 
 /* Style definitions for local fallback fonts  Playfair Needlepoint SemiCondensed SemiLight Italic*/
-/* the font family is : "Playfair Needlepoint SmCond SmLight", "Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue", "Playfair Needlepoint SmCond SmLight Fallback: Arial" */
+/* the font family is : "Playfair Needlepoint SmCond SmLight", "Playfair Needlepoint SmCond SmLight Fallback: Times New Roman", "Playfair Needlepoint SmCond SmLight Fallback: Georgia" */
 
 @font-face {
-  font-family: "Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Playfair Needlepoint SmCond SmLight Fallback: Times New Roman";
+  src: local("Times New Roman");
   font-display: swap;
   ascent-override: 80.5645%;
   descent-override: 19.4355%;
 }
 @font-face {
-  font-family: "Playfair Needlepoint SmCond SmLight Fallback: Arial";
-  src: local("Arial");
+  font-family: "Playfair Needlepoint SmCond SmLight Fallback: Georgia";
+  src: local("Georgia");
   font-display: swap;
   ascent-override: 80.5645%;
   descent-override: 19.4355%;

@@ -83,18 +83,18 @@
 }
 
 /* Style definitions for local fallback fonts  Libre Caslon Condensed Regular*/
-/* the font family is : "Libre Caslon Condensed", "Libre Caslon Condensed Fallback: Helvetica Neue", "Libre Caslon Condensed Fallback: Arial" */
+/* the font family is : "Libre Caslon Condensed", "Libre Caslon Condensed Fallback: Times New Roman", "Libre Caslon Condensed Fallback: Georgia" */
 
 @font-face {
-  font-family: "Libre Caslon Condensed Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Libre Caslon Condensed Fallback: Times New Roman";
+  src: local("Times New Roman");
   font-display: swap;
   ascent-override: 97%;
   descent-override: 26%;
 }
 @font-face {
-  font-family: "Libre Caslon Condensed Fallback: Arial";
-  src: local("Arial");
+  font-family: "Libre Caslon Condensed Fallback: Georgia";
+  src: local("Georgia");
   font-display: swap;
   ascent-override: 97%;
   descent-override: 26%;

@@ -98,18 +98,11 @@
 }
 
 /* Style definitions for local fallback fonts  Fira Code Regular*/
-/* the font family is : "Fira Code", "Fira Code Fallback: Helvetica Neue", "Fira Code Fallback: Arial" */
+/* the font family is : "Fira Code", "Fira Code Fallback" */
 
 @font-face {
-  font-family: "Fira Code Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
-  font-display: swap;
-  ascent-override: 77%;
-  descent-override: 23%;
-}
-@font-face {
-  font-family: "Fira Code Fallback: Arial";
-  src: local("Arial");
+  font-family: "Fira Code Fallback";
+  src: local("Courier New");
   font-display: swap;
   ascent-override: 77%;
   descent-override: 23%;

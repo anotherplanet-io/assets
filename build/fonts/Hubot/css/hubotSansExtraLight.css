@@ -83,18 +83,18 @@
 }
 
 /* Style definitions for local fallback fonts  Hubot Sans ExtraLight*/
-/* the font family is : "Hubot Sans ExtraLight", "Hubot Sans ExtraLight Fallback: Helvetica Neue", "Hubot Sans ExtraLight Fallback: Arial" */
+/* the font family is : "Hubot Sans ExtraLight", "Hubot Sans ExtraLight Fallback: Arial", "Hubot Sans ExtraLight Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "Hubot Sans ExtraLight Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Hubot Sans ExtraLight Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 96.5%;
   descent-override: 23.5%;
 }
 @font-face {
-  font-family: "Hubot Sans ExtraLight Fallback: Arial";
-  src: local("Arial");
+  font-family: "Hubot Sans ExtraLight Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 96.5%;
   descent-override: 23.5%;

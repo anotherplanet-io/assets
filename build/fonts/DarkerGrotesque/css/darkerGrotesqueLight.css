@@ -69,18 +69,18 @@
 }
 
 /* Style definitions for local fallback fonts  Darker Grotesque Light*/
-/* the font family is : "Darker Grotesque Light", "Darker Grotesque Light Fallback: Helvetica Neue", "Darker Grotesque Light Fallback: Arial" */
+/* the font family is : "Darker Grotesque Light", "Darker Grotesque Light Fallback: Arial", "Darker Grotesque Light Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "Darker Grotesque Light Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "Darker Grotesque Light Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 106%;
   descent-override: 29.6%;
 }
 @font-face {
-  font-family: "Darker Grotesque Light Fallback: Arial";
-  src: local("Arial");
+  font-family: "Darker Grotesque Light Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 106%;
   descent-override: 29.6%;

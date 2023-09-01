@@ -1,7 +1,7 @@
 /* Mona sans extra light */
 
 :root {
-  --typography-mona-sans-extra-light-font-family: "Mona Sans ExtraLight", "Mona Sans ExtraLight Fallback: Helvetica Neue", "Mona Sans ExtraLight Fallback: Arial";
+  --typography-mona-sans-extra-light-font-family: "Mona Sans ExtraLight", "Mona Sans ExtraLight Fallback: Arial", "Mona Sans ExtraLight Fallback: Helvetica Neue";
   --typography-body-font-family: var(--typography-mona-sans-extra-light-font-family);
 
   /* ---- hero-large ---- */

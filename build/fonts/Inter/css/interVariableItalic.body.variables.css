@@ -1,7 +1,7 @@
 /* Inter variable italic */
 
 :root {
-  --typography-inter-variable-italic-font-family: "Inter Variable", "Inter Variable Fallback: Helvetica Neue", "Inter Variable Fallback: Arial";
+  --typography-inter-variable-italic-font-family: "Inter Variable", "Inter Variable Fallback: Arial", "Inter Variable Fallback: Helvetica Neue";
   --typography-body-font-family: var(--typography-inter-variable-italic-font-family);
 
   /* ---- hero-large ---- */

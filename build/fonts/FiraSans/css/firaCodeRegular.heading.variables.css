@@ -1,7 +1,7 @@
 /* Fira code regular */
 
 :root {
-  --typography-fira-code-regular-font-family: "Fira Code", "Fira Code Fallback: Helvetica Neue", "Fira Code Fallback: Arial";
+  --typography-fira-code-regular-font-family: "Fira Code", "Fira Code Fallback";
   --typography-heading-font-family: var(--typography-fira-code-regular-font-family);
 
   /* ---- editorial-mega-display ---- */

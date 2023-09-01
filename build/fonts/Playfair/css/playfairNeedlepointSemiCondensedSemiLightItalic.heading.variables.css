@@ -1,7 +1,7 @@
 /* Playfair needlepoint semi condensed semi light italic */
 
 :root {
-  --typography-playfair-needlepoint-semi-condensed-semi-light-italic-font-family: "Playfair Needlepoint SmCond SmLight", "Playfair Needlepoint SmCond SmLight Fallback: Helvetica Neue", "Playfair Needlepoint SmCond SmLight Fallback: Arial";
+  --typography-playfair-needlepoint-semi-condensed-semi-light-italic-font-family: "Playfair Needlepoint SmCond SmLight", "Playfair Needlepoint SmCond SmLight Fallback: Times New Roman", "Playfair Needlepoint SmCond SmLight Fallback: Georgia";
   --typography-heading-font-family: var(--typography-playfair-needlepoint-semi-condensed-semi-light-italic-font-family);
 
   /* ---- editorial-mega-display ---- */

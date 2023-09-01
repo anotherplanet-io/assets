@@ -101,18 +101,18 @@
 }
 
 /* Style definitions for local fallback fonts  FiraGO Bold*/
-/* the font family is : FiraGO, "FiraGO Fallback: Helvetica Neue", "FiraGO Fallback: Arial" */
+/* the font family is : FiraGO, "FiraGO Fallback: Arial", "FiraGO Fallback: Helvetica Neue" */
 
 @font-face {
-  font-family: "FiraGO Fallback: Helvetica Neue";
-  src: local("Helvetica Neue");
+  font-family: "FiraGO Fallback: Arial";
+  src: local("Arial");
   font-display: swap;
   ascent-override: 93.5%;
   descent-override: 26.5%;
 }
 @font-face {
-  font-family: "FiraGO Fallback: Arial";
-  src: local("Arial");
+  font-family: "FiraGO Fallback: Helvetica Neue";
+  src: local("Helvetica Neue");
   font-display: swap;
   ascent-override: 93.5%;
   descent-override: 26.5%;

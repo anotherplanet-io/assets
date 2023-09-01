@@ -1,7 +1,7 @@
 /* Fira go thin */
 
 :root {
-  --typography-fira-go-thin-font-family: "FiraGO Thin", "FiraGO Thin Fallback: Helvetica Neue", "FiraGO Thin Fallback: Arial";
+  --typography-fira-go-thin-font-family: "FiraGO Thin", "FiraGO Thin Fallback: Arial", "FiraGO Thin Fallback: Helvetica Neue";
   --typography-heading-font-family: var(--typography-fira-go-thin-font-family);
 
   /* ---- editorial-mega-display ---- */

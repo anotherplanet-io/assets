@@ -1,7 +1,7 @@
 /* Darker grotesque light */
 
 :root {
-  --typography-darker-grotesque-light-font-family: "Darker Grotesque Light", "Darker Grotesque Light Fallback: Helvetica Neue", "Darker Grotesque Light Fallback: Arial";
+  --typography-darker-grotesque-light-font-family: "Darker Grotesque Light", "Darker Grotesque Light Fallback: Arial", "Darker Grotesque Light Fallback: Helvetica Neue";
   --typography-body-font-family: var(--typography-darker-grotesque-light-font-family);
 
   /* ---- hero-large ---- */
