@@ -28,3 +28,9 @@
 [submodule "src/fonts/MonaSans"]
 	path = src/fonts/MonaSans
 	url = https://github.com/github/mona-sans.git
+[submodule "src/fonts/Instrument-sans"]
+	path = src/fonts/Instrument-sans
+	url = https://github.com/Instrument/instrument-sans.git
+[submodule "src/fonts/Instrument-serif"]
+	path = src/fonts/Instrument-serif
+	url = https://github.com/Instrument/instrument-serif.git
