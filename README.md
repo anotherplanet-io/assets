@@ -1,7 +1,7 @@
 # @ap.cx/assets
 
 <!-- 
-This page is automatically generated (2023-10-04 04:46:13) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
+This page is automatically generated (2023-10-04 04:47:41) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
 
 This project is currently in an early stage of development and is a work in progress. It may contain incomplete features, bugs, and changes that are subject to frequent updates. We encourage contributors and users to be aware of these potential issues and to use the project with caution.
 
