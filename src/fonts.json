@@ -1,8 +1,8 @@
 [
   {
     "name": "Inter-roman",
-    "version": "4.0-beta9h",
-    "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable.ttf",
+    "version": "4.0",
+    "infile": "src/fonts/Inter/build/fonts/var/InterVariable.ttf",
     "outpath": "fonts/Inter",
     "outfile": [
       "fonts/Inter/subset/Inter-roman.{subset}.var.woff2",
@@ -18,8 +18,8 @@
   },
   {
     "name": "Inter-italic",
-    "version": "4.0-beta9h",
-    "infile": "src/fonts/Inter/build/fonts/var/Inter-Variable-Italic.ttf",
+    "version": "4.0",
+    "infile": "src/fonts/Inter/build/fonts/var/InterVariable-Italic.ttf",
     "outpath": "fonts/Inter",
     "outfile": [
       "fonts/Inter/subset/Inter-italic.{subset}.var.woff2",

@@ -331,7 +331,6 @@ const weightingForCharacter = (character) => {
 };
 
 function getFontType(extension) {
-  console.log(extension);
   switch (extension) {
     case 'woff':
       return 'woff';
@@ -427,7 +426,6 @@ ${metadata.fontStack.fontFaces}
 `;
 
   const directory = path.dirname(filePath);
-
   const cssString = await format([...cssFontFaces, cssFontFacesAlternatives].join('\n'), { parser: 'css', printWidth: 500 });
 
   try {
@@ -435,9 +433,9 @@ ${metadata.fontStack.fontFaces}
     fs.mkdirSync(directory, { recursive: true });
     // Save css to file
     fs.writeFileSync(filePath, cssString);
-    console.log('CSS fontface saved successfully.');
+    console.log('CSS FontfaceCssFiles              saved successfully.' + filePath);
   } catch (error) {
-    console.error('CSS fontface saving data:', error);
+    console.error('CSS FontfaceCssFiles saving data:', error);
   }
 }
 
@@ -460,9 +458,9 @@ async function generateTypographyCssFiles(fontinfo, metadata) {
     fs.mkdirSync(directory, { recursive: true });
     // Save css to file
     fs.writeFileSync(filePath, cssString);
-    console.log('CSS fontface saved successfully.');
+    console.log('CSS TypographyCssFiles            saved successfully.' + filePath);
   } catch (error) {
-    console.error('CSS fontface saving data:', error);
+    console.error('CSS TypographyCssFiles saving data:', error);
   }
 }
 
@@ -531,9 +529,9 @@ async function generateTypographyCssVarFiles(fontinfo, metadata) {
     fs.mkdirSync(directory, { recursive: true });
     // Save css to file
     fs.writeFileSync(headingFilePath, headingCssString);
-    console.log('CSS fontface saved successfully.');
+    console.log('CSS Heading TypographyCssVarFiles saved successfully.'+ headingFilePath);
   } catch (error) {
-    console.error('CSS fontface saving data:', error);
+    console.error('CSS Heading TypographyCssVarFiles saving data:', error);
   }
 
   try {
@@ -541,9 +539,9 @@ async function generateTypographyCssVarFiles(fontinfo, metadata) {
     fs.mkdirSync(directory, { recursive: true });
     // Save css to file
     fs.writeFileSync(bodyFilePath, bodyCssString);
-    console.log('CSS fontface saved successfully.');
+    console.log('CSS Body TypographyCssVarFiles    saved successfully.' + bodyFilePath);
   } catch (error) {
-    console.error('CSS fontface saving data:', error);
+    console.error('CSS Body TypographyCssVarFiles saving data:', error);
   }
 
 

@@ -9,8 +9,8 @@
     url("/fonts/Inter/subset/Inter-roman.extra.var.woff?v=version_4_000") format("woff"),
     url("/fonts/Inter/subset/Inter-roman.extra.var.ttf?v=version_4_000") format("truetype");
   unicode-range: U+0250-0255, U+0256-0259, U+025A-026A, U+026B-0274, U+0275, U+0277-027C, U+027E-0280, U+0282-0285, U+0286-028F, U+0290, U+0292-029B, U+029C-029F, U+02A0-02A5, U+02A6-02BB, U+02BD-02C6, U+02C7-02DA, U+02DB, U+02DD-0305, U+0306-030B, U+030C, U+030F, U+0313, U+0315, U+031B, U+0323, U+0326-0329, U+032C, U+0337-0339, U+0342-0344, U+0346-0370, U+0E3F, U+1D43, U+1D47-1D4A, U+1D4D, U+1D4F-1D51, U+1D52, U+1D56-1D59, U+1D5B, U+1D62-1D66, U+1D9C, U+1DA0, U+1DBB, U+1DBF-1DF6, U+1DFC-1E00,
-    U+2070-2072, U+2075-208F, U+2090-209D, U+20DB-20DD, U+20E8, U+20F0, U+2100-2102, U+2103, U+2105-2107, U+2109, U+2117, U+211E-2122, U+2123, U+2126, U+212A-212C, U+212E, U+2132, U+213B, U+214D, U+214F-2180, U+2183-2187, U+2189, U+2202, U+2205-2207, U+220F, U+2211, U+221A, U+221E, U+222B, U+2236, U+2248, U+2260, U+2264-2266, U+2295-2299, U+2423, U+25AA, U+25CA, U+25E6, U+27EF, U+2913, U+2A38, U+2E18, U+A92E, U+E002-E05F, U+E06A-E0BE, U+E0C8-E0CD, U+E0D7-E0E7, U+E0F3-E0F6, U+E106, U+E109-E10B,
-    U+E10C-E110, U+E111-E114, U+E117-E119, U+E121-E123, U+E124, U+E12A, U+E163, U+E1C3, U+E1D2-E1E0, U+EE01-EE08, U+EE09, U+F6C3, U+1F12F, U+1F16A-1F16C;
+    U+2070-2072, U+2075-208F, U+2090-209D, U+20DB-20DD, U+20E8, U+20F0, U+2100-2102, U+2103, U+2105-2107, U+2109, U+2117, U+211E-2122, U+2126, U+212A-212C, U+212E, U+2132, U+213B, U+214D, U+2150-2180, U+2183-2187, U+2189, U+2202, U+2205-2207, U+220F, U+2211, U+221A, U+221E, U+222B, U+2236, U+2248, U+2260, U+2264-2266, U+2295-2299, U+2304, U+2423, U+25AA, U+25CA, U+25E6, U+27EF, U+2913, U+2A38, U+2B24, U+2E18, U+A92E, U+E002-E05F, U+E06A-E0BE, U+E0C8-E0CD, U+E0D7-E0E7, U+E0F3-E0F6, U+E106,
+    U+E109-E10B, U+E10C-E110, U+E111-E114, U+E117-E119, U+E121-E123, U+E124, U+E12A, U+E163, U+E1C3, U+E1D2-E2DD, U+EE01-EE08, U+EE09-EEE2, U+F6C3, U+1F12F, U+1F16A-1F16C;
   font-named-instance: "Regular";
 }
 
@@ -81,7 +81,7 @@
     url("/fonts/Inter/subset/Inter-roman.latin-ext.var.woff2?v=version_4_000") format("woff2"),
     url("/fonts/Inter/subset/Inter-roman.latin-ext.var.woff?v=version_4_000") format("woff"),
     url("/fonts/Inter/subset/Inter-roman.latin-ext.var.ttf?v=version_4_000") format("truetype");
-  unicode-range: U+0100-0149, U+014A-01C4, U+01C5-0250, U+0259, U+1E00-1E9C, U+1E9D-1F00, U+2020, U+20A0-20AC, U+20AD-20C0, U+2113, U+2C7C, U+2C7F, U+A7FF;
+  unicode-range: U+0100-0149, U+014A-01C4, U+01C5-0250, U+0259, U+1E00-1E9C, U+1E9D-1F00, U+2020, U+20A0-20AC, U+20AD-20B0, U+20B1-20B6, U+20B8-20BB, U+20BC-20C0, U+2113, U+2C7C, U+2C7F, U+A7FF;
   font-named-instance: "Regular";
 }
 
@@ -95,7 +95,7 @@
     url("/fonts/Inter/subset/Inter-roman.latin.var.woff2?v=version_4_000") format("woff2"),
     url("/fonts/Inter/subset/Inter-roman.latin.var.woff?v=version_4_000") format("woff"),
     url("/fonts/Inter/subset/Inter-roman.latin.var.ttf?v=version_4_000") format("truetype");
-  unicode-range: U+0000-007F, U+00A0-0100, U+0131, U+0152-0154, U+02BB-02BD, U+02C6, U+02DA, U+02DC, U+2000-200C, U+2010-2028, U+202F-2060, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+FEFF;
+  unicode-range: U+0000-007F, U+00A0-00AD, U+00AE-0100, U+0131, U+0152-0154, U+02BB-02BD, U+02C6, U+02DA, U+02DC, U+2000-200C, U+2010-2028, U+202F-2056, U+2057, U+205F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+FEFF;
   font-named-instance: "Regular";
 }
 
