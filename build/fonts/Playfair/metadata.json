@@ -7,7 +7,7 @@
     "category": "serif",
     "subfamilyName": "Italic",
     "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
-    "version": "Version 2.100;Glyphs 3.2 (3219)",
+    "version": "Version 2.100;Glyphs 3.2 (3227)",
     "versionDisplay": "Version 2.100",
     "outpath": "fonts/Playfair",
     "variationAxes": {
@@ -3857,8 +3857,8 @@
     "category": "serif",
     "subfamilyName": "Regular",
     "copyright": "Copyright 2005–2023 The Playfair Project Authors (https://github.com/clauseggers/Playfair)",
-    "version": "Version 2.100;Glyphs 3.2 (3219)",
-    "versionDisplay": "Version 2.100",
+    "version": "Version 2.101;Glyphs 3.2 (3227)",
+    "versionDisplay": "Version 2.101",
     "outpath": "fonts/Playfair",
     "variationAxes": {
       "opsz": {
@@ -5944,7 +5944,7 @@
       "mark",
       "mkmk"
     ],
-    "versionNumber": "2.100",
+    "versionNumber": "2.101",
     "copyrightUrl": "https://github.com/clauseggers/Playfair",
     "xWidthAvg": 550,
     "fontStack": {
