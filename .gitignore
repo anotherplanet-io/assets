@@ -1,5 +1,8 @@
 _assets
 
+#macos
+.DS_Store
+
 #python
 scripts/__pycache__
 build/venv/
