@@ -34,3 +34,6 @@
 [submodule "src/fonts/Instrument-serif"]
 	path = src/fonts/Instrument-serif
 	url = https://github.com/Instrument/instrument-serif.git
+[submodule "src/fonts/Ubuntu-Sans-fonts"]
+	path = src/fonts/Ubuntu-Sans-fonts
+	url = https://github.com/canonical/Ubuntu-Sans-fonts.git
