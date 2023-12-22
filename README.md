@@ -1,7 +1,7 @@
 # @ap.cx/assets
 
 <!-- 
-This page is automatically generated (2023-12-08 07:22:15) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
+This page is automatically generated (2023-12-22 14:50:55) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
 
 This project is currently in an early stage of development and is a work in progress. It may contain incomplete features, bugs, and changes that are subject to frequent updates. We encourage contributors and users to be aware of these potential issues and to use the project with caution.
 
@@ -43,6 +43,8 @@ For the moment, **ap.cx/assets** includes the following fonts:
 | Libre Caslon Condensed |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
 | Libre Caslon Condensed |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
 | SpaceGrotesk           |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
+| UbuntuSans             |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
+| UbuntuSans             |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
 
 
 I will continue to update and expand my font library to offer more fantastic font options in the future.

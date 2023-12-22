@@ -1,0 +1,40 @@
+/* symbols */
+@font-face {
+  font-family: 'UbuntuSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/UbuntuSans-Italic.symbols.var.woff2?v={1.004}') format('woff2'), url('font-files/UbuntuSans-Italic.symbols.var.woff?v={1.004}') format('woff'), url('font-files/UbuntuSans-Italic.symbols.var.ttf?v={1.004}') format('truetype');
+  unicode-range: U+2713;
+  font-named-instance: "Italic";
+}
+/* vietnamese */
+@font-face {
+  font-family: 'UbuntuSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/UbuntuSans-Italic.vietnamese.var.woff2?v={1.004}') format('woff2'), url('font-files/UbuntuSans-Italic.vietnamese.var.woff?v={1.004}') format('woff'), url('font-files/UbuntuSans-Italic.vietnamese.var.ttf?v={1.004}') format('truetype');
+  unicode-range: U+0102-0104,U+0110-0112,U+0128-012A,U+0168-016A,U+01A0-01A2,U+01AF-01B1,U+1ECA-1ECC,U+1EF2-1EF4;
+  font-named-instance: "Italic";
+}
+/* latin-ext */
+@font-face {
+  font-family: 'UbuntuSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/UbuntuSans-Italic.latin-ext.var.woff2?v={1.004}') format('woff2'), url('font-files/UbuntuSans-Italic.latin-ext.var.woff?v={1.004}') format('woff'), url('font-files/UbuntuSans-Italic.latin-ext.var.ttf?v={1.004}') format('truetype');
+  unicode-range: U+0100-0250,U+1E2C-1E2E,U+1E6C-1E6E,U+1E80-1E86,U+1E9E,U+1ECA-1ECC,U+1EF2-1EF4,U+2020,U+20AE,U+20B4,U+20B8-20BA,U+20BD,U+2113;
+  font-named-instance: "Italic";
+}
+/* latin */
+@font-face {
+  font-family: 'UbuntuSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/UbuntuSans-Italic.latin.var.woff2?v={1.004}') format('woff2'), url('font-files/UbuntuSans-Italic.latin.var.woff?v={1.004}') format('woff'), url('font-files/UbuntuSans-Italic.latin.var.ttf?v={1.004}') format('truetype');
+  unicode-range: U+0000-007F,U+00A0-0100,U+0131,U+0152-0154,U+02BC,U+02C6,U+02DA,U+02DC,U+2009,U+2013-2016,U+2018-201B,U+201C-201F,U+2020-2023,U+2026,U+2030,U+2032-2034,U+2039-203B,U+2044,U+2074,U+20AC,U+2122,U+2212,U+2215;
+  font-named-instance: "Italic";
+}
