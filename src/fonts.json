@@ -236,5 +236,39 @@
     "css_extra": "font-named-instance: \"Regular\";",
     "subset": ["latin", "latin-ext", "vietnamese", "symbols"],
     "category": "sans-serif"
+  },
+  {
+    "name": "UbuntuSans",
+    "version": "1.0.0",
+    "infile": "src/fonts/Ubuntu-Sans-fonts/fonts/variable/UbuntuSans[wdth,wght].ttf",
+    "outpath": "fonts/UbuntuSans",
+    "outfile": [
+      "fonts/UbuntuSans/subset/UbuntuSans.{subset}.var.woff2",
+      "fonts/UbuntuSans/subset/UbuntuSans.{subset}.var.woff",
+      "fonts/UbuntuSans/subset/UbuntuSans.{subset}.var.ttf"
+    ],
+    "css_family": "UbuntuSans",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Regular\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "symbols"],
+    "category": "sans-serif"
+  },
+  {
+    "name": "UbuntuSans-Italic",
+    "version": "1.0.0",
+    "infile": "src/fonts/Ubuntu-Sans-fonts/fonts/variable/UbuntuSans-Italic[wdth,wght].ttf",
+    "outpath": "fonts/UbuntuSans",
+    "outfile": [
+      "fonts/UbuntuSans/subset/UbuntuSans-Italic.{subset}.var.woff2",
+      "fonts/UbuntuSans/subset/UbuntuSans-Italic.{subset}.var.woff",
+      "fonts/UbuntuSans/subset/UbuntuSans-Italic.{subset}.var.ttf"
+    ],
+    "css_family": "UbuntuSans",
+    "css_weight": "100 900",
+    "css_style": "normal",
+    "css_extra": "font-named-instance: \"Italic\";",
+    "subset": ["latin", "latin-ext", "vietnamese", "symbols"],
+    "category": "sans-serif"
   }
 ]
