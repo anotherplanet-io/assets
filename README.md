@@ -1,7 +1,7 @@
 # @ap.cx/assets
 
 <!-- 
-This page is automatically generated (2023-12-22 15:03:24) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
+This page is automatically generated (2024-02-12 12:16:00) by a JS script during the build process. To edit its content, modify the template located at scripts/README_template.md. Please avoid making direct changes to this generated page as they will be overwritten the next time the script is run. Instead, update the template to reflect the desired changes in the final output.  -->
 
 This project is currently in an early stage of development and is a work in progress. It may contain incomplete features, bugs, and changes that are subject to frequent updates. We encourage contributors and users to be aware of these potential issues and to use the project with caution.
 
@@ -27,24 +27,9 @@ While **ap.cx/assets** is made available for general use, it has a special focus
 For the moment, **ap.cx/assets** includes the following fonts:
 
 
-| css_family             | version |                                            subset |
-| :--------------------- | :-----: | ------------------------------------------------: |
-| Inter Variable         |   4.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Inter Variable         |   4.0   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Playfair               |   2.1   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Playfair               |   2.1   | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| DarkerGrotesque        |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
-| FiraGO                 |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| FiraGO                 |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| FiraGO                 |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Fira Code              |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Hubot Sans             |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Mona Sans              |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Libre Caslon Condensed |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| Libre Caslon Condensed |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
-| SpaceGrotesk           |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
-| UbuntuSans             |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
-| UbuntuSans             |  1.0.0  |                latin,latin-ext,vietnamese,symbols |
+| css_family | version |                                            subset |
+| :--------- | :-----: | ------------------------------------------------: |
+| Hubot Sans |  1.0.0  | latin,latin-ext,vietnamese,greek,cyrillic,symbols |
 
 
 I will continue to update and expand my font library to offer more fantastic font options in the future.

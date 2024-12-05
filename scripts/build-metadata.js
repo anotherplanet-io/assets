@@ -99,6 +99,16 @@ const headingFontStyle = [
   "Title small"
 ];
 
+const leanHeadingFontStyle = [
+  "Editorial Mega Display",
+  "Display large",
+  "Display",
+  "Headline large",
+  "Headline",
+  "Title large",
+  "Title",
+];
+
 const bodyFontStyle = [
   "Hero large",
   "Hero",
@@ -114,12 +124,18 @@ const bodyFontStyle = [
   "Legal small"
 ];
 
+const leanBodyFontStyle = [
+  "Body",
+  "Footnote",
+  "Caption",
+  "Legal"
+];
+
 const printOnlyFontStyle = [
   "Legal large",
   "Legal",
   "Legal small"
 ];
-
 
 const pgtsDesktopFontSize = {
   "Editorial Mega Display": { fontSize: 7, leading: 128 },
@@ -382,7 +398,7 @@ async function generateFontfaceCssFiles(fontinfo, metadata) {
 
     return cssTemplate({
       comment: subset,
-      family: metadata.familyName,
+      family: fontinfo['css_family'],
       style: fontinfo['css_style'],
       weight: fontinfo['css_weight'],
       src: srcString,
@@ -413,8 +429,7 @@ async function generateFontfaceCssFiles(fontinfo, metadata) {
   // #    defined; the last rule defined is the first to be checked for a given character."
   // # https://www.w3.org/TR/css-fonts-4/#unicode-range-desc
   const cssFontFaces = [...cssData, cssExtraString].reverse();
-
-  const filePath = path.join(buildFolder, fontinfo['outpath'], 'css', camelCase(metadata.fullName, { transform: camelCaseTransformMerge }) + '.css');
+  const filePath = path.join(buildFolder, fontinfo['outpath'], 'css', metadata.fonFileName + '.css');
 
   const cssFontFacesAlternatives = `
 
@@ -440,33 +455,68 @@ ${metadata.fontStack.fontFaces}
 }
 
 async function generateTypographyCssFiles(fontinfo, metadata) {
-
   const className = camelCase(metadata.fullName, { transform: camelCaseTransformMerge })
-  const filePath = path.join(buildFolder, fontinfo['outpath'], 'css', className + '.typography.css');
+  
+  // Get body class name
 
-  const desktop = Object.keys(metadata.pgts.desktop).map(key => metadata.pgts.desktop[key].capsizedStyleRule);
-  const mobile = Object.keys(metadata.pgts.mobile).map(key => metadata.pgts.mobile[key].capsizedStyleRule);
+  const desktopBody = Object.keys(metadata.pgts.desktop).filter(key => bodyFontStyle.includes(key)).map(key => ({...metadata.pgts.desktop[key], className: key}));
+  const mobileBody = Object.keys(metadata.pgts.mobile).filter(key => bodyFontStyle.includes(key)).map(key => ({...metadata.pgts.mobile[key], className: key}));
+
+  console.log(JSON.stringify(mobileBody, null, 2));
+  console.log(mobileBody)
+
+  const mobileBodyCssString = mobileBody.map(item => {
+    return ``;
+  }).join("\n");
+
+
+
+  // save css for body (desktop and mobile) style
+
+  // filter the lean body class only
+
+  // save css for body lean
+
+
+
+  // console.log(Object.keys(metadata.pgts.desktop).filter(key => bodyFontStyle.includes(key)));
+
+  /* const desktopBody = Object.keys(metadata.pgts.desktop).filter(key => bodyFontStyle.includes(key)).map(key => metadata.pgts.desktop[key].capsizedStyleRule);
+  const mobileBody = Object.keys(metadata.pgts.mobile).filter(key => bodyFontStyle.includes(key)).map(key => metadata.pgts.mobile[key].capsizedStyleRule);
 
   const directory = path.dirname(filePath);
-
   const fontFamily = metadata.fontStack.fontFamily;
+  
+  const cssStringHeading = await format(cssTypographyTemplate({ desktopHeading, mobileHeading, fontFamily, className }), { parser: 'css', printWidth: 500 });
+  const cssStringBody = await format(cssTypographyTemplate({ desktopBody, mobileBody, fontFamily, className }), { parser: 'css', printWidth: 500 });
 
-  const cssString = await format(cssTypographyTemplate({ desktop, mobile, fontFamily, className }), { parser: 'css', printWidth: 500 });
+  const filePathHeading = path.join(buildFolder, fontinfo['outpath'], 'css', className + '.heading.typography.css');
+  const filePathBody = path.join(buildFolder, fontinfo['outpath'], 'css', className + '.body.typography.css');
 
   try {
     // Create path css to file
     fs.mkdirSync(directory, { recursive: true });
     // Save css to file
-    fs.writeFileSync(filePath, cssString);
-    console.log('CSS TypographyCssFiles            saved successfully.' + filePath);
+    fs.writeFileSync(filePathBody, cssStringBody);
+    console.log('CSS TypographyCssFiles            saved successfully.' + filePathBody);
   } catch (error) {
     console.error('CSS TypographyCssFiles saving data:', error);
   }
+
+  try {
+    // Create path css to file
+    fs.mkdirSync(directory, { recursive: true });
+    // Save css to file
+    fs.writeFileSync(filePathHeading, cssStringHeading);
+    console.log('CSS TypographyCssFiles            saved successfully.' + filePathHeading);
+  } catch (error) {
+    console.error('CSS TypographyCssFiles saving data:', error);
+  } */
 }
 
 async function generateTypographyCssVarFiles(fontinfo, metadata) {
 
-  const className = camelCase(metadata.fullName, { transform: camelCaseTransformMerge })
+  const className = camelCase(metadata.cssFamily, { transform: camelCaseTransformMerge })
   const headingFilePath = path.join(buildFolder, fontinfo['outpath'], 'css', className + '.heading.variables.css');
   const bodyFilePath = path.join(buildFolder, fontinfo['outpath'], 'css', className + '.body.variables.css');
 
@@ -529,7 +579,7 @@ async function generateTypographyCssVarFiles(fontinfo, metadata) {
     fs.mkdirSync(directory, { recursive: true });
     // Save css to file
     fs.writeFileSync(headingFilePath, headingCssString);
-    console.log('CSS Heading TypographyCssVarFiles saved successfully.'+ headingFilePath);
+    console.log('CSS Heading TypographyCssVarFiles saved successfully.' + headingFilePath);
   } catch (error) {
     console.error('CSS Heading TypographyCssVarFiles saving data:', error);
   }
@@ -653,8 +703,6 @@ async function generateMetaData(filePath) {
 
   fonts.forEach(async fontinfo => {
     const font = await fontkit.open(fontinfo['infile']);
-
-    console.log(' ');
     console.log('--------------------------------');
     console.log(`Loaded ${font.postscriptName} font file ${fontinfo['infile']}`);
 
@@ -670,12 +718,17 @@ async function generateMetaData(filePath) {
     }, {});
     // get the font css-properties-name
     const metadata = {}
+    let fonFileName = `${camelCase(`${font.familyName}`, { transform: camelCaseTransformMerge })}-${camelCase(`${font.subfamilyName}`, { transform: camelCaseTransformMerge })}`;
+    if (Object.keys(variationAxes).length > 0) {
+      fonFileName = `${camelCase(fontinfo['css_family'], { transform: camelCaseTransformMerge })}[${Object.keys(variationAxes).map(k => variationAxes[k].axis).sort().join(',')}]`;
+    }
 
     metadata[fontinfo['name']] = {
       postscriptName: font.postscriptName,
       fullName: font.fullName, // fullName
-      familyName: font.familyName, // familyName Font metrics
-      cssFamily: fontinfo['css_family'], // get from the json to replace the font.familyName
+      fonFileName, 
+      familyName: fontinfo['css_family'], // familyName Font metrics
+      cssFamily: fontinfo['css_family'], // get from the json to replace the font.familyName 
       category: fontinfo['category'],
       subfamilyName: font.subfamilyName,
       copyright: font.copyright,
@@ -688,7 +741,6 @@ async function generateMetaData(filePath) {
     const fontMetadata = metadata[fontinfo['name']];
 
     // variations axes
-
     if (font.namedVariations) {
       fontMetadata.namedVariations = font.namedVariations;
     }
@@ -763,11 +815,12 @@ async function generateMetaData(filePath) {
       fontMetadata.versionNumber = versionNumber;
     }
 
-    const githubUrlMatch = font.copyright.match(/\(https:\/\/github\.com\/[^)]+\)/);
-
-    if (githubUrlMatch) {
-      const githubUrl = githubUrlMatch[0].slice(1, -1); // Remove parentheses
-      fontMetadata.copyrightUrl = githubUrl;
+    if (font.copyright) {
+      const githubUrlMatch = font.copyright.match(/\(https:\/\/github\.com\/[^)]+\)/);
+      if (githubUrlMatch) {
+        const githubUrl = githubUrlMatch[0].slice(1, -1); // Remove parentheses
+        fontMetadata.copyrightUrl = githubUrl;
+      }
     }
 
     const xWidthAvg = getxWidthAvg(font);
@@ -803,10 +856,14 @@ async function generateMetaData(filePath) {
       }
     }
 
+    const updatedFont = { // update font for capsizecss family name
+      ...font,
+      familyName: fontMetadata.cssFamily
+    }
 
     /* fontFamily, fontFaces */
     fontMetadata.fontStack = createFontStack([
-      font,
+      updatedFont, // metrics
       ...getDefaultFonts(fontinfo['category'])
     ], {
       fontFaceProperties: {

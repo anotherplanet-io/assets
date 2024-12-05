@@ -1,0 +1,241 @@
+/* Darker grotesque */
+
+:root {
+  --typography-darker-grotesque-font-family: DarkerGrotesque, "DarkerGrotesque Fallback: Arial", "DarkerGrotesque Fallback: Helvetica Neue";
+  --typography-heading-font-family: var(--typography-darker-grotesque-font-family);
+
+  /* ---- editorial-mega-display ---- */
+  --typography-editorial-mega-display-font-size-min: 5rem;
+  --typography-editorial-mega-display-font-size-max: 7rem;
+  --typography-editorial-mega-display-line-height-min: 96px;
+  --typography-editorial-mega-display-line-height-max: 128px;
+  /* margin-top for ::after */
+  --typography-editorial-mega-display-margin-top-min: -0.218em;
+  --typography-editorial-mega-display-margin-top-max: -0.1894em;
+  /* margin-bottom for ::before */
+  --typography-editorial-mega-display-margin-bottom-min: -0.419em;
+  --typography-editorial-mega-display-margin-bottom-max: -0.3904em;
+
+  /* fluid */
+  --typography-editorial-mega-display-font-size-fluid: 5.8333vw;
+  --typography-editorial-mega-display-font-size-fluid-max: 17.5rem;
+  --typography-editorial-mega-display-line-height-fluid: 1.1429em;
+  /* margin-top for ::after */
+  --typography-editorial-mega-display-margin-top-fluid: -0.1578vw;
+  /* margin-bottom for ::before */
+  --typography-editorial-mega-display-margin-bottom-fluid: -0.3253vw;
+
+  /* ---- editorial-dominant-display ---- */
+  --typography-editorial-dominant-display-font-size-min: 4.333rem;
+  --typography-editorial-dominant-display-font-size-max: 6rem;
+  --typography-editorial-dominant-display-line-height-min: 72px;
+  --typography-editorial-dominant-display-line-height-max: 112px;
+  /* margin-top for ::after */
+  --typography-editorial-dominant-display-margin-top-min: -0.1373em;
+  --typography-editorial-dominant-display-margin-top-max: -0.2013em;
+  /* margin-bottom for ::before */
+  --typography-editorial-dominant-display-margin-bottom-min: -0.3383em;
+  --typography-editorial-dominant-display-margin-bottom-max: -0.4023em;
+
+  /* fluid */
+  --typography-editorial-dominant-display-font-size-fluid: 5vw;
+  --typography-editorial-dominant-display-font-size-fluid-max: 15rem;
+  --typography-editorial-dominant-display-line-height-fluid: 1.1667em;
+  /* margin-top for ::after */
+  --typography-editorial-dominant-display-margin-top-fluid: -0.1677vw;
+  /* margin-bottom for ::before */
+  --typography-editorial-dominant-display-margin-bottom-fluid: -0.3352vw;
+
+  /* ---- display-large ---- */
+  --typography-display-large-font-size-min: 3.667rem;
+  --typography-display-large-font-size-max: 5rem;
+  --typography-display-large-line-height-min: 64px;
+  --typography-display-large-line-height-max: 96px;
+  /* margin-top for ::after */
+  --typography-display-large-margin-top-min: -0.1634em;
+  --typography-display-large-margin-top-max: -0.218em;
+  /* margin-bottom for ::before */
+  --typography-display-large-margin-bottom-min: -0.3644em;
+  --typography-display-large-margin-bottom-max: -0.419em;
+
+  /* fluid */
+  --typography-display-large-font-size-fluid: 4.1667vw;
+  --typography-display-large-font-size-fluid-max: 12.5rem;
+  --typography-display-large-line-height-fluid: 1.2em;
+  /* margin-top for ::after */
+  --typography-display-large-margin-top-fluid: -0.1817vw;
+  /* margin-bottom for ::before */
+  --typography-display-large-margin-bottom-fluid: -0.3492vw;
+
+  /* ---- display ---- */
+  --typography-display-font-size-min: 3rem;
+  --typography-display-font-size-max: 4rem;
+  --typography-display-line-height-min: 56px;
+  --typography-display-line-height-max: 72px;
+  /* margin-top for ::after */
+  --typography-display-margin-top-min: -0.2013em;
+  --typography-display-margin-top-max: -0.1805em;
+  /* margin-bottom for ::before */
+  --typography-display-margin-bottom-min: -0.4023em;
+  --typography-display-margin-bottom-max: -0.3815em;
+
+  /* fluid */
+  --typography-display-font-size-fluid: 3.3333vw;
+  --typography-display-font-size-fluid-max: 10rem;
+  --typography-display-line-height-fluid: 1.125em;
+  /* margin-top for ::after */
+  --typography-display-margin-top-fluid: -0.1504vw;
+  /* margin-bottom for ::before */
+  --typography-display-margin-bottom-fluid: -0.3179vw;
+
+  /* ---- display-small ---- */
+  --typography-display-small-font-size-min: 2.333rem;
+  --typography-display-small-font-size-max: 3rem;
+  --typography-display-small-line-height-min: 44px;
+  --typography-display-small-line-height-max: 56px;
+  /* margin-top for ::after */
+  --typography-display-small-margin-top-min: -0.2074em;
+  --typography-display-small-margin-top-max: -0.2013em;
+  /* margin-bottom for ::before */
+  --typography-display-small-margin-bottom-min: -0.4084em;
+  --typography-display-small-margin-bottom-max: -0.4023em;
+
+  /* fluid */
+  --typography-display-small-font-size-fluid: 2.5vw;
+  --typography-display-small-font-size-fluid-max: 7.5rem;
+  --typography-display-small-line-height-fluid: 1.1667em;
+  /* margin-top for ::after */
+  --typography-display-small-margin-top-fluid: -0.1677vw;
+  /* margin-bottom for ::before */
+  --typography-display-small-margin-bottom-fluid: -0.3352vw;
+
+  /* ---- headline-large ---- */
+  --typography-headline-large-font-size-min: 2rem;
+  --typography-headline-large-font-size-max: 2.333rem;
+  --typography-headline-large-line-height-min: 36px;
+  --typography-headline-large-line-height-max: 44px;
+  /* margin-top for ::after */
+  --typography-headline-large-margin-top-min: -0.1805em;
+  --typography-headline-large-margin-top-max: -0.2074em;
+  /* margin-bottom for ::before */
+  --typography-headline-large-margin-bottom-min: -0.3815em;
+  --typography-headline-large-margin-bottom-max: -0.4084em;
+
+  /* fluid */
+  --typography-headline-large-font-size-fluid: 1.9442vw;
+  --typography-headline-large-font-size-fluid-max: 5.8325rem;
+  --typography-headline-large-line-height-fluid: 1.1787em;
+  /* margin-top for ::after */
+  --typography-headline-large-margin-top-fluid: -0.1728vw;
+  /* margin-bottom for ::before */
+  --typography-headline-large-margin-bottom-fluid: -0.3403vw;
+
+  /* ---- headline ---- */
+  --typography-headline-font-size-min: 1.625rem;
+  --typography-headline-font-size-max: 2rem;
+  --typography-headline-line-height-min: 32px;
+  --typography-headline-line-height-max: 36px;
+  /* margin-top for ::after */
+  --typography-headline-margin-top-min: -0.2334em;
+  --typography-headline-margin-top-max: -0.1805em;
+  /* margin-bottom for ::before */
+  --typography-headline-margin-bottom-min: -0.4344em;
+  --typography-headline-margin-bottom-max: -0.3815em;
+
+  /* fluid */
+  --typography-headline-font-size-fluid: 1.6667vw;
+  --typography-headline-font-size-fluid-max: 5rem;
+  --typography-headline-line-height-fluid: 1.125em;
+  /* margin-top for ::after */
+  --typography-headline-margin-top-fluid: -0.1504vw;
+  /* margin-bottom for ::before */
+  --typography-headline-margin-bottom-fluid: -0.3179vw;
+
+  /* ---- headline-small ---- */
+  --typography-headline-small-font-size-min: 1.5rem;
+  --typography-headline-small-font-size-max: 1.833rem;
+  --typography-headline-small-line-height-min: 28px;
+  --typography-headline-small-line-height-max: 32px;
+  /* margin-top for ::after */
+  --typography-headline-small-margin-top-min: -0.2013em;
+  --typography-headline-small-margin-top-max: -0.1636em;
+  /* margin-bottom for ::before */
+  --typography-headline-small-margin-bottom-min: -0.4023em;
+  --typography-headline-small-margin-bottom-max: -0.3646em;
+
+  /* fluid */
+  --typography-headline-small-font-size-fluid: 1.5275vw;
+  --typography-headline-small-font-size-fluid-max: 4.5825rem;
+  --typography-headline-small-line-height-fluid: 1.0911em;
+  /* margin-top for ::after */
+  --typography-headline-small-margin-top-fluid: -0.1363vw;
+  /* margin-bottom for ::before */
+  --typography-headline-small-margin-bottom-fluid: -0.3038vw;
+
+  /* ---- title-large ---- */
+  --typography-title-large-font-size-min: 1.333rem;
+  --typography-title-large-font-size-max: 1.5rem;
+  --typography-title-large-line-height-min: 28px;
+  --typography-title-large-line-height-max: 28px;
+  /* margin-top for ::after */
+  --typography-title-large-margin-top-min: -0.2744em;
+  --typography-title-large-margin-top-max: -0.2013em;
+  /* margin-bottom for ::before */
+  --typography-title-large-margin-bottom-min: -0.4754em;
+  --typography-title-large-margin-bottom-max: -0.4023em;
+
+  /* fluid */
+  --typography-title-large-font-size-fluid: 1.25vw;
+  --typography-title-large-font-size-fluid-max: 3.75rem;
+  --typography-title-large-line-height-fluid: 1.1667em;
+  /* margin-top for ::after */
+  --typography-title-large-margin-top-fluid: -0.1677vw;
+  /* margin-bottom for ::before */
+  --typography-title-large-margin-bottom-fluid: -0.3352vw;
+
+  /* ---- title ---- */
+  --typography-title-font-size-min: 1.167rem;
+  --typography-title-font-size-max: 1.333rem;
+  --typography-title-line-height-min: 28px;
+  --typography-title-line-height-max: 28px;
+  /* margin-top for ::after */
+  --typography-title-margin-top-min: -0.3678em;
+  --typography-title-margin-top-max: -0.2744em;
+  /* margin-bottom for ::before */
+  --typography-title-margin-bottom-min: -0.5688em;
+  --typography-title-margin-bottom-max: -0.4754em;
+
+  /* fluid */
+  --typography-title-font-size-fluid: 1.1108vw;
+  --typography-title-font-size-fluid-max: 3.3325rem;
+  --typography-title-line-height-fluid: 1.3128em;
+  /* margin-top for ::after */
+  --typography-title-margin-top-fluid: -0.2287vw;
+  /* margin-bottom for ::before */
+  --typography-title-margin-bottom-fluid: -0.3962vw;
+
+  /* ---- title-small ---- */
+  --typography-title-small-font-size-min: 1.083rem;
+  --typography-title-small-font-size-max: 1.167rem;
+  --typography-title-small-line-height-min: 24px;
+  --typography-title-small-line-height-max: 24px;
+  /* margin-top for ::after */
+  --typography-title-small-margin-top-min: -0.3105em;
+  --typography-title-small-margin-top-max: -0.2607em;
+  /* margin-bottom for ::before */
+  --typography-title-small-margin-bottom-min: -0.5115em;
+  --typography-title-small-margin-bottom-max: -0.4617em;
+
+  /* fluid */
+  --typography-title-small-font-size-fluid: 0.9725vw;
+  --typography-title-small-font-size-fluid-max: 2.9175rem;
+  --typography-title-small-line-height-fluid: 1.2853em;
+  /* margin-top for ::after */
+  --typography-title-small-margin-top-fluid: -0.2172vw;
+  /* margin-bottom for ::before */
+  --typography-title-small-margin-bottom-fluid: -0.3847vw;
+}
+
+.darkerGrotesque {
+  font-family: var(--typography-darker-grotesque-font-family);
+}

@@ -1,0 +1,40 @@
+/* symbols */
+@font-face {
+  font-family: 'GeistSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/GeistSans.symbols.var.woff2?v={1.002}') format('woff2'), url('font-files/GeistSans.symbols.var.woff?v={1.002}') format('woff'), url('font-files/GeistSans.symbols.var.ttf?v={1.002}') format('truetype');
+  unicode-range: U+2190-219A,U+21A9-21AB,U+21B0-21B2,U+21B3-21B6,U+21E4-21E6,U+21E7,U+23CE,U+2460-2469,U+24EA,U+25B2-25B4,U+25B6-25B8,U+25BC-25BE,U+25C0-25C2,U+25CB,U+25CF;
+  font-named-instance: "Regular";
+}
+/* vietnamese */
+@font-face {
+  font-family: 'GeistSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/GeistSans.vietnamese.var.woff2?v={1.002}') format('woff2'), url('font-files/GeistSans.vietnamese.var.woff?v={1.002}') format('woff'), url('font-files/GeistSans.vietnamese.var.ttf?v={1.002}') format('truetype');
+  unicode-range: U+0102-0104,U+0110-0112,U+0128-012A,U+0168-016A,U+1EBC-1EBE,U+1EF2-1EF4,U+1EF8-1EFA;
+  font-named-instance: "Regular";
+}
+/* latin-ext */
+@font-face {
+  font-family: 'GeistSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/GeistSans.latin-ext.var.woff2?v={1.002}') format('woff2'), url('font-files/GeistSans.latin-ext.var.woff?v={1.002}') format('woff'), url('font-files/GeistSans.latin-ext.var.ttf?v={1.002}') format('truetype');
+  unicode-range: U+0100-0114,U+0116-012C,U+012E-0138,U+0139-013F,U+0141-0149,U+014A-014E,U+0150-017F,U+018F,U+0192,U+01B7,U+01CD-01CF,U+01E4-01EA,U+01EE-01F0,U+0218-021C,U+0237,U+0259,U+1E20-1E22,U+1E80-1E86,U+1E9E,U+1EBC-1EBE,U+1EF2-1EF4,U+1EF8-1EFA,U+2020,U+20AA,U+20B4,U+20B9,U+20BD,U+A78B-A78D;
+  font-named-instance: "Regular";
+}
+/* latin */
+@font-face {
+  font-family: 'GeistSans';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('font-files/GeistSans.latin.var.woff2?v={1.002}') format('woff2'), url('font-files/GeistSans.latin.var.woff?v={1.002}') format('woff'), url('font-files/GeistSans.latin.var.ttf?v={1.002}') format('truetype');
+  unicode-range: U+0000-007F,U+00A0-0100,U+0131,U+0152-0154,U+02BC,U+02C6,U+02DA,U+02DC,U+2013-2015,U+2018-201B,U+201C-201F,U+2020-2023,U+2026,U+2030,U+2032-2034,U+2039-203B,U+2044,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212;
+  font-named-instance: "Regular";
+}

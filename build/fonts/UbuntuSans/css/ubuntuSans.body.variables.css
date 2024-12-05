@@ -1,0 +1,262 @@
+/* Ubuntu sans */
+
+:root {
+  --typography-ubuntu-sans-font-family: UbuntuSans, "UbuntuSans Fallback: Arial", "UbuntuSans Fallback: Helvetica Neue";
+  --typography-body-font-family: var(--typography-ubuntu-sans-font-family);
+
+  /* ---- hero-large ---- */
+  --typography-hero-large-font-size-min: 1.333rem;
+  --typography-hero-large-font-size-max: 1.5rem;
+  --typography-hero-large-line-height-min: 28px;
+  --typography-hero-large-line-height-max: 28px;
+  /* margin-top for ::after */
+  --typography-hero-large-margin-top-min: -0.2849em;
+  --typography-hero-large-margin-top-max: -0.2118em;
+  /* margin-bottom for ::before */
+  --typography-hero-large-margin-bottom-min: -0.3349em;
+  --typography-hero-large-margin-bottom-max: -0.2618em;
+
+  /* fluid */
+  --typography-hero-large-font-size-fluid: 1.25vw;
+  --typography-hero-large-font-size-fluid-max: 3.75rem;
+  --typography-hero-large-line-height-fluid: 1.1667em;
+  /* margin-top for ::after */
+  --typography-hero-large-margin-top-fluid: -0.1765vw;
+  /* margin-bottom for ::before */
+  --typography-hero-large-margin-bottom-fluid: -0.2182vw;
+
+  /* ---- hero ---- */
+  --typography-hero-font-size-min: 1.167rem;
+  --typography-hero-font-size-max: 1.333rem;
+  --typography-hero-line-height-min: 28px;
+  --typography-hero-line-height-max: 28px;
+  /* margin-top for ::after */
+  --typography-hero-margin-top-min: -0.3783em;
+  --typography-hero-margin-top-max: -0.2849em;
+  /* margin-bottom for ::before */
+  --typography-hero-margin-bottom-min: -0.4283em;
+  --typography-hero-margin-bottom-max: -0.3349em;
+
+  /* fluid */
+  --typography-hero-font-size-fluid: 1.1108vw;
+  --typography-hero-font-size-fluid-max: 3.3325rem;
+  --typography-hero-line-height-fluid: 1.3128em;
+  /* margin-top for ::after */
+  --typography-hero-margin-top-fluid: -0.2374vw;
+  /* margin-bottom for ::before */
+  --typography-hero-margin-bottom-fluid: -0.2791vw;
+
+  /* ---- body-large ---- */
+  --typography-body-large-font-size-min: 1.083rem;
+  --typography-body-large-font-size-max: 1.167rem;
+  --typography-body-large-line-height-min: 24px;
+  --typography-body-large-line-height-max: 24px;
+  /* margin-top for ::after */
+  --typography-body-large-margin-top-min: -0.321em;
+  --typography-body-large-margin-top-max: -0.2712em;
+  /* margin-bottom for ::before */
+  --typography-body-large-margin-bottom-min: -0.371em;
+  --typography-body-large-margin-bottom-max: -0.3212em;
+
+  /* fluid */
+  --typography-body-large-font-size-fluid: 0.9725vw;
+  --typography-body-large-font-size-fluid-max: 2.9175rem;
+  --typography-body-large-line-height-fluid: 1.2853em;
+  /* margin-top for ::after */
+  --typography-body-large-margin-top-fluid: -0.226vw;
+  /* margin-bottom for ::before */
+  --typography-body-large-margin-bottom-fluid: -0.2677vw;
+
+  /* ---- body ---- */
+  --typography-body-font-size-min: 1rem;
+  --typography-body-font-size-max: 1rem;
+  --typography-body-line-height-min: 20px;
+  --typography-body-line-height-max: 20px;
+  /* margin-top for ::after */
+  --typography-body-margin-top-min: -0.2535em;
+  --typography-body-margin-top-max: -0.2535em;
+  /* margin-bottom for ::before */
+  --typography-body-margin-bottom-min: -0.3035em;
+  --typography-body-margin-bottom-max: -0.3035em;
+
+  /* fluid */
+  --typography-body-font-size-fluid: 0.8333vw;
+  --typography-body-font-size-fluid-max: 2.5rem;
+  --typography-body-line-height-fluid: 1.25em;
+  /* margin-top for ::after */
+  --typography-body-margin-top-fluid: -0.2113vw;
+  /* margin-bottom for ::before */
+  --typography-body-margin-bottom-fluid: -0.2529vw;
+
+  /* ---- body-small ---- */
+  --typography-body-small-font-size-min: 0.917rem;
+  --typography-body-small-font-size-max: 0.917rem;
+  --typography-body-small-line-height-min: 20px;
+  --typography-body-small-line-height-max: 20px;
+  /* margin-top for ::after */
+  --typography-body-small-margin-top-min: -0.3101em;
+  --typography-body-small-margin-top-max: -0.3101em;
+  /* margin-bottom for ::before */
+  --typography-body-small-margin-bottom-min: -0.3601em;
+  --typography-body-small-margin-bottom-max: -0.3601em;
+
+  /* fluid */
+  --typography-body-small-font-size-fluid: 0.7642vw;
+  --typography-body-small-font-size-fluid-max: 2.2925rem;
+  --typography-body-small-line-height-fluid: 1.3631em;
+  /* margin-top for ::after */
+  --typography-body-small-margin-top-fluid: -0.2584vw;
+  /* margin-bottom for ::before */
+  --typography-body-small-margin-bottom-fluid: -0.3001vw;
+
+  /* ---- footnote ---- */
+  --typography-footnote-font-size-min: 0.833rem;
+  --typography-footnote-font-size-max: 0.833rem;
+  --typography-footnote-line-height-min: 20px;
+  --typography-footnote-line-height-max: 20px;
+  /* margin-top for ::after */
+  --typography-footnote-margin-top-min: -0.3788em;
+  --typography-footnote-margin-top-max: -0.3788em;
+  /* margin-bottom for ::before */
+  --typography-footnote-margin-bottom-min: -0.4288em;
+  --typography-footnote-margin-bottom-max: -0.4288em;
+
+  /* fluid */
+  --typography-footnote-font-size-fluid: 0.6942vw;
+  --typography-footnote-font-size-fluid-max: 2.0825rem;
+  --typography-footnote-line-height-fluid: 1.5006em;
+  /* margin-top for ::after */
+  --typography-footnote-margin-top-fluid: -0.3157vw;
+  /* margin-bottom for ::before */
+  --typography-footnote-margin-bottom-fluid: -0.3573vw;
+
+  /* ---- caption-large ---- */
+  --typography-caption-large-font-size-min: 0.75rem;
+  --typography-caption-large-font-size-max: 0.75rem;
+  --typography-caption-large-line-height-min: 16px;
+  --typography-caption-large-line-height-max: 16px;
+  /* margin-top for ::after */
+  --typography-caption-large-margin-top-min: -0.2952em;
+  --typography-caption-large-margin-top-max: -0.2952em;
+  /* margin-bottom for ::before */
+  --typography-caption-large-margin-bottom-min: -0.3452em;
+  --typography-caption-large-margin-bottom-max: -0.3452em;
+
+  /* fluid */
+  --typography-caption-large-font-size-fluid: 0.625vw;
+  --typography-caption-large-font-size-fluid-max: 1.875rem;
+  --typography-caption-large-line-height-fluid: 1.3333em;
+  /* margin-top for ::after */
+  --typography-caption-large-margin-top-fluid: -0.246vw;
+  /* margin-bottom for ::before */
+  --typography-caption-large-margin-bottom-fluid: -0.2877vw;
+
+  /* ---- caption ---- */
+  --typography-caption-font-size-min: 0.667rem;
+  --typography-caption-font-size-max: 0.667rem;
+  --typography-caption-line-height-min: 16px;
+  --typography-caption-line-height-max: 16px;
+  /* margin-top for ::after */
+  --typography-caption-margin-top-min: -0.3781em;
+  --typography-caption-margin-top-max: -0.3781em;
+  /* margin-bottom for ::before */
+  --typography-caption-margin-bottom-min: -0.4281em;
+  --typography-caption-margin-bottom-max: -0.4281em;
+
+  /* fluid */
+  --typography-caption-font-size-fluid: 0.5558vw;
+  --typography-caption-font-size-fluid-max: 1.6675rem;
+  --typography-caption-line-height-fluid: 1.4993em;
+  /* margin-top for ::after */
+  --typography-caption-margin-top-fluid: -0.3151vw;
+  /* margin-bottom for ::before */
+  --typography-caption-margin-bottom-fluid: -0.3568vw;
+
+  /* ---- caption-small ---- */
+  --typography-caption-small-font-size-min: 0.583rem;
+  --typography-caption-small-font-size-max: 0.583rem;
+  --typography-caption-small-line-height-min: 12px;
+  --typography-caption-small-line-height-max: 12px;
+  /* margin-top for ::after */
+  --typography-caption-small-margin-top-min: -0.2717em;
+  --typography-caption-small-margin-top-max: -0.2717em;
+  /* margin-bottom for ::before */
+  --typography-caption-small-margin-bottom-min: -0.3217em;
+  --typography-caption-small-margin-bottom-max: -0.3217em;
+
+  /* fluid */
+  --typography-caption-small-font-size-fluid: 0.4858vw;
+  --typography-caption-small-font-size-fluid-max: 1.4575rem;
+  --typography-caption-small-line-height-fluid: 1.2864em;
+  /* margin-top for ::after */
+  --typography-caption-small-margin-top-fluid: -0.2264vw;
+  /* margin-bottom for ::before */
+  --typography-caption-small-margin-bottom-fluid: -0.2681vw;
+
+  /* ---- legal-large ---- */
+  --typography-legal-large-font-size-min: 0.5rem;
+  --typography-legal-large-font-size-max: 0.5rem;
+  --typography-legal-large-line-height-min: 12px;
+  --typography-legal-large-line-height-max: 12px;
+  /* margin-top for ::after */
+  --typography-legal-large-margin-top-min: -0.3785em;
+  --typography-legal-large-margin-top-max: -0.3785em;
+  /* margin-bottom for ::before */
+  --typography-legal-large-margin-bottom-min: -0.4285em;
+  --typography-legal-large-margin-bottom-max: -0.4285em;
+
+  /* fluid */
+  --typography-legal-large-font-size-fluid: 0.4167vw;
+  --typography-legal-large-font-size-fluid-max: 1.25rem;
+  --typography-legal-large-line-height-fluid: 1.5em;
+  /* margin-top for ::after */
+  --typography-legal-large-margin-top-fluid: -0.3154vw;
+  /* margin-bottom for ::before */
+  --typography-legal-large-margin-bottom-fluid: -0.3571vw;
+
+  /* ---- legal ---- */
+  --typography-legal-font-size-min: 0.417rem;
+  --typography-legal-font-size-max: 0.417rem;
+  --typography-legal-line-height-min: 12px;
+  --typography-legal-line-height-max: 12px;
+  /* margin-top for ::after */
+  --typography-legal-margin-top-min: -0.5278em;
+  --typography-legal-margin-top-max: -0.5278em;
+  /* margin-bottom for ::before */
+  --typography-legal-margin-bottom-min: -0.5778em;
+  --typography-legal-margin-bottom-max: -0.5778em;
+
+  /* fluid */
+  --typography-legal-font-size-fluid: 0.3475vw;
+  --typography-legal-font-size-fluid-max: 1.0425rem;
+  --typography-legal-line-height-fluid: 1.7986em;
+  /* margin-top for ::after */
+  --typography-legal-margin-top-fluid: -0.4398vw;
+  /* margin-bottom for ::before */
+  --typography-legal-margin-bottom-fluid: -0.4815vw;
+
+  /* ---- legal-small ---- */
+  --typography-legal-small-font-size-min: 0.375rem;
+  --typography-legal-small-font-size-max: 0.375rem;
+  --typography-legal-small-line-height-min: 8px;
+  --typography-legal-small-line-height-max: 8px;
+  /* margin-top for ::after */
+  --typography-legal-small-margin-top-min: -0.2952em;
+  --typography-legal-small-margin-top-max: -0.2952em;
+  /* margin-bottom for ::before */
+  --typography-legal-small-margin-bottom-min: -0.3452em;
+  --typography-legal-small-margin-bottom-max: -0.3452em;
+
+  /* fluid */
+  --typography-legal-small-font-size-fluid: 0.3125vw;
+  --typography-legal-small-font-size-fluid-max: 0.9375rem;
+  --typography-legal-small-line-height-fluid: 1.3333em;
+  /* margin-top for ::after */
+  --typography-legal-small-margin-top-fluid: -0.246vw;
+  /* margin-bottom for ::before */
+  --typography-legal-small-margin-bottom-fluid: -0.2877vw;
+}
+
+.ubuntuSans {
+  font-family: var(--typography-ubuntu-sans-font-family);
+}

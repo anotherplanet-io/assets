@@ -10,7 +10,8 @@
     "test:fonts": "node scripts/test-font-files.js",
     "build:readme": "node scripts/build-readme.js",
     "build:metadata": "node scripts/build-metadata.js",
-    "build": "npm run build:fonts && npm run build:metadata && npm run build:readme",
+    "prebuild": "npm run build:fonts",
+    "build": "npm run build:metadata && npm run build:readme",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

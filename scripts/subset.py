@@ -7,6 +7,7 @@ from __future__ import print_function
 import os, sys, subprocess, os.path
 from os.path import dirname, basename, abspath, join as pjoin
 from multiprocessing import Pool as ProcPool
+import time
 from fontTools import ttLib
 from itertools import groupby
 from operator import itemgetter
@@ -219,8 +220,18 @@ def subset_font(fontinfo, subsets, procpool):
     outfile = outfileTemplate.format(subset='extra')
     subset_range_async(procpool, infile, outfile, extraUnicodeRange)
 
+def wait_for_file(filepath, timeout=30):
+    start_time = time.time()
+    while not os.path.exists(filepath):
+        if time.time() - start_time > timeout:
+            raise TimeoutError(f"Timeout waiting for file '{filepath}' to exist")
+        time.sleep(1)  # Wait for 1 second before checking again
+    return
 
 def subset_range_async(procpool :ProcPool, infile :str, outfile :str, unicodeRange :str): # type: ignore
+  if not os.path.exists(infile):
+        print(f"Error: Input file '{infile}' does not exist.")
+        return
   if not FORCE:
     try:
       outmtime = os.path.getmtime(outfile)
@@ -228,8 +239,8 @@ def subset_range_async(procpool :ProcPool, infile :str, outfile :str, unicodeRan
         print('up-to-date %s -> %s' % (relpath(infile), relpath(outfile)))
         return
     except:
-      pass
-  procpool.apply_async( subset_range,(infile, outfile, unicodeRange),
+      pass    
+  procpool.apply_async(subset_range, (infile, outfile, unicodeRange),
                         error_callback=lambda err: onProcErr(procpool, err) )
 
 def onProcErr(procpool, err):

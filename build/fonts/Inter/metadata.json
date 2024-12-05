@@ -2,6 +2,7 @@
   "Inter-roman": {
     "postscriptName": "InterVariable",
     "fullName": "Inter Variable",
+    "fonFileName": "interVariable[opsz,wght]",
     "familyName": "Inter Variable",
     "cssFamily": "Inter Variable",
     "category": "sans-serif",
@@ -3017,7 +3018,7 @@
     "xWidthAvg": 970,
     "fontStack": {
       "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Arial\", \"Inter Variable Fallback: Helvetica Neue\"",
-      "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}"
+      "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n}"
     },
     "pgts": {
       "desktop": {
@@ -4501,6 +4502,7 @@
   "Inter-italic": {
     "postscriptName": "InterVariableItalic",
     "fullName": "Inter Variable Italic",
+    "fonFileName": "interVariable[opsz,wght]",
     "familyName": "Inter Variable",
     "cssFamily": "Inter Variable",
     "category": "sans-serif",
@@ -7479,7 +7481,7 @@
     "xWidthAvg": 976,
     "fontStack": {
       "fontFamily": "\"Inter Variable\", \"Inter Variable Fallback: Arial\", \"Inter Variable Fallback: Helvetica Neue\"",
-      "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n  ascent-override: 96.875%;\n  descent-override: 24.1211%;\n}"
+      "fontFaces": "@font-face {\n  font-family: \"Inter Variable Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n}\n@font-face {\n  font-family: \"Inter Variable Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n}"
     },
     "pgts": {
       "desktop": {

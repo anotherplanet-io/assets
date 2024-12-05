@@ -2,6 +2,7 @@
   "FiraCode-Regular": {
     "postscriptName": "FiraCode-Regular",
     "fullName": "Fira Code Regular",
+    "fonFileName": "firaCode-regular",
     "familyName": "Fira Code",
     "cssFamily": "Fira Code",
     "category": "monospace",
@@ -1430,7 +1431,7 @@
     "xWidthAvg": 600,
     "fontStack": {
       "fontFamily": "\"Fira Code\", \"Fira Code Fallback\"",
-      "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback\";\n  src: local('Courier New');\n  font-display: swap;\n  ascent-override: 77%;\n  descent-override: 23%;\n}"
+      "fontFaces": "@font-face {\n  font-family: \"Fira Code Fallback\";\n  src: local('Courier New');\n  font-display: swap;\n}"
     },
     "pgts": {
       "desktop": {
