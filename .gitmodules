@@ -37,3 +37,18 @@
 [submodule "src/fonts/Ubuntu-Sans-fonts"]
 	path = src/fonts/Ubuntu-Sans-fonts
 	url = https://github.com/canonical/Ubuntu-Sans-fonts.git
+[submodule "src/fonts/Sn-pro"]
+	path = src/fonts/Sn-pro
+	url = https://github.com/supernotes/sn-pro.git
+[submodule "src/fonts/src/fonts/geist"]
+	path = src/fonts/src/fonts/geist
+	url = https://github.com/vercel/geist-font.git
+[submodule "src/fonts/Geist"]
+	path = src/fonts/Geist
+	url = https://github.com/vercel/geist-font.git
+[submodule "src/fonts/evilmartians-mono"]
+	path = src/fonts/evilmartians-mono
+	url = https://github.com/evilmartians/mono.git
+[submodule "src/fonts/Evilmartians-mono"]
+	path = src/fonts/Evilmartians-mono
+	url = https://github.com/evilmartians/mono.git
