@@ -2,7 +2,7 @@
   {
     "name": "HubotSans",
     "version": "1.0.0",
-    "infile": "src/fonts/Hubot/fonts/variable/HubotSans[slnt,wdth,wght].ttf",
+    "infile": "src/fonts/Hubot/fonts/variable/HubotSansVF-Regular.ttf",
     "outpath": "fonts/Hubot",
     "outfile": [
       "fonts/Hubot/subset/HubotSans.{subset}.var.woff2",

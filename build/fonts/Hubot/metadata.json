@@ -1,22 +1,22 @@
 {
   "HubotSans": {
-    "postscriptName": "HubotSans-ExtraLight",
-    "fullName": "Hubot Sans ExtraLight",
-    "fonFileName": "hubotSans[slnt,wdth,wght]",
+    "postscriptName": "HubotSansVF-ExtraLight",
+    "fullName": "Hubot Sans VF ExtraLight",
+    "fonFileName": "hubotSans[ital,wdth,wght]",
     "familyName": "Hubot Sans",
     "cssFamily": "Hubot Sans",
     "category": "sans-serif",
     "subfamilyName": "Regular",
-    "copyright": "Copyright 2022 The Hubot Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Hubot\"",
-    "version": "Version 1.001;gftools[0.9.31]",
-    "versionDisplay": "Version 1.001",
+    "copyright": "Copyright © 2021 by GitHub.Inc. All rights reserved.",
+    "version": "Version 2.000;Glyphs 3.2.3 (3260)",
+    "versionDisplay": "Version 2.000",
     "outpath": "fonts/Hubot",
     "variationAxes": {
       "wdth": {
         "name": "Width",
-        "min": 75,
-        "default": 100,
-        "max": 125,
+        "min": 80,
+        "default": 80,
+        "max": 120,
         "valid": true
       },
       "wght": {
@@ -26,108 +26,268 @@
         "max": 900,
         "valid": true
       },
-      "slnt": {
-        "name": "Slant",
-        "min": -10,
+      "ital": {
+        "name": "Italic",
+        "min": 0,
         "default": 0,
-        "max": 0,
+        "max": 1,
         "valid": true
       }
     },
     "namedVariations": {
-      "ExtraLight": {
+      "Condensed ExtraLight": {
+        "wdth": 80,
+        "wght": 200,
+        "ital": 0
+      },
+      "Condensed Light": {
+        "wdth": 80,
+        "wght": 300,
+        "ital": 0
+      },
+      "Condensed Regular": {
+        "wdth": 80,
+        "wght": 400,
+        "ital": 0
+      },
+      "Condensed Medium": {
+        "wdth": 80,
+        "wght": 500,
+        "ital": 0
+      },
+      "Condensed SemiBold": {
+        "wdth": 80,
+        "wght": 600,
+        "ital": 0
+      },
+      "Condensed Bold": {
+        "wdth": 80,
+        "wght": 700,
+        "ital": 0
+      },
+      "Condensed ExtraBold": {
+        "wdth": 80,
+        "wght": 800,
+        "ital": 0
+      },
+      "Condensed Black": {
+        "wdth": 80,
+        "wght": 900,
+        "ital": 0
+      },
+      "PS6": {
         "wdth": 100,
         "wght": 200,
-        "slnt": 0
+        "ital": 0
       },
       "Light": {
         "wdth": 100,
         "wght": 300,
-        "slnt": 0
+        "ital": 0
       },
-      "Regular": {
+      "PS277": {
         "wdth": 100,
         "wght": 400,
-        "slnt": 0
+        "ital": 0
       },
       "Medium": {
         "wdth": 100,
         "wght": 500,
-        "slnt": 0
+        "ital": 0
       },
       "SemiBold": {
         "wdth": 100,
         "wght": 600,
-        "slnt": 0
+        "ital": 0
       },
       "Bold": {
         "wdth": 100,
         "wght": 700,
-        "slnt": 0
+        "ital": 0
       },
       "ExtraBold": {
         "wdth": 100,
         "wght": 800,
-        "slnt": 0
+        "ital": 0
       },
       "Black": {
         "wdth": 100,
         "wght": 900,
-        "slnt": 0
+        "ital": 0
+      },
+      "Expanded ExtraLight": {
+        "wdth": 120,
+        "wght": 200,
+        "ital": 0
+      },
+      "Expanded Light": {
+        "wdth": 120,
+        "wght": 300,
+        "ital": 0
+      },
+      "Expanded Regular": {
+        "wdth": 120,
+        "wght": 400,
+        "ital": 0
+      },
+      "Expanded Medium": {
+        "wdth": 120,
+        "wght": 500,
+        "ital": 0
+      },
+      "Expanded SemiBold": {
+        "wdth": 120,
+        "wght": 600,
+        "ital": 0
+      },
+      "Expanded Bold": {
+        "wdth": 120,
+        "wght": 700,
+        "ital": 0
+      },
+      "Expanded ExtraBold": {
+        "wdth": 120,
+        "wght": 800,
+        "ital": 0
+      },
+      "Expanded Black": {
+        "wdth": 120,
+        "wght": 900,
+        "ital": 0
+      },
+      "Condensed ExtraLight Italic": {
+        "wdth": 80,
+        "wght": 200,
+        "ital": 1
+      },
+      "Condensed Light Italic": {
+        "wdth": 80,
+        "wght": 300,
+        "ital": 1
+      },
+      "Condensed Italic": {
+        "wdth": 80,
+        "wght": 400,
+        "ital": 1
+      },
+      "Condensed Medium Italic": {
+        "wdth": 80,
+        "wght": 500,
+        "ital": 1
+      },
+      "Condensed SemiBold Italic": {
+        "wdth": 80,
+        "wght": 600,
+        "ital": 1
+      },
+      "Condensed Bold Italic": {
+        "wdth": 80,
+        "wght": 700,
+        "ital": 1
+      },
+      "Condensed ExtraBold Italic": {
+        "wdth": 80,
+        "wght": 800,
+        "ital": 1
+      },
+      "Condensed Black Italic": {
+        "wdth": 80,
+        "wght": 900,
+        "ital": 1
       },
       "ExtraLight Italic": {
         "wdth": 100,
         "wght": 200,
-        "slnt": -10
+        "ital": 1
       },
       "Light Italic": {
         "wdth": 100,
         "wght": 300,
-        "slnt": -10
+        "ital": 1
       },
       "Italic": {
         "wdth": 100,
         "wght": 400,
-        "slnt": -10
+        "ital": 1
       },
       "Medium Italic": {
         "wdth": 100,
         "wght": 500,
-        "slnt": -10
+        "ital": 1
       },
       "SemiBold Italic": {
         "wdth": 100,
         "wght": 600,
-        "slnt": -10
+        "ital": 1
       },
       "Bold Italic": {
         "wdth": 100,
         "wght": 700,
-        "slnt": -10
+        "ital": 1
       },
       "ExtraBold Italic": {
         "wdth": 100,
         "wght": 800,
-        "slnt": -10
+        "ital": 1
       },
       "Black Italic": {
         "wdth": 100,
         "wght": 900,
-        "slnt": -10
+        "ital": 1
+      },
+      "Expanded ExtraLight Italic": {
+        "wdth": 120,
+        "wght": 200,
+        "ital": 1
+      },
+      "Expanded Light Italic": {
+        "wdth": 120,
+        "wght": 300,
+        "ital": 1
+      },
+      "Expanded Italic": {
+        "wdth": 120,
+        "wght": 400,
+        "ital": 1
+      },
+      "Expanded Medium Italic": {
+        "wdth": 120,
+        "wght": 500,
+        "ital": 1
+      },
+      "Expanded SemiBold Italic": {
+        "wdth": 120,
+        "wght": 600,
+        "ital": 1
+      },
+      "Expanded Bold Italic": {
+        "wdth": 120,
+        "wght": 700,
+        "ital": 1
+      },
+      "Expanded ExtraBold Italic": {
+        "wdth": 120,
+        "wght": 800,
+        "ital": 1
+      },
+      "Expanded Black Italic": {
+        "wdth": 120,
+        "wght": 900,
+        "ital": 1
       }
     },
     "unitsPerEm": 1000,
-    "ascent": 965,
-    "descent": -235,
-    "underlinePosition": -155,
-    "underlineThickness": 40,
+    "ascent": 1090,
+    "descent": -320,
+    "underlinePosition": -140,
+    "underlineThickness": 70,
     "capHeight": 729,
     "xHeight": 515,
     "bbox": {
-      "minX": -151,
-      "minY": -232,
-      "maxX": 1074,
-      "maxY": 994
+      "minX": -155,
+      "minY": -224,
+      "maxX": 814,
+      "maxY": 1049
     },
     "characterSet": [
       0,
@@ -264,6 +424,7 @@
       164,
       165,
       166,
+      167,
       168,
       169,
       170,
@@ -334,6 +495,7 @@
       237,
       238,
       239,
+      240,
       241,
       242,
       243,
@@ -357,6 +519,8 @@
       261,
       262,
       263,
+      264,
+      265,
       266,
       267,
       268,
@@ -367,26 +531,40 @@
       273,
       274,
       275,
+      276,
+      277,
       278,
       279,
       280,
       281,
       282,
       283,
+      284,
+      285,
       286,
       287,
       288,
       289,
       290,
       291,
+      292,
+      293,
       294,
       295,
+      296,
+      297,
       298,
       299,
+      300,
+      301,
       302,
       303,
       304,
       305,
+      306,
+      307,
+      308,
+      309,
       310,
       311,
       313,
@@ -395,6 +573,8 @@
       316,
       317,
       318,
+      319,
+      320,
       321,
       322,
       323,
@@ -419,6 +599,8 @@
       345,
       346,
       347,
+      348,
+      349,
       350,
       351,
       352,
@@ -429,8 +611,12 @@
       357,
       358,
       359,
+      360,
+      361,
       362,
       363,
+      364,
+      365,
       366,
       367,
       368,
@@ -449,6 +635,12 @@
       381,
       382,
       402,
+      416,
+      417,
+      431,
+      432,
+      486,
+      487,
       536,
       537,
       538,
@@ -470,10 +662,13 @@
       774,
       775,
       776,
+      777,
       778,
       779,
       780,
       786,
+      795,
+      803,
       806,
       807,
       808,
@@ -490,8 +685,96 @@
       7812,
       7813,
       7838,
+      7840,
+      7841,
+      7842,
+      7843,
+      7844,
+      7845,
+      7846,
+      7847,
+      7848,
+      7849,
+      7850,
+      7851,
+      7852,
+      7853,
+      7854,
+      7855,
+      7856,
+      7857,
+      7858,
+      7859,
+      7860,
+      7861,
+      7862,
+      7863,
+      7864,
+      7865,
+      7866,
+      7867,
+      7868,
+      7869,
+      7870,
+      7871,
+      7872,
+      7873,
+      7874,
+      7875,
+      7876,
+      7877,
+      7878,
+      7879,
+      7880,
+      7881,
+      7882,
+      7883,
+      7884,
+      7885,
+      7886,
+      7887,
+      7888,
+      7889,
+      7890,
+      7891,
+      7892,
+      7893,
+      7894,
+      7895,
+      7896,
+      7897,
+      7898,
+      7899,
+      7900,
+      7901,
+      7902,
+      7903,
+      7904,
+      7905,
+      7906,
+      7907,
+      7908,
+      7909,
+      7910,
+      7911,
+      7912,
+      7913,
+      7914,
+      7915,
+      7916,
+      7917,
+      7918,
+      7919,
+      7920,
+      7921,
       7922,
       7923,
+      7924,
+      7925,
+      7926,
+      7927,
+      7928,
+      7929,
       8211,
       8212,
       8216,
@@ -523,14 +806,20 @@
       8327,
       8328,
       8329,
-      8361,
       8362,
       8364,
       8377,
       8378,
       8383,
+      8467,
+      8470,
       8471,
       8482,
+      8494,
+      8539,
+      8540,
+      8541,
+      8542,
       8592,
       8593,
       8594,
@@ -547,22 +836,38 @@
       8800,
       8804,
       8805,
+      9312,
+      9313,
+      9314,
+      9315,
+      9316,
+      9317,
+      9318,
+      9319,
+      9320,
+      9450,
+      9471,
+      9675,
+      9676,
+      9679,
       9785,
       9786,
       10003,
-      10112,
-      10113,
-      10114,
-      10115,
-      10116,
-      10117,
-      10118,
-      10119,
-      10120,
+      10102,
+      10103,
+      10104,
+      10105,
+      10106,
+      10107,
+      10108,
+      10109,
+      10110,
+      63743,
       64257,
+      64258,
       65535
     ],
-    "numGlyphs": 456,
+    "numGlyphs": 736,
     "availableFeatures": [
       "aalt",
       "case",
@@ -575,17 +880,18 @@
       "pnum",
       "sinf",
       "ss01",
+      "ss02",
+      "ss03",
       "ss04",
       "subs",
       "sups",
       "tnum",
-      "rvrn",
       "kern",
-      "mark"
+      "mark",
+      "mkmk"
     ],
-    "versionNumber": "1.001",
-    "copyrightUrl": "https://github.com/github/mona-sans",
-    "xWidthAvg": 483,
+    "versionNumber": "2.000",
+    "xWidthAvg": 299,
     "fontStack": {
       "fontFamily": "\"Hubot Sans\", \"Hubot Sans Fallback: Arial\", \"Hubot Sans Fallback: Helvetica Neue\"",
       "fontFaces": "@font-face {\n  font-family: \"Hubot Sans Fallback: Arial\";\n  src: local('Arial');\n  font-display: swap;\n}\n@font-face {\n  font-family: \"Hubot Sans Fallback: Helvetica Neue\";\n  src: local('Helvetica Neue');\n  font-display: swap;\n}"
@@ -598,21 +904,21 @@
             "lineHeight": "128px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2074em",
+              "marginBottom": "-0.2274em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2064em",
+              "marginTop": "-0.1864em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2074em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.2064em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 112px;\n  line-height: 128px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2274em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.1864em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "7rem",
             "lineHeight": "128px",
-            "marginBottom": "-0.2074em",
-            "marginTop": "-0.2064em"
+            "marginBottom": "-0.2274em",
+            "marginTop": "-0.1864em"
           },
           "lineHeight": "128px",
           "fontSize": 7,
@@ -620,8 +926,8 @@
           "capsizeValues": {
             "fontSize": "112px",
             "lineHeight": "128px",
-            "capHeightTrim": "-0.2074em",
-            "baselineTrim": "-0.2064em"
+            "capHeightTrim": "-0.2274em",
+            "baselineTrim": "-0.1864em"
           }
         },
         "Editorial Dominant Display": {
@@ -630,21 +936,21 @@
             "lineHeight": "112px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2193em",
+              "marginBottom": "-0.2393em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2183em",
+              "marginTop": "-0.1983em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 96px;\n  line-height: 112px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.2393em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1983em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "6rem",
             "lineHeight": "112px",
-            "marginBottom": "-0.2193em",
-            "marginTop": "-0.2183em"
+            "marginBottom": "-0.2393em",
+            "marginTop": "-0.1983em"
           },
           "lineHeight": "112px",
           "fontSize": 6,
@@ -652,8 +958,8 @@
           "capsizeValues": {
             "fontSize": "96px",
             "lineHeight": "112px",
-            "capHeightTrim": "-0.2193em",
-            "baselineTrim": "-0.2183em"
+            "capHeightTrim": "-0.2393em",
+            "baselineTrim": "-0.1983em"
           }
         },
         "Display large": {
@@ -662,21 +968,21 @@
             "lineHeight": "96px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.236em",
+              "marginBottom": "-0.256em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.235em",
+              "marginTop": "-0.215em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.236em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.235em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.256em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.215em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "5rem",
             "lineHeight": "96px",
-            "marginBottom": "-0.236em",
-            "marginTop": "-0.235em"
+            "marginBottom": "-0.256em",
+            "marginTop": "-0.215em"
           },
           "lineHeight": "96px",
           "fontSize": 5,
@@ -684,8 +990,8 @@
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
-            "capHeightTrim": "-0.236em",
-            "baselineTrim": "-0.235em"
+            "capHeightTrim": "-0.256em",
+            "baselineTrim": "-0.215em"
           }
         },
         "Display": {
@@ -694,21 +1000,21 @@
             "lineHeight": "72px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.1985em",
+              "marginBottom": "-0.2185em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.1975em",
+              "marginTop": "-0.1775em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.display {\n  font-size: 64px;\n  line-height: 72px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1775em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "4rem",
             "lineHeight": "72px",
-            "marginBottom": "-0.1985em",
-            "marginTop": "-0.1975em"
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.1775em"
           },
           "lineHeight": "72px",
           "fontSize": 4,
@@ -716,8 +1022,8 @@
           "capsizeValues": {
             "fontSize": "64px",
             "lineHeight": "72px",
-            "capHeightTrim": "-0.1985em",
-            "baselineTrim": "-0.1975em"
+            "capHeightTrim": "-0.2185em",
+            "baselineTrim": "-0.1775em"
           }
         },
         "Display small": {
@@ -726,21 +1032,21 @@
             "lineHeight": "56px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2193em",
+              "marginBottom": "-0.2393em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2183em",
+              "marginTop": "-0.1983em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2393em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.1983em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "3rem",
             "lineHeight": "56px",
-            "marginBottom": "-0.2193em",
-            "marginTop": "-0.2183em"
+            "marginBottom": "-0.2393em",
+            "marginTop": "-0.1983em"
           },
           "lineHeight": "56px",
           "fontSize": 3,
@@ -748,8 +1054,8 @@
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
-            "capHeightTrim": "-0.2193em",
-            "baselineTrim": "-0.2183em"
+            "capHeightTrim": "-0.2393em",
+            "baselineTrim": "-0.1983em"
           }
         },
         "Headline large": {
@@ -758,21 +1064,21 @@
             "lineHeight": "44px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2254em",
+              "marginBottom": "-0.2454em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2244em",
+              "marginTop": "-0.2044em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2254em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2244em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2454em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.2044em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "2.333rem",
             "lineHeight": "44px",
-            "marginBottom": "-0.2254em",
-            "marginTop": "-0.2244em"
+            "marginBottom": "-0.2454em",
+            "marginTop": "-0.2044em"
           },
           "lineHeight": "44px",
           "fontSize": 2.333,
@@ -780,8 +1086,8 @@
           "capsizeValues": {
             "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.2254em",
-            "baselineTrim": "-0.2244em"
+            "capHeightTrim": "-0.2454em",
+            "baselineTrim": "-0.2044em"
           }
         },
         "Headline": {
@@ -790,21 +1096,21 @@
             "lineHeight": "36px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.1985em",
+              "marginBottom": "-0.2185em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.1975em",
+              "marginTop": "-0.1775em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.headline {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.1775em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "2rem",
             "lineHeight": "36px",
-            "marginBottom": "-0.1985em",
-            "marginTop": "-0.1975em"
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.1775em"
           },
           "lineHeight": "36px",
           "fontSize": 2,
@@ -812,8 +1118,8 @@
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
-            "capHeightTrim": "-0.1985em",
-            "baselineTrim": "-0.1975em"
+            "capHeightTrim": "-0.2185em",
+            "baselineTrim": "-0.1775em"
           }
         },
         "Headline small": {
@@ -822,21 +1128,21 @@
             "lineHeight": "32px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.1816em",
+              "marginBottom": "-0.2016em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.1806em",
+              "marginTop": "-0.1606em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.1816em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1806em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 29.328px;\n  line-height: 32px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2016em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1606em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.833rem",
             "lineHeight": "32px",
-            "marginBottom": "-0.1816em",
-            "marginTop": "-0.1806em"
+            "marginBottom": "-0.2016em",
+            "marginTop": "-0.1606em"
           },
           "lineHeight": "32px",
           "fontSize": 1.833,
@@ -844,8 +1150,8 @@
           "capsizeValues": {
             "fontSize": "29.328px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.1816em",
-            "baselineTrim": "-0.1806em"
+            "capHeightTrim": "-0.2016em",
+            "baselineTrim": "-0.1606em"
           }
         },
         "Title large": {
@@ -854,21 +1160,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2193em",
+              "marginBottom": "-0.2393em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2183em",
+              "marginTop": "-0.1983em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2393em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.1983em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.5rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2193em",
-            "marginTop": "-0.2183em"
+            "marginBottom": "-0.2393em",
+            "marginTop": "-0.1983em"
           },
           "lineHeight": "28px",
           "fontSize": 1.5,
@@ -876,8 +1182,8 @@
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2193em",
-            "baselineTrim": "-0.2183em"
+            "capHeightTrim": "-0.2393em",
+            "baselineTrim": "-0.1983em"
           }
         },
         "Title": {
@@ -886,21 +1192,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2924em",
+              "marginBottom": "-0.3124em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2914em",
+              "marginTop": "-0.2714em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.2924em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2914em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.title {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3124em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.2714em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.333rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2924em",
-            "marginTop": "-0.2914em"
+            "marginBottom": "-0.3124em",
+            "marginTop": "-0.2714em"
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
@@ -908,8 +1214,8 @@
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2924em",
-            "baselineTrim": "-0.2914em"
+            "capHeightTrim": "-0.3124em",
+            "baselineTrim": "-0.2714em"
           }
         },
         "Title small": {
@@ -918,21 +1224,21 @@
             "lineHeight": "24px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2787em",
+              "marginBottom": "-0.2987em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2777em",
+              "marginTop": "-0.2577em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2787em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.2987em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.2577em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.167rem",
             "lineHeight": "24px",
-            "marginBottom": "-0.2787em",
-            "marginTop": "-0.2777em"
+            "marginBottom": "-0.2987em",
+            "marginTop": "-0.2577em"
           },
           "lineHeight": "24px",
           "fontSize": 1.167,
@@ -940,8 +1246,8 @@
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2787em",
-            "baselineTrim": "-0.2777em"
+            "capHeightTrim": "-0.2987em",
+            "baselineTrim": "-0.2577em"
           }
         },
         "Hero large": {
@@ -950,21 +1256,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2193em",
+              "marginBottom": "-0.2393em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2183em",
+              "marginTop": "-0.1983em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2393em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.1983em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.5rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2193em",
-            "marginTop": "-0.2183em"
+            "marginBottom": "-0.2393em",
+            "marginTop": "-0.1983em"
           },
           "lineHeight": "28px",
           "fontSize": 1.5,
@@ -972,8 +1278,8 @@
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2193em",
-            "baselineTrim": "-0.2183em"
+            "capHeightTrim": "-0.2393em",
+            "baselineTrim": "-0.1983em"
           }
         },
         "Hero": {
@@ -982,21 +1288,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2924em",
+              "marginBottom": "-0.3124em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2914em",
+              "marginTop": "-0.2714em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.2924em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.2914em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.hero {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3124em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.2714em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.333rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2924em",
-            "marginTop": "-0.2914em"
+            "marginBottom": "-0.3124em",
+            "marginTop": "-0.2714em"
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
@@ -1004,8 +1310,8 @@
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2924em",
-            "baselineTrim": "-0.2914em"
+            "capHeightTrim": "-0.3124em",
+            "baselineTrim": "-0.2714em"
           }
         },
         "Body large": {
@@ -1014,21 +1320,21 @@
             "lineHeight": "24px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2787em",
+              "marginBottom": "-0.2987em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2777em",
+              "marginTop": "-0.2577em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2787em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2777em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 18.672px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.2987em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.2577em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.167rem",
             "lineHeight": "24px",
-            "marginBottom": "-0.2787em",
-            "marginTop": "-0.2777em"
+            "marginBottom": "-0.2987em",
+            "marginTop": "-0.2577em"
           },
           "lineHeight": "24px",
           "fontSize": 1.167,
@@ -1036,8 +1342,8 @@
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.2787em",
-            "baselineTrim": "-0.2777em"
+            "capHeightTrim": "-0.2987em",
+            "baselineTrim": "-0.2577em"
           }
         },
         "Body": {
@@ -1046,21 +1352,21 @@
             "lineHeight": "20px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.261em",
+              "marginBottom": "-0.281em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.26em",
+              "marginTop": "-0.24em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.261em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.26em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.281em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.24em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1rem",
             "lineHeight": "20px",
-            "marginBottom": "-0.261em",
-            "marginTop": "-0.26em"
+            "marginBottom": "-0.281em",
+            "marginTop": "-0.24em"
           },
           "lineHeight": "20px",
           "fontSize": 1,
@@ -1068,8 +1374,8 @@
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.261em",
-            "baselineTrim": "-0.26em"
+            "capHeightTrim": "-0.281em",
+            "baselineTrim": "-0.24em"
           }
         },
         "Body small": {
@@ -1078,21 +1384,21 @@
             "lineHeight": "20px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3176em",
+              "marginBottom": "-0.3376em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3166em",
+              "marginTop": "-0.2966em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3176em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3166em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3376em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.2966em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.917rem",
             "lineHeight": "20px",
-            "marginBottom": "-0.3176em",
-            "marginTop": "-0.3166em"
+            "marginBottom": "-0.3376em",
+            "marginTop": "-0.2966em"
           },
           "lineHeight": "20px",
           "fontSize": 0.917,
@@ -1100,8 +1406,8 @@
           "capsizeValues": {
             "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3176em",
-            "baselineTrim": "-0.3166em"
+            "capHeightTrim": "-0.3376em",
+            "baselineTrim": "-0.2966em"
           }
         },
         "Footnote": {
@@ -1110,21 +1416,21 @@
             "lineHeight": "20px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3863em",
+              "marginBottom": "-0.4063em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3853em",
+              "marginTop": "-0.3653em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3863em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3853em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.4063em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3653em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.833rem",
             "lineHeight": "20px",
-            "marginBottom": "-0.3863em",
-            "marginTop": "-0.3853em"
+            "marginBottom": "-0.4063em",
+            "marginTop": "-0.3653em"
           },
           "lineHeight": "20px",
           "fontSize": 0.833,
@@ -1132,8 +1438,8 @@
           "capsizeValues": {
             "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3863em",
-            "baselineTrim": "-0.3853em"
+            "capHeightTrim": "-0.4063em",
+            "baselineTrim": "-0.3653em"
           }
         },
         "Caption large": {
@@ -1142,21 +1448,21 @@
             "lineHeight": "16px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3027em",
+              "marginBottom": "-0.3227em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3017em",
+              "marginTop": "-0.2817em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3227em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.2817em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.75rem",
             "lineHeight": "16px",
-            "marginBottom": "-0.3027em",
-            "marginTop": "-0.3017em"
+            "marginBottom": "-0.3227em",
+            "marginTop": "-0.2817em"
           },
           "lineHeight": "16px",
           "fontSize": 0.75,
@@ -1164,8 +1470,8 @@
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3027em",
-            "baselineTrim": "-0.3017em"
+            "capHeightTrim": "-0.3227em",
+            "baselineTrim": "-0.2817em"
           }
         },
         "Caption": {
@@ -1174,21 +1480,21 @@
             "lineHeight": "16px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3856em",
+              "marginBottom": "-0.4056em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3846em",
+              "marginTop": "-0.3646em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3856em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3846em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.4056em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3646em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.667rem",
             "lineHeight": "16px",
-            "marginBottom": "-0.3856em",
-            "marginTop": "-0.3846em"
+            "marginBottom": "-0.4056em",
+            "marginTop": "-0.3646em"
           },
           "lineHeight": "16px",
           "fontSize": 0.667,
@@ -1196,8 +1502,8 @@
           "capsizeValues": {
             "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3856em",
-            "baselineTrim": "-0.3846em"
+            "capHeightTrim": "-0.4056em",
+            "baselineTrim": "-0.3646em"
           }
         },
         "Caption small": {
@@ -1206,21 +1512,21 @@
             "lineHeight": "12px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2792em",
+              "marginBottom": "-0.2992em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2782em",
+              "marginTop": "-0.2582em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2792em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2782em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2992em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2582em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.583rem",
             "lineHeight": "12px",
-            "marginBottom": "-0.2792em",
-            "marginTop": "-0.2782em"
+            "marginBottom": "-0.2992em",
+            "marginTop": "-0.2582em"
           },
           "lineHeight": "12px",
           "fontSize": 0.583,
@@ -1228,8 +1534,8 @@
           "capsizeValues": {
             "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.2792em",
-            "baselineTrim": "-0.2782em"
+            "capHeightTrim": "-0.2992em",
+            "baselineTrim": "-0.2582em"
           }
         },
         "Legal large": {
@@ -1238,21 +1544,21 @@
             "lineHeight": "12px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.386em",
+              "marginBottom": "-0.406em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.385em",
+              "marginTop": "-0.365em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.385em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.406em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.365em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.5rem",
             "lineHeight": "12px",
-            "marginBottom": "-0.386em",
-            "marginTop": "-0.385em"
+            "marginBottom": "-0.406em",
+            "marginTop": "-0.365em"
           },
           "lineHeight": "12px",
           "fontSize": 0.5,
@@ -1260,8 +1566,8 @@
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.386em",
-            "baselineTrim": "-0.385em"
+            "capHeightTrim": "-0.406em",
+            "baselineTrim": "-0.365em"
           }
         },
         "Legal": {
@@ -1270,21 +1576,21 @@
             "lineHeight": "12px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.5353em",
+              "marginBottom": "-0.5553em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.5343em",
+              "marginTop": "-0.5143em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5353em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5343em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5553em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5143em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.417rem",
             "lineHeight": "12px",
-            "marginBottom": "-0.5353em",
-            "marginTop": "-0.5343em"
+            "marginBottom": "-0.5553em",
+            "marginTop": "-0.5143em"
           },
           "lineHeight": "12px",
           "fontSize": 0.417,
@@ -1292,8 +1598,8 @@
           "capsizeValues": {
             "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.5353em",
-            "baselineTrim": "-0.5343em"
+            "capHeightTrim": "-0.5553em",
+            "baselineTrim": "-0.5143em"
           }
         },
         "Legal small": {
@@ -1302,21 +1608,21 @@
             "lineHeight": "8px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3027em",
+              "marginBottom": "-0.3227em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3017em",
+              "marginTop": "-0.2817em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3227em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.2817em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.375rem",
             "lineHeight": "8px",
-            "marginBottom": "-0.3027em",
-            "marginTop": "-0.3017em"
+            "marginBottom": "-0.3227em",
+            "marginTop": "-0.2817em"
           },
           "lineHeight": "8px",
           "fontSize": 0.375,
@@ -1324,8 +1630,8 @@
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
-            "capHeightTrim": "-0.3027em",
-            "baselineTrim": "-0.3017em"
+            "capHeightTrim": "-0.3227em",
+            "baselineTrim": "-0.2817em"
           }
         }
       },
@@ -1336,21 +1642,21 @@
             "lineHeight": "96px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.236em",
+              "marginBottom": "-0.256em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.235em",
+              "marginTop": "-0.215em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.236em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.235em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.editorialMegaDisplay {\n  font-size: 80px;\n  line-height: 96px;\n}\n\n.editorialMegaDisplay::before {\n  content: \"\";\n  margin-bottom: -0.256em;\n  display: table;\n}\n\n.editorialMegaDisplay::after {\n  content: \"\";\n  margin-top: -0.215em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "5rem",
             "lineHeight": "96px",
-            "marginBottom": "-0.236em",
-            "marginTop": "-0.235em"
+            "marginBottom": "-0.256em",
+            "marginTop": "-0.215em"
           },
           "lineHeight": "96px",
           "fontSize": 5,
@@ -1358,8 +1664,8 @@
           "capsizeValues": {
             "fontSize": "80px",
             "lineHeight": "96px",
-            "capHeightTrim": "-0.236em",
-            "baselineTrim": "-0.235em"
+            "capHeightTrim": "-0.256em",
+            "baselineTrim": "-0.215em"
           }
         },
         "Editorial Dominant Display": {
@@ -1368,21 +1674,21 @@
             "lineHeight": "72px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.1553em",
+              "marginBottom": "-0.1753em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.1543em",
+              "marginTop": "-0.1343em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1553em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1543em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.editorialDominantDisplay {\n  font-size: 69.328px;\n  line-height: 72px;\n}\n\n.editorialDominantDisplay::before {\n  content: \"\";\n  margin-bottom: -0.1753em;\n  display: table;\n}\n\n.editorialDominantDisplay::after {\n  content: \"\";\n  margin-top: -0.1343em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "4.333rem",
             "lineHeight": "72px",
-            "marginBottom": "-0.1553em",
-            "marginTop": "-0.1543em"
+            "marginBottom": "-0.1753em",
+            "marginTop": "-0.1343em"
           },
           "lineHeight": "72px",
           "fontSize": 4.333,
@@ -1390,8 +1696,8 @@
           "capsizeValues": {
             "fontSize": "69.328px",
             "lineHeight": "72px",
-            "capHeightTrim": "-0.1553em",
-            "baselineTrim": "-0.1543em"
+            "capHeightTrim": "-0.1753em",
+            "baselineTrim": "-0.1343em"
           }
         },
         "Display large": {
@@ -1400,21 +1706,21 @@
             "lineHeight": "64px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.1814em",
+              "marginBottom": "-0.2014em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.1804em",
+              "marginTop": "-0.1604em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.1814em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1804em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.displayLarge {\n  font-size: 58.672px;\n  line-height: 64px;\n}\n\n.displayLarge::before {\n  content: \"\";\n  margin-bottom: -0.2014em;\n  display: table;\n}\n\n.displayLarge::after {\n  content: \"\";\n  margin-top: -0.1604em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "3.667rem",
             "lineHeight": "64px",
-            "marginBottom": "-0.1814em",
-            "marginTop": "-0.1804em"
+            "marginBottom": "-0.2014em",
+            "marginTop": "-0.1604em"
           },
           "lineHeight": "64px",
           "fontSize": 3.667,
@@ -1422,8 +1728,8 @@
           "capsizeValues": {
             "fontSize": "58.672px",
             "lineHeight": "64px",
-            "capHeightTrim": "-0.1814em",
-            "baselineTrim": "-0.1804em"
+            "capHeightTrim": "-0.2014em",
+            "baselineTrim": "-0.1604em"
           }
         },
         "Display": {
@@ -1432,21 +1738,21 @@
             "lineHeight": "56px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2193em",
+              "marginBottom": "-0.2393em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2183em",
+              "marginTop": "-0.1983em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.display {\n  font-size: 48px;\n  line-height: 56px;\n}\n\n.display::before {\n  content: \"\";\n  margin-bottom: -0.2393em;\n  display: table;\n}\n\n.display::after {\n  content: \"\";\n  margin-top: -0.1983em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "3rem",
             "lineHeight": "56px",
-            "marginBottom": "-0.2193em",
-            "marginTop": "-0.2183em"
+            "marginBottom": "-0.2393em",
+            "marginTop": "-0.1983em"
           },
           "lineHeight": "56px",
           "fontSize": 3,
@@ -1454,8 +1760,8 @@
           "capsizeValues": {
             "fontSize": "48px",
             "lineHeight": "56px",
-            "capHeightTrim": "-0.2193em",
-            "baselineTrim": "-0.2183em"
+            "capHeightTrim": "-0.2393em",
+            "baselineTrim": "-0.1983em"
           }
         },
         "Display small": {
@@ -1464,21 +1770,21 @@
             "lineHeight": "44px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2254em",
+              "marginBottom": "-0.2454em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2244em",
+              "marginTop": "-0.2044em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2254em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2244em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.displaySmall {\n  font-size: 37.328px;\n  line-height: 44px;\n}\n\n.displaySmall::before {\n  content: \"\";\n  margin-bottom: -0.2454em;\n  display: table;\n}\n\n.displaySmall::after {\n  content: \"\";\n  margin-top: -0.2044em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "2.333rem",
             "lineHeight": "44px",
-            "marginBottom": "-0.2254em",
-            "marginTop": "-0.2244em"
+            "marginBottom": "-0.2454em",
+            "marginTop": "-0.2044em"
           },
           "lineHeight": "44px",
           "fontSize": 2.333,
@@ -1486,8 +1792,8 @@
           "capsizeValues": {
             "fontSize": "37.328px",
             "lineHeight": "44px",
-            "capHeightTrim": "-0.2254em",
-            "baselineTrim": "-0.2244em"
+            "capHeightTrim": "-0.2454em",
+            "baselineTrim": "-0.2044em"
           }
         },
         "Headline large": {
@@ -1496,21 +1802,21 @@
             "lineHeight": "36px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.1985em",
+              "marginBottom": "-0.2185em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.1975em",
+              "marginTop": "-0.1775em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.1985em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.1975em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.headlineLarge {\n  font-size: 32px;\n  line-height: 36px;\n}\n\n.headlineLarge::before {\n  content: \"\";\n  margin-bottom: -0.2185em;\n  display: table;\n}\n\n.headlineLarge::after {\n  content: \"\";\n  margin-top: -0.1775em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "2rem",
             "lineHeight": "36px",
-            "marginBottom": "-0.1985em",
-            "marginTop": "-0.1975em"
+            "marginBottom": "-0.2185em",
+            "marginTop": "-0.1775em"
           },
           "lineHeight": "36px",
           "fontSize": 2,
@@ -1518,8 +1824,8 @@
           "capsizeValues": {
             "fontSize": "32px",
             "lineHeight": "36px",
-            "capHeightTrim": "-0.1985em",
-            "baselineTrim": "-0.1975em"
+            "capHeightTrim": "-0.2185em",
+            "baselineTrim": "-0.1775em"
           }
         },
         "Headline": {
@@ -1528,21 +1834,21 @@
             "lineHeight": "32px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2514em",
+              "marginBottom": "-0.2714em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2504em",
+              "marginTop": "-0.2304em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2514em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2504em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.headline {\n  font-size: 26px;\n  line-height: 32px;\n}\n\n.headline::before {\n  content: \"\";\n  margin-bottom: -0.2714em;\n  display: table;\n}\n\n.headline::after {\n  content: \"\";\n  margin-top: -0.2304em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.625rem",
             "lineHeight": "32px",
-            "marginBottom": "-0.2514em",
-            "marginTop": "-0.2504em"
+            "marginBottom": "-0.2714em",
+            "marginTop": "-0.2304em"
           },
           "lineHeight": "32px",
           "fontSize": 1.625,
@@ -1550,8 +1856,8 @@
           "capsizeValues": {
             "fontSize": "26px",
             "lineHeight": "32px",
-            "capHeightTrim": "-0.2514em",
-            "baselineTrim": "-0.2504em"
+            "capHeightTrim": "-0.2714em",
+            "baselineTrim": "-0.2304em"
           }
         },
         "Headline small": {
@@ -1560,21 +1866,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2193em",
+              "marginBottom": "-0.2393em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2183em",
+              "marginTop": "-0.1983em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2193em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.2183em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.headlineSmall {\n  font-size: 24px;\n  line-height: 28px;\n}\n\n.headlineSmall::before {\n  content: \"\";\n  margin-bottom: -0.2393em;\n  display: table;\n}\n\n.headlineSmall::after {\n  content: \"\";\n  margin-top: -0.1983em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.5rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2193em",
-            "marginTop": "-0.2183em"
+            "marginBottom": "-0.2393em",
+            "marginTop": "-0.1983em"
           },
           "lineHeight": "28px",
           "fontSize": 1.5,
@@ -1582,8 +1888,8 @@
           "capsizeValues": {
             "fontSize": "24px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2193em",
-            "baselineTrim": "-0.2183em"
+            "capHeightTrim": "-0.2393em",
+            "baselineTrim": "-0.1983em"
           }
         },
         "Title large": {
@@ -1592,21 +1898,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2924em",
+              "marginBottom": "-0.3124em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2914em",
+              "marginTop": "-0.2714em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.2924em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2914em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.titleLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.titleLarge::before {\n  content: \"\";\n  margin-bottom: -0.3124em;\n  display: table;\n}\n\n.titleLarge::after {\n  content: \"\";\n  margin-top: -0.2714em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.333rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2924em",
-            "marginTop": "-0.2914em"
+            "marginBottom": "-0.3124em",
+            "marginTop": "-0.2714em"
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
@@ -1614,8 +1920,8 @@
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2924em",
-            "baselineTrim": "-0.2914em"
+            "capHeightTrim": "-0.3124em",
+            "baselineTrim": "-0.2714em"
           }
         },
         "Title": {
@@ -1624,21 +1930,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3858em",
+              "marginBottom": "-0.4058em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3848em",
+              "marginTop": "-0.3648em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.3858em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3848em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.title {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.title::before {\n  content: \"\";\n  margin-bottom: -0.4058em;\n  display: table;\n}\n\n.title::after {\n  content: \"\";\n  margin-top: -0.3648em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.167rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.3858em",
-            "marginTop": "-0.3848em"
+            "marginBottom": "-0.4058em",
+            "marginTop": "-0.3648em"
           },
           "lineHeight": "28px",
           "fontSize": 1.167,
@@ -1646,8 +1952,8 @@
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.3858em",
-            "baselineTrim": "-0.3848em"
+            "capHeightTrim": "-0.4058em",
+            "baselineTrim": "-0.3648em"
           }
         },
         "Title small": {
@@ -1656,21 +1962,21 @@
             "lineHeight": "24px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3285em",
+              "marginBottom": "-0.3485em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3275em",
+              "marginTop": "-0.3075em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3285em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3275em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.titleSmall {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.titleSmall::before {\n  content: \"\";\n  margin-bottom: -0.3485em;\n  display: table;\n}\n\n.titleSmall::after {\n  content: \"\";\n  margin-top: -0.3075em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.083rem",
             "lineHeight": "24px",
-            "marginBottom": "-0.3285em",
-            "marginTop": "-0.3275em"
+            "marginBottom": "-0.3485em",
+            "marginTop": "-0.3075em"
           },
           "lineHeight": "24px",
           "fontSize": 1.083,
@@ -1678,8 +1984,8 @@
           "capsizeValues": {
             "fontSize": "17.328px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.3285em",
-            "baselineTrim": "-0.3275em"
+            "capHeightTrim": "-0.3485em",
+            "baselineTrim": "-0.3075em"
           }
         },
         "Hero large": {
@@ -1688,21 +1994,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2924em",
+              "marginBottom": "-0.3124em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2914em",
+              "marginTop": "-0.2714em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.2924em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2914em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.heroLarge {\n  font-size: 21.328px;\n  line-height: 28px;\n}\n\n.heroLarge::before {\n  content: \"\";\n  margin-bottom: -0.3124em;\n  display: table;\n}\n\n.heroLarge::after {\n  content: \"\";\n  margin-top: -0.2714em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.333rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.2924em",
-            "marginTop": "-0.2914em"
+            "marginBottom": "-0.3124em",
+            "marginTop": "-0.2714em"
           },
           "lineHeight": "28px",
           "fontSize": 1.333,
@@ -1710,8 +2016,8 @@
           "capsizeValues": {
             "fontSize": "21.328px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.2924em",
-            "baselineTrim": "-0.2914em"
+            "capHeightTrim": "-0.3124em",
+            "baselineTrim": "-0.2714em"
           }
         },
         "Hero": {
@@ -1720,21 +2026,21 @@
             "lineHeight": "28px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3858em",
+              "marginBottom": "-0.4058em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3848em",
+              "marginTop": "-0.3648em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.3858em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3848em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.hero {\n  font-size: 18.672px;\n  line-height: 28px;\n}\n\n.hero::before {\n  content: \"\";\n  margin-bottom: -0.4058em;\n  display: table;\n}\n\n.hero::after {\n  content: \"\";\n  margin-top: -0.3648em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.167rem",
             "lineHeight": "28px",
-            "marginBottom": "-0.3858em",
-            "marginTop": "-0.3848em"
+            "marginBottom": "-0.4058em",
+            "marginTop": "-0.3648em"
           },
           "lineHeight": "28px",
           "fontSize": 1.167,
@@ -1742,8 +2048,8 @@
           "capsizeValues": {
             "fontSize": "18.672px",
             "lineHeight": "28px",
-            "capHeightTrim": "-0.3858em",
-            "baselineTrim": "-0.3848em"
+            "capHeightTrim": "-0.4058em",
+            "baselineTrim": "-0.3648em"
           }
         },
         "Body large": {
@@ -1752,21 +2058,21 @@
             "lineHeight": "24px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3285em",
+              "marginBottom": "-0.3485em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3275em",
+              "marginTop": "-0.3075em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.3285em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3275em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.bodyLarge {\n  font-size: 17.328px;\n  line-height: 24px;\n}\n\n.bodyLarge::before {\n  content: \"\";\n  margin-bottom: -0.3485em;\n  display: table;\n}\n\n.bodyLarge::after {\n  content: \"\";\n  margin-top: -0.3075em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1.083rem",
             "lineHeight": "24px",
-            "marginBottom": "-0.3285em",
-            "marginTop": "-0.3275em"
+            "marginBottom": "-0.3485em",
+            "marginTop": "-0.3075em"
           },
           "lineHeight": "24px",
           "fontSize": 1.083,
@@ -1774,8 +2080,8 @@
           "capsizeValues": {
             "fontSize": "17.328px",
             "lineHeight": "24px",
-            "capHeightTrim": "-0.3285em",
-            "baselineTrim": "-0.3275em"
+            "capHeightTrim": "-0.3485em",
+            "baselineTrim": "-0.3075em"
           }
         },
         "Body": {
@@ -1784,21 +2090,21 @@
             "lineHeight": "20px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.261em",
+              "marginBottom": "-0.281em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.26em",
+              "marginTop": "-0.24em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.261em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.26em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.body {\n  font-size: 16px;\n  line-height: 20px;\n}\n\n.body::before {\n  content: \"\";\n  margin-bottom: -0.281em;\n  display: table;\n}\n\n.body::after {\n  content: \"\";\n  margin-top: -0.24em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "1rem",
             "lineHeight": "20px",
-            "marginBottom": "-0.261em",
-            "marginTop": "-0.26em"
+            "marginBottom": "-0.281em",
+            "marginTop": "-0.24em"
           },
           "lineHeight": "20px",
           "fontSize": 1,
@@ -1806,8 +2112,8 @@
           "capsizeValues": {
             "fontSize": "16px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.261em",
-            "baselineTrim": "-0.26em"
+            "capHeightTrim": "-0.281em",
+            "baselineTrim": "-0.24em"
           }
         },
         "Body small": {
@@ -1816,21 +2122,21 @@
             "lineHeight": "20px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3176em",
+              "marginBottom": "-0.3376em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3166em",
+              "marginTop": "-0.2966em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3176em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.3166em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.bodySmall {\n  font-size: 14.672px;\n  line-height: 20px;\n}\n\n.bodySmall::before {\n  content: \"\";\n  margin-bottom: -0.3376em;\n  display: table;\n}\n\n.bodySmall::after {\n  content: \"\";\n  margin-top: -0.2966em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.917rem",
             "lineHeight": "20px",
-            "marginBottom": "-0.3176em",
-            "marginTop": "-0.3166em"
+            "marginBottom": "-0.3376em",
+            "marginTop": "-0.2966em"
           },
           "lineHeight": "20px",
           "fontSize": 0.917,
@@ -1838,8 +2144,8 @@
           "capsizeValues": {
             "fontSize": "14.672px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3176em",
-            "baselineTrim": "-0.3166em"
+            "capHeightTrim": "-0.3376em",
+            "baselineTrim": "-0.2966em"
           }
         },
         "Footnote": {
@@ -1848,21 +2154,21 @@
             "lineHeight": "20px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3863em",
+              "marginBottom": "-0.4063em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3853em",
+              "marginTop": "-0.3653em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.3863em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3853em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.footnote {\n  font-size: 13.328px;\n  line-height: 20px;\n}\n\n.footnote::before {\n  content: \"\";\n  margin-bottom: -0.4063em;\n  display: table;\n}\n\n.footnote::after {\n  content: \"\";\n  margin-top: -0.3653em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.833rem",
             "lineHeight": "20px",
-            "marginBottom": "-0.3863em",
-            "marginTop": "-0.3853em"
+            "marginBottom": "-0.4063em",
+            "marginTop": "-0.3653em"
           },
           "lineHeight": "20px",
           "fontSize": 0.833,
@@ -1870,8 +2176,8 @@
           "capsizeValues": {
             "fontSize": "13.328px",
             "lineHeight": "20px",
-            "capHeightTrim": "-0.3863em",
-            "baselineTrim": "-0.3853em"
+            "capHeightTrim": "-0.4063em",
+            "baselineTrim": "-0.3653em"
           }
         },
         "Caption large": {
@@ -1880,21 +2186,21 @@
             "lineHeight": "16px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3027em",
+              "marginBottom": "-0.3227em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3017em",
+              "marginTop": "-0.2817em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.captionLarge {\n  font-size: 12px;\n  line-height: 16px;\n}\n\n.captionLarge::before {\n  content: \"\";\n  margin-bottom: -0.3227em;\n  display: table;\n}\n\n.captionLarge::after {\n  content: \"\";\n  margin-top: -0.2817em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.75rem",
             "lineHeight": "16px",
-            "marginBottom": "-0.3027em",
-            "marginTop": "-0.3017em"
+            "marginBottom": "-0.3227em",
+            "marginTop": "-0.2817em"
           },
           "lineHeight": "16px",
           "fontSize": 0.75,
@@ -1902,8 +2208,8 @@
           "capsizeValues": {
             "fontSize": "12px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3027em",
-            "baselineTrim": "-0.3017em"
+            "capHeightTrim": "-0.3227em",
+            "baselineTrim": "-0.2817em"
           }
         },
         "Caption": {
@@ -1912,21 +2218,21 @@
             "lineHeight": "16px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3856em",
+              "marginBottom": "-0.4056em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3846em",
+              "marginTop": "-0.3646em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.3856em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3846em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.caption {\n  font-size: 10.672px;\n  line-height: 16px;\n}\n\n.caption::before {\n  content: \"\";\n  margin-bottom: -0.4056em;\n  display: table;\n}\n\n.caption::after {\n  content: \"\";\n  margin-top: -0.3646em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.667rem",
             "lineHeight": "16px",
-            "marginBottom": "-0.3856em",
-            "marginTop": "-0.3846em"
+            "marginBottom": "-0.4056em",
+            "marginTop": "-0.3646em"
           },
           "lineHeight": "16px",
           "fontSize": 0.667,
@@ -1934,8 +2240,8 @@
           "capsizeValues": {
             "fontSize": "10.672px",
             "lineHeight": "16px",
-            "capHeightTrim": "-0.3856em",
-            "baselineTrim": "-0.3846em"
+            "capHeightTrim": "-0.4056em",
+            "baselineTrim": "-0.3646em"
           }
         },
         "Caption small": {
@@ -1944,21 +2250,21 @@
             "lineHeight": "12px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.2792em",
+              "marginBottom": "-0.2992em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.2782em",
+              "marginTop": "-0.2582em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2792em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2782em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.captionSmall {\n  font-size: 9.328px;\n  line-height: 12px;\n}\n\n.captionSmall::before {\n  content: \"\";\n  margin-bottom: -0.2992em;\n  display: table;\n}\n\n.captionSmall::after {\n  content: \"\";\n  margin-top: -0.2582em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.583rem",
             "lineHeight": "12px",
-            "marginBottom": "-0.2792em",
-            "marginTop": "-0.2782em"
+            "marginBottom": "-0.2992em",
+            "marginTop": "-0.2582em"
           },
           "lineHeight": "12px",
           "fontSize": 0.583,
@@ -1966,8 +2272,8 @@
           "capsizeValues": {
             "fontSize": "9.328px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.2792em",
-            "baselineTrim": "-0.2782em"
+            "capHeightTrim": "-0.2992em",
+            "baselineTrim": "-0.2582em"
           }
         },
         "Legal large": {
@@ -1976,21 +2282,21 @@
             "lineHeight": "12px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.386em",
+              "marginBottom": "-0.406em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.385em",
+              "marginTop": "-0.365em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.386em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.385em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.legalLarge {\n  font-size: 8px;\n  line-height: 12px;\n}\n\n.legalLarge::before {\n  content: \"\";\n  margin-bottom: -0.406em;\n  display: table;\n}\n\n.legalLarge::after {\n  content: \"\";\n  margin-top: -0.365em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.5rem",
             "lineHeight": "12px",
-            "marginBottom": "-0.386em",
-            "marginTop": "-0.385em"
+            "marginBottom": "-0.406em",
+            "marginTop": "-0.365em"
           },
           "lineHeight": "12px",
           "fontSize": 0.5,
@@ -1998,8 +2304,8 @@
           "capsizeValues": {
             "fontSize": "8px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.386em",
-            "baselineTrim": "-0.385em"
+            "capHeightTrim": "-0.406em",
+            "baselineTrim": "-0.365em"
           }
         },
         "Legal": {
@@ -2008,21 +2314,21 @@
             "lineHeight": "12px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.5353em",
+              "marginBottom": "-0.5553em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.5343em",
+              "marginTop": "-0.5143em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5353em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5343em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.legal {\n  font-size: 6.672px;\n  line-height: 12px;\n}\n\n.legal::before {\n  content: \"\";\n  margin-bottom: -0.5553em;\n  display: table;\n}\n\n.legal::after {\n  content: \"\";\n  margin-top: -0.5143em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.417rem",
             "lineHeight": "12px",
-            "marginBottom": "-0.5353em",
-            "marginTop": "-0.5343em"
+            "marginBottom": "-0.5553em",
+            "marginTop": "-0.5143em"
           },
           "lineHeight": "12px",
           "fontSize": 0.417,
@@ -2030,8 +2336,8 @@
           "capsizeValues": {
             "fontSize": "6.672px",
             "lineHeight": "12px",
-            "capHeightTrim": "-0.5353em",
-            "baselineTrim": "-0.5343em"
+            "capHeightTrim": "-0.5553em",
+            "baselineTrim": "-0.5143em"
           }
         },
         "Legal small": {
@@ -2040,21 +2346,21 @@
             "lineHeight": "8px",
             "::before": {
               "content": "''",
-              "marginBottom": "-0.3027em",
+              "marginBottom": "-0.3227em",
               "display": "table"
             },
             "::after": {
               "content": "''",
-              "marginTop": "-0.3017em",
+              "marginTop": "-0.2817em",
               "display": "table"
             }
           },
-          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3027em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.3017em;\n  display: table;\n}",
+          "capsizedStyleRule": "\n.legalSmall {\n  font-size: 6px;\n  line-height: 8px;\n}\n\n.legalSmall::before {\n  content: \"\";\n  margin-bottom: -0.3227em;\n  display: table;\n}\n\n.legalSmall::after {\n  content: \"\";\n  margin-top: -0.2817em;\n  display: table;\n}",
           "capsizedCssVariables": {
             "fontSize": "0.375rem",
             "lineHeight": "8px",
-            "marginBottom": "-0.3027em",
-            "marginTop": "-0.3017em"
+            "marginBottom": "-0.3227em",
+            "marginTop": "-0.2817em"
           },
           "lineHeight": "8px",
           "fontSize": 0.375,
@@ -2062,8 +2368,8 @@
           "capsizeValues": {
             "fontSize": "6px",
             "lineHeight": "8px",
-            "capHeightTrim": "-0.3027em",
-            "baselineTrim": "-0.3017em"
+            "capHeightTrim": "-0.3227em",
+            "baselineTrim": "-0.2817em"
           }
         }
       }
